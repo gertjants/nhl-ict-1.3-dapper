@@ -1,0 +1,26 @@
+﻿[
+  {
+    BeerId: 7,
+    Name: GULL,
+    Type: LAGER,PALE,
+    Style: LIGHT,
+    Alcohol: 2.2,
+    BrewerId: 885
+  },
+  {
+    BeerId: 1394,
+    Name: BERLINER WEISSE,
+    Type: WHEAT (GRAN,
+    Style: BERLINER,
+    Alcohol: 2.5,
+    BrewerId: 1017
+  },
+  {
+    BeerId: 692,
+    Name: IMPOSSIBLE,
+    Type: ALE, ENGLIS,
+    Style: BITTER/PALE,
+    Alcohol: 2.6,
+    BrewerId: 821
+  }
+]

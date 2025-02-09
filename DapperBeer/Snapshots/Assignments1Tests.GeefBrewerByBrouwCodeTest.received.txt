@@ -1,0 +1,5 @@
+﻿{
+  BrewerId: 689,
+  Name: AFFLIGEM,
+  Country: BEL
+}

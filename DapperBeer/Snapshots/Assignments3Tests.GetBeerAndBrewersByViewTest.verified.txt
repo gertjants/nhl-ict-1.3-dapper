@@ -1,0 +1,40 @@
+﻿[
+  {
+    BeerId: 791,
+    Name: COLLEGE ALE,
+    Type: ALE, ENGLIS,
+    Style: OLD/WINTER,
+    Alcohol: 7.4,
+    BrewerId: 678,
+    Brewer: {
+      BrewerId: 678,
+      Name: (EX-MORREL'S),
+      Country: ENG
+    }
+  },
+  {
+    BeerId: 379,
+    Name: MUST,
+    Type: STRONG LAGE,
+    Alcohol: 8.2,
+    BrewerId: 678,
+    Brewer: {
+      BrewerId: 678,
+      Name: (EX-MORREL'S),
+      Country: ENG
+    }
+  },
+  {
+    BeerId: 743,
+    Name: ALPHA KING,
+    Type: ALE, ENGLIS,
+    Style: INDIA/AMERICAN PALE,
+    Alcohol: 5.8,
+    BrewerId: 679,
+    Brewer: {
+      BrewerId: 679,
+      Name: 3 FLOYDS,
+      Country: USA
+    }
+  }
+]

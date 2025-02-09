@@ -1,0 +1,3387 @@
+﻿[
+  {
+    BrewerId: 678,
+    Name: (EX-MORREL'S),
+    Country: ENG
+  },
+  {
+    BrewerId: 679,
+    Name: 3 FLOYDS,
+    Country: USA
+  },
+  {
+    BrewerId: 680,
+    Name: 3 FONTEINEN,
+    Country: BEL
+  },
+  {
+    BrewerId: 681,
+    Name: 3 HORNEN,
+    Country: NED
+  },
+  {
+    BrewerId: 682,
+    Name: ABBAYE DE ROCS,
+    Country: BEL
+  },
+  {
+    BrewerId: 683,
+    Name: ABBAZIA ALPIRSBACH,
+    Country: GER
+  },
+  {
+    BrewerId: 684,
+    Name: ACHILLES,
+    Country: BEL
+  },
+  {
+    BrewerId: 685,
+    Name: ADAMBRAU,
+    Country: AUT
+  },
+  {
+    BrewerId: 686,
+    Name: ADDIS SCOPEL,
+    Country: ITA
+  },
+  {
+    BrewerId: 687,
+    Name: ADELSKRONEN,
+    Country: GER
+  },
+  {
+    BrewerId: 688,
+    Name: ADNAMS,
+    Country: ENG
+  },
+  {
+    BrewerId: 689,
+    Name: AFFLIGEM,
+    Country: BEL
+  },
+  {
+    BrewerId: 690,
+    Name: AGROCOOP. PIK-BECEJ,
+    Country: YUG
+  },
+  {
+    BrewerId: 691,
+    Name: ALBANI,
+    Country: DEN
+  },
+  {
+    BrewerId: 692,
+    Name: ALCATRAZ,
+    Country: USA
+  },
+  {
+    BrewerId: 693,
+    Name: ALESMITH,
+    Country: USA
+  },
+  {
+    BrewerId: 694,
+    Name: ALLOA,
+    Country: SCO
+  },
+  {
+    BrewerId: 695,
+    Name: ALPHAND,
+    Country: FRA
+  },
+  {
+    BrewerId: 696,
+    Name: ALTENMUNSTER,
+    Country: GER
+  },
+  {
+    BrewerId: 697,
+    Name: AMARCORD - SPRING,
+    Country: ITA
+  },
+  {
+    BrewerId: 698,
+    Name: AMSTEL,
+    Country: NED
+  },
+  {
+    BrewerId: 699,
+    Name: ANCHOR,
+    Country: USA
+  },
+  {
+    BrewerId: 700,
+    Name: ANDERSON VALLEY,
+    Country: USA
+  },
+  {
+    BrewerId: 701,
+    Name: ANHEUSER - BUSH,
+    Country: USA
+  },
+  {
+    BrewerId: 702,
+    Name: ANNOEULLIN,
+    Country: FRA
+  },
+  {
+    BrewerId: 703,
+    Name: ARCEN,
+    Country: NED
+  },
+  {
+    BrewerId: 704,
+    Name: ARCOBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 705,
+    Name: ARIZONA ROADHOUSE,
+    Country: USA
+  },
+  {
+    BrewerId: 706,
+    Name: ARTISANS BRASSEURS,
+    Country: BEL
+  },
+  {
+    BrewerId: 707,
+    Name: ARTOIS,
+    Country: BEL
+  },
+  {
+    BrewerId: 708,
+    Name: ASASHI,
+    Country: JAP
+  },
+  {
+    BrewerId: 709,
+    Name: ASH VINE,
+    Country: ENG
+  },
+  {
+    BrewerId: 710,
+    Name: ASIA PACIFIC,
+    Country: SING
+  },
+  {
+    BrewerId: 711,
+    Name: AUCHAN,
+    Country: BEL
+  },
+  {
+    BrewerId: 712,
+    Name: AUGUSTINER,
+    Country: GER
+  },
+  {
+    BrewerId: 713,
+    Name: AYING,
+    Country: GER
+  },
+  {
+    BrewerId: 714,
+    Name: BABB,
+    Country: ITA
+  },
+  {
+    BrewerId: 715,
+    Name: BADGER,
+    Country: ENG
+  },
+  {
+    BrewerId: 716,
+    Name: BAJA,
+    Country: USA
+  },
+  {
+    BrewerId: 717,
+    Name: BALADIN,
+    Country: ITA
+  },
+  {
+    BrewerId: 718,
+    Name: BALLARD,
+    Country: ENG
+  },
+  {
+    BrewerId: 719,
+    Name: BALLAST POINT,
+    Country: USA
+  },
+  {
+    BrewerId: 720,
+    Name: BALTIKA,
+    Country: POL
+  },
+  {
+    BrewerId: 721,
+    Name: BALTUS,
+    Country: USA
+  },
+  {
+    BrewerId: 722,
+    Name: BANDERSNATCH,
+    Country: USA
+  },
+  {
+    BrewerId: 723,
+    Name: BARCHESSA DI VILLA POLA,
+    Country: ITA
+  },
+  {
+    BrewerId: 724,
+    Name: BARNSLEY,
+    Country: ENG
+  },
+  {
+    BrewerId: 725,
+    Name: BASS,
+    Country: ENG
+  },
+  {
+    BrewerId: 726,
+    Name: BASS MUSEUM,
+    Country: ENG
+  },
+  {
+    BrewerId: 727,
+    Name: BATEMANS,
+    Country: ENG
+  },
+  {
+    BrewerId: 729,
+    Name: BAVARIA,
+    Country: NED
+  },
+  {
+    BrewerId: 728,
+    Name: BAVARIA,
+    Country: BRA
+  },
+  {
+    BrewerId: 730,
+    Name: BAVARIA - ST. PAULI,
+    Country: GER
+  },
+  {
+    BrewerId: 731,
+    Name: BAVIK,
+    Country: BEL
+  },
+  {
+    BrewerId: 732,
+    Name: BEAMISH,
+    Country: IRL
+  },
+  {
+    BrewerId: 733,
+    Name: BEBA,
+    Country: ITA
+  },
+  {
+    BrewerId: 735,
+    Name: BECK'S,
+    Country: GER
+  },
+  {
+    BrewerId: 734,
+    Name: BECKER'S,
+    Country: GER
+  },
+  {
+    BrewerId: 736,
+    Name: BELHAVEN,
+    Country: SCO
+  },
+  {
+    BrewerId: 737,
+    Name: BELHAVEN - MONKSCROFT,
+    Country: SCO
+  },
+  {
+    BrewerId: 738,
+    Name: BELHAVEN - TRAQUAIR HOUSE,
+    Country: SCO
+  },
+  {
+    BrewerId: 740,
+    Name: BELL'S,
+    Country: USA
+  },
+  {
+    BrewerId: 739,
+    Name: BELLEVUE,
+    Country: BEL
+  },
+  {
+    BrewerId: 741,
+    Name: BENIFONTAINE,
+    Country: FRA
+  },
+  {
+    BrewerId: 742,
+    Name: BERGHOFF,
+    Country: USA
+  },
+  {
+    BrewerId: 743,
+    Name: BEXTRIM,
+    Country: GER
+  },
+  {
+    BrewerId: 744,
+    Name: BF&D,
+    Country: ITA
+  },
+  {
+    BrewerId: 745,
+    Name: BI-DU,
+    Country: ITA
+  },
+  {
+    BrewerId: 746,
+    Name: BIERARIA TSCHLIN,
+    Country: SUI
+  },
+  {
+    BrewerId: 747,
+    Name: BINDING,
+    Country: GER
+  },
+  {
+    BrewerId: 748,
+    Name: BIOS - VAN STEENBERGE,
+    Country: BEL
+  },
+  {
+    BrewerId: 749,
+    Name: BIOS (ABB CORSENDONK),
+    Country: BEL
+  },
+  {
+    BrewerId: 750,
+    Name: BIRRIFICIO ARTIGIANO,
+    Country: ITA
+  },
+  {
+    BrewerId: 751,
+    Name: BIRRIFICIO DEL BORGO,
+    Country: ITA
+  },
+  {
+    BrewerId: 752,
+    Name: BIRRIFICIO DI COMO,
+    Country: ITA
+  },
+  {
+    BrewerId: 753,
+    Name: BIRRIFICIO ITALIANO,
+    Country: ITA
+  },
+  {
+    BrewerId: 754,
+    Name: BIRRIFICIO LODIGIANO,
+    Country: ITA
+  },
+  {
+    BrewerId: 755,
+    Name: BIRRIFICIO TORINO,
+    Country: ITA
+  },
+  {
+    BrewerId: 756,
+    Name: BIRTANG,
+    Country: BIR
+  },
+  {
+    BrewerId: 757,
+    Name: BLACK MOUNTAIN,
+    Country: USA
+  },
+  {
+    BrewerId: 758,
+    Name: BLACK SHEEP,
+    Country: ENG
+  },
+  {
+    BrewerId: 759,
+    Name: BLUE ANCHOR,
+    Country: ENG
+  },
+  {
+    BrewerId: 760,
+    Name: BOELENS,
+    Country: BEL
+  },
+  {
+    BrewerId: 761,
+    Name: BOHEMIA,
+    Country: MEX
+  },
+  {
+    BrewerId: 762,
+    Name: BOON,
+    Country: BEL
+  },
+  {
+    BrewerId: 763,
+    Name: BOON RAWD,
+    Country: THAI
+  },
+  {
+    BrewerId: 764,
+    Name: BOSTEELS,
+    Country: BEL
+  },
+  {
+    BrewerId: 765,
+    Name: BOSTON BEER CO.,
+    Country: USA
+  },
+  {
+    BrewerId: 766,
+    Name: BOSTON BEER CO.                   1,
+    Country: USA
+  },
+  {
+    BrewerId: 767,
+    Name: BR. FRANCHES-MONTAGNES,
+    Country: SUI
+  },
+  {
+    BrewerId: 768,
+    Name: BRAHMA,
+    Country: BRA
+  },
+  {
+    BrewerId: 769,
+    Name: BRAIN'S,
+    Country: WAL
+  },
+  {
+    BrewerId: 770,
+    Name: BRAKSPEAR,
+    Country: ENG
+  },
+  {
+    BrewerId: 771,
+    Name: BRAND,
+    Country: NED
+  },
+  {
+    BrewerId: 772,
+    Name: BRASSERIE D'AMBLY,
+    Country: BEL
+  },
+  {
+    BrewerId: 773,
+    Name: BRASSERIE DE TAHITI,
+    Country: TAH
+  },
+  {
+    BrewerId: 774,
+    Name: BRASSERIES BRUXELLOISES,
+    Country: BEL
+  },
+  {
+    BrewerId: 775,
+    Name: BRASSERIES SEMEUSE,
+    Country: FRA
+  },
+  {
+    BrewerId: 776,
+    Name: BRAUHAUS FREIBERG,
+    Country: GER
+  },
+  {
+    BrewerId: 777,
+    Name: BRAUHAUS FREISTADT,
+    Country: AUT
+  },
+  {
+    BrewerId: 778,
+    Name: BRAUHAUS INGOLSTADT,
+    Country: GER
+  },
+  {
+    BrewerId: 779,
+    Name: BRAUHAUS NUSSDORF,
+    Country: AUT
+  },
+  {
+    BrewerId: 780,
+    Name: BRAUHAUS PFORZHEIM,
+    Country: GER
+  },
+  {
+    BrewerId: 781,
+    Name: BRECKENRIDGE,
+    Country: USA
+  },
+  {
+    BrewerId: 782,
+    Name: BREDA,
+    Country: NED
+  },
+  {
+    BrewerId: 783,
+    Name: BRINKHOFF,
+    Country: GER
+  },
+  {
+    BrewerId: 784,
+    Name: BRINKUS,
+    Country: GER
+  },
+  {
+    BrewerId: 785,
+    Name: BRITT,
+    Country: FRA
+  },
+  {
+    BrewerId: 786,
+    Name: BROOKLYN,
+    Country: USA
+  },
+  {
+    BrewerId: 787,
+    Name: BROUGHTON,
+    Country: SCO
+  },
+  {
+    BrewerId: 788,
+    Name: BRUNEHAUT,
+    Country: BEL
+  },
+  {
+    BrewerId: 789,
+    Name: BUCANERO,
+    Country: CUBA
+  },
+  {
+    BrewerId: 790,
+    Name: BUDVAR,
+    Country: CEC
+  },
+  {
+    BrewerId: 791,
+    Name: BURGERBRAU BAMBERG,
+    Country: GER
+  },
+  {
+    BrewerId: 792,
+    Name: BURTON BRIDGE,
+    Country: ENG
+  },
+  {
+    BrewerId: 793,
+    Name: BUSALLA,
+    Country: ITA
+  },
+  {
+    BrewerId: 794,
+    Name: BUTCOMBE,
+    Country: ENG
+  },
+  {
+    BrewerId: 795,
+    Name: C. SCHMIDT,
+    Country: USA
+  },
+  {
+    BrewerId: 796,
+    Name: CAFFREY,
+    Country: IRL
+  },
+  {
+    BrewerId: 797,
+    Name: CALANDA,
+    Country: SUI
+  },
+  {
+    BrewerId: 798,
+    Name: CALEDONIAN,
+    Country: ENG
+  },
+  {
+    BrewerId: 799,
+    Name: CALEDONIAN,
+    Country: SCO
+  },
+  {
+    BrewerId: 800,
+    Name: CALVER,
+    Country: ENG
+  },
+  {
+    BrewerId: 801,
+    Name: CANARDOU,
+    Country: FRA
+  },
+  {
+    BrewerId: 802,
+    Name: CANTILLON,
+    Country: BEL
+  },
+  {
+    BrewerId: 803,
+    Name: CARDINAL,
+    Country: SUI
+  },
+  {
+    BrewerId: 804,
+    Name: CARLING,
+    Country: CAN
+  },
+  {
+    BrewerId: 805,
+    Name: CARLOW,
+    Country: IRL
+  },
+  {
+    BrewerId: 806,
+    Name: CARLSBERG,
+    Country: DEN
+  },
+  {
+    BrewerId: 807,
+    Name: CARLSBERG - PORETTI,
+    Country: DEN
+  },
+  {
+    BrewerId: 808,
+    Name: CASTELLO DI UDINE,
+    Country: ITA
+  },
+  {
+    BrewerId: 809,
+    Name: CASTLEMAINE,
+    Country: AUS
+  },
+  {
+    BrewerId: 810,
+    Name: CELIS,
+    Country: USA
+  },
+  {
+    BrewerId: 811,
+    Name: CENTRAL DE CERVEJAS,
+    Country: POR
+  },
+  {
+    BrewerId: 812,
+    Name: CENTRALE DELLA BIRRA,
+    Country: ITA
+  },
+  {
+    BrewerId: 813,
+    Name: CERES,
+    Country: DEN
+  },
+  {
+    BrewerId: 814,
+    Name: CERV. NATIONAL DOMINICANA,
+    Country: DOM
+  },
+  {
+    BrewerId: 815,
+    Name: CERVECERIA HONDURENA,
+    Country: HON
+  },
+  {
+    BrewerId: 816,
+    Name: CERVESUR,
+    Country: PERU
+  },
+  {
+    BrewerId: 817,
+    Name: CERVISIA,
+    Country: ITA
+  },
+  {
+    BrewerId: 818,
+    Name: CEYLON,
+    Country: SHK
+  },
+  {
+    BrewerId: 819,
+    Name: CHARLES WELLS,
+    Country: ENG
+  },
+  {
+    BrewerId: 820,
+    Name: CIMES,
+    Country: FRA
+  },
+  {
+    BrewerId: 821,
+    Name: CITTAVECCHIA,
+    Country: ITA
+  },
+  {
+    BrewerId: 822,
+    Name: CNUDDE,
+    Country: BEL
+  },
+  {
+    BrewerId: 823,
+    Name: COBRA,
+    Country: INDIA
+  },
+  {
+    BrewerId: 824,
+    Name: COMMONWEALTH NY,
+    Country: USA
+  },
+  {
+    BrewerId: 825,
+    Name: COMPAGNIE DES 3 EPIS,
+    Country: FRA
+  },
+  {
+    BrewerId: 826,
+    Name: CONISTON,
+    Country: ENG
+  },
+  {
+    BrewerId: 827,
+    Name: COOP,
+    Country: SUI
+  },
+  {
+    BrewerId: 828,
+    Name: COREFF,
+    Country: FRA
+  },
+  {
+    BrewerId: 829,
+    Name: CORNISH,
+    Country: ENG
+  },
+  {
+    BrewerId: 830,
+    Name: CORONADO,
+    Country: USA
+  },
+  {
+    BrewerId: 831,
+    Name: COTLEIGH,
+    Country: ENG
+  },
+  {
+    BrewerId: 832,
+    Name: COURAGE,
+    Country: ENG
+  },
+  {
+    BrewerId: 833,
+    Name: CREST,
+    Country: ENG
+  },
+  {
+    BrewerId: 834,
+    Name: CROMBE,
+    Country: BEL
+  },
+  {
+    BrewerId: 835,
+    Name: DALESIDE,
+    Country: ENG
+  },
+  {
+    BrewerId: 836,
+    Name: DAMM,
+    Country: SPA
+  },
+  {
+    BrewerId: 837,
+    Name: DE BIE,
+    Country: BEL
+  },
+  {
+    BrewerId: 838,
+    Name: DE BLOCK,
+    Country: BEL
+  },
+  {
+    BrewerId: 839,
+    Name: DE CAM,
+    Country: BEL
+  },
+  {
+    BrewerId: 840,
+    Name: DE DOLLE BROUWERS,
+    Country: BEL
+  },
+  {
+    BrewerId: 841,
+    Name: DE GOUDEN BOOM,
+    Country: BEL
+  },
+  {
+    BrewerId: 842,
+    Name: DE HOPDUVEL,
+    Country: BEL
+  },
+  {
+    BrewerId: 843,
+    Name: DE KEERSMAEKER,
+    Country: BEL
+  },
+  {
+    BrewerId: 844,
+    Name: DE KIKVORSCH,
+    Country: NED
+  },
+  {
+    BrewerId: 845,
+    Name: DE KLUIS,
+    Country: BEL
+  },
+  {
+    BrewerId: 846,
+    Name: DE KONINK,
+    Country: BEL
+  },
+  {
+    BrewerId: 847,
+    Name: DE NEVE,
+    Country: BEL
+  },
+  {
+    BrewerId: 848,
+    Name: DE PROEF,
+    Country: BEL
+  },
+  {
+    BrewerId: 849,
+    Name: DE RANKE,
+    Country: BEL
+  },
+  {
+    BrewerId: 850,
+    Name: DE RIDDER,
+    Country: NED
+  },
+  {
+    BrewerId: 851,
+    Name: DE SMEDT,
+    Country: BEL
+  },
+  {
+    BrewerId: 852,
+    Name: DE SMEDT - CELIS,
+    Country: USA
+  },
+  {
+    BrewerId: 853,
+    Name: DE SMEDT (ABB AFFLIGEM),
+    Country: BEL
+  },
+  {
+    BrewerId: 854,
+    Name: DE SMEDT (ABB D'AULNE),
+    Country: BEL
+  },
+  {
+    BrewerId: 855,
+    Name: DE SMEDT (ABB DE BROGNE),
+    Country: BEL
+  },
+  {
+    BrewerId: 856,
+    Name: DE SNOECK - STRUBBE,
+    Country: BEL
+  },
+  {
+    BrewerId: 857,
+    Name: DE TROCH,
+    Country: BEL
+  },
+  {
+    BrewerId: 858,
+    Name: DEININGER KRONENBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 859,
+    Name: DESCHUTES,
+    Country: USA
+  },
+  {
+    BrewerId: 860,
+    Name: DEVENISH,
+    Country: ENG
+  },
+  {
+    BrewerId: 861,
+    Name: DEVENISH                          1,
+    Country: ENG
+  },
+  {
+    BrewerId: 862,
+    Name: DIEBELS,
+    Country: GER
+  },
+  {
+    BrewerId: 863,
+    Name: DINCKEL ACKER,
+    Country: GER
+  },
+  {
+    BrewerId: 864,
+    Name: DINKELACKER,
+    Country: GER
+  },
+  {
+    BrewerId: 865,
+    Name: DOGFISH HEAD,
+    Country: USA
+  },
+  {
+    BrewerId: 866,
+    Name: DOGFISH HEAD                      1,
+    Country: USA
+  },
+  {
+    BrewerId: 867,
+    Name: DOOL,
+    Country: BEL
+  },
+  {
+    BrewerId: 868,
+    Name: DOPPO,
+    Country: JAP
+  },
+  {
+    BrewerId: 869,
+    Name: DORTMUNDER ACTIEN BRAUREI,
+    Country: GER
+  },
+  {
+    BrewerId: 870,
+    Name: DORTMUNDER KRONEN,
+    Country: GER
+  },
+  {
+    BrewerId: 871,
+    Name: DORTMUNDER UNION BRAUREI,
+    Country: GER
+  },
+  {
+    BrewerId: 872,
+    Name: DREHER,
+    Country: ITA
+  },
+  {
+    BrewerId: 873,
+    Name: DRYBOROUGH,
+    Country: SCO
+  },
+  {
+    BrewerId: 874,
+    Name: DU BOCQ,
+    Country: BEL
+  },
+  {
+    BrewerId: 875,
+    Name: DU BOCQ (ABB CORSENDONK),
+    Country: BEL
+  },
+  {
+    BrewerId: 876,
+    Name: DUBLIN,
+    Country: IRL
+  },
+  {
+    BrewerId: 877,
+    Name: DUBUISSON,
+    Country: BEL
+  },
+  {
+    BrewerId: 878,
+    Name: DUPONT,
+    Country: BEL
+  },
+  {
+    BrewerId: 879,
+    Name: DUYCK,
+    Country: FRA
+  },
+  {
+    BrewerId: 880,
+    Name: ECAUSSINNES,
+    Country: BEL
+  },
+  {
+    BrewerId: 881,
+    Name: EDER,
+    Country: GER
+  },
+  {
+    BrewerId: 882,
+    Name: EDWIN CHESIRE,
+    Country: SCO
+  },
+  {
+    BrewerId: 883,
+    Name: EGGENBERGER,
+    Country: AUT
+  },
+  {
+    BrewerId: 884,
+    Name: EGGENBERGER,
+    Country: SUI
+  },
+  {
+    BrewerId: 885,
+    Name: EGIS,
+    Country: ISL
+  },
+  {
+    BrewerId: 886,
+    Name: EICHBAUM,
+    Country: GER
+  },
+  {
+    BrewerId: 887,
+    Name: EICHOF,
+    Country: SUI
+  },
+  {
+    BrewerId: 888,
+    Name: EINBECKER,
+    Country: GER
+  },
+  {
+    BrewerId: 889,
+    Name: ELGOODS,
+    Country: ENG
+  },
+  {
+    BrewerId: 890,
+    Name: ELLEZELLOISE,
+    Country: BEL
+  },
+  {
+    BrewerId: 891,
+    Name: ELRIDGE POPE,
+    Country: ENG
+  },
+  {
+    BrewerId: 892,
+    Name: ENFANTS DE GAYANT,
+    Country: FRA
+  },
+  {
+    BrewerId: 893,
+    Name: ENGEL,
+    Country: GER
+  },
+  {
+    BrewerId: 894,
+    Name: ERDINGER WEISSBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 895,
+    Name: ERSTE KULMBACHER ACTIENB.,
+    Country: GER
+  },
+  {
+    BrewerId: 896,
+    Name: ESPECIALIDADES CERVECERAS,
+    Country: MEX
+  },
+  {
+    BrewerId: 897,
+    Name: EULER,
+    Country: GER
+  },
+  {
+    BrewerId: 898,
+    Name: EVANS,
+    Country: USA
+  },
+  {
+    BrewerId: 899,
+    Name: EVERARDS,
+    Country: ENG
+  },
+  {
+    BrewerId: 901,
+    Name: EX-WITHBREAD,
+    Country: ENG
+  },
+  {
+    BrewerId: 900,
+    Name: EXMOOR,
+    Country: ENG
+  },
+  {
+    BrewerId: 902,
+    Name: EYLENBOSCH,
+    Country: BEL
+  },
+  {
+    BrewerId: 903,
+    Name: FALKEN,
+    Country: SWE
+  },
+  {
+    BrewerId: 904,
+    Name: FANTOME,
+    Country: BEL
+  },
+  {
+    BrewerId: 905,
+    Name: FARSONS,
+    Country: MALTA
+  },
+  {
+    BrewerId: 906,
+    Name: FAXE,
+    Country: DEN
+  },
+  {
+    BrewerId: 907,
+    Name: FELDSCHLOSSCHEN,
+    Country: GER
+  },
+  {
+    BrewerId: 908,
+    Name: FIRKIN,
+    Country: ENG
+  },
+  {
+    BrewerId: 909,
+    Name: FIRKIN,
+    Country: FRA
+  },
+  {
+    BrewerId: 910,
+    Name: FISCHER - ADELSHOFFEN,
+    Country: FRA
+  },
+  {
+    BrewerId: 911,
+    Name: FLAGSHIP,
+    Country: ENG
+  },
+  {
+    BrewerId: 912,
+    Name: FLORISGAARDEN,
+    Country: BEL
+  },
+  {
+    BrewerId: 913,
+    Name: FLYING DOG,
+    Country: USA
+  },
+  {
+    BrewerId: 914,
+    Name: FLYING FISH,
+    Country: USA
+  },
+  {
+    BrewerId: 915,
+    Name: FOHRENBURGER,
+    Country: AUT
+  },
+  {
+    BrewerId: 916,
+    Name: FORST,
+    Country: ITA
+  },
+  {
+    BrewerId: 917,
+    Name: FOSTER'S - COURAGE,
+    Country: AUS
+  },
+  {
+    BrewerId: 918,
+    Name: FOUR PEAKS,
+    Country: USA
+  },
+  {
+    BrewerId: 919,
+    Name: FRANKEN,
+    Country: GER
+  },
+  {
+    BrewerId: 920,
+    Name: FREEDOM,
+    Country: ENG
+  },
+  {
+    BrewerId: 921,
+    Name: FREEMINER,
+    Country: ENG
+  },
+  {
+    BrewerId: 922,
+    Name: FRIART,
+    Country: BEL
+  },
+  {
+    BrewerId: 923,
+    Name: FRUH'S,
+    Country: GER
+  },
+  {
+    BrewerId: 924,
+    Name: FULLER'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 925,
+    Name: FURSTENBERG,
+    Country: GER
+  },
+  {
+    BrewerId: 926,
+    Name: GAFFEL,
+    Country: GER
+  },
+  {
+    BrewerId: 927,
+    Name: GALE'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 928,
+    Name: GAMBRINUS,
+    Country: GER
+  },
+  {
+    BrewerId: 929,
+    Name: GARDE,
+    Country: GER
+  },
+  {
+    BrewerId: 930,
+    Name: GATZWEILER,
+    Country: GER
+  },
+  {
+    BrewerId: 931,
+    Name: GBP,
+    Country: ITA
+  },
+  {
+    BrewerId: 932,
+    Name: GEARY,
+    Country: USA
+  },
+  {
+    BrewerId: 933,
+    Name: GENERAL LAFAYETTE,
+    Country: USA
+  },
+  {
+    BrewerId: 934,
+    Name: GIBBS MEW,
+    Country: ENG
+  },
+  {
+    BrewerId: 935,
+    Name: GIRARDIN,
+    Country: BEL
+  },
+  {
+    BrewerId: 936,
+    Name: GOOSE ISLAND,
+    Country: USA
+  },
+  {
+    BrewerId: 937,
+    Name: GORDON BIERSCH,
+    Country: USA
+  },
+  {
+    BrewerId: 938,
+    Name: GRADO PLATO,
+    Country: ITA
+  },
+  {
+    BrewerId: 939,
+    Name: GRAND UNION,
+    Country: ENG
+  },
+  {
+    BrewerId: 940,
+    Name: GRANDE BRASSERIE MODERNE,
+    Country: FRA
+  },
+  {
+    BrewerId: 941,
+    Name: GRANDS COLS,
+    Country: FRA
+  },
+  {
+    BrewerId: 942,
+    Name: GREENALL WHITLEY,
+    Country: ENG
+  },
+  {
+    BrewerId: 943,
+    Name: GREENE KING,
+    Country: ENG
+  },
+  {
+    BrewerId: 944,
+    Name: GRIESKIRCHNER,
+    Country: AUT
+  },
+  {
+    BrewerId: 945,
+    Name: GROLSCH,
+    Country: NED
+  },
+  {
+    BrewerId: 946,
+    Name: GUINNESS,
+    Country: IRL
+  },
+  {
+    BrewerId: 947,
+    Name: GUINNESS- SAPPORO,
+    Country: JAP
+  },
+  {
+    BrewerId: 948,
+    Name: GULPEN - ZWARTE RUITER,
+    Country: NED
+  },
+  {
+    BrewerId: 949,
+    Name: GULPENER,
+    Country: BEL
+  },
+  {
+    BrewerId: 950,
+    Name: H. WEST,
+    Country: NED
+  },
+  {
+    BrewerId: 951,
+    Name: HAACHT,
+    Country: BEL
+  },
+  {
+    BrewerId: 952,
+    Name: HAARLEMS,
+    Country: NED
+  },
+  {
+    BrewerId: 953,
+    Name: HABERECKL,
+    Country: GER
+  },
+  {
+    BrewerId: 954,
+    Name: HACKER-PSCHORR,
+    Country: GER
+  },
+  {
+    BrewerId: 955,
+    Name: HALL & WOODHOUSE,
+    Country: ENG
+  },
+  {
+    BrewerId: 956,
+    Name: HAMPSHIRE,
+    Country: ENG
+  },
+  {
+    BrewerId: 957,
+    Name: HANNEN,
+    Country: GER
+  },
+  {
+    BrewerId: 958,
+    Name: HANS HOPF,
+    Country: GER
+  },
+  {
+    BrewerId: 959,
+    Name: HANSA,
+    Country: GER
+  },
+  {
+    BrewerId: 960,
+    Name: HANSA,
+    Country: NOR
+  },
+  {
+    BrewerId: 961,
+    Name: HANSSENS,
+    Country: BEL
+  },
+  {
+    BrewerId: 962,
+    Name: HARBOE,
+    Country: DEN
+  },
+  {
+    BrewerId: 963,
+    Name: HART,
+    Country: USA
+  },
+  {
+    BrewerId: 964,
+    Name: HARVEYS,
+    Country: ENG
+  },
+  {
+    BrewerId: 965,
+    Name: HARVIESTOUN,
+    Country: SCO
+  },
+  {
+    BrewerId: 966,
+    Name: HASEN,
+    Country: GER
+  },
+  {
+    BrewerId: 967,
+    Name: HEARTLAND,
+    Country: USA
+  },
+  {
+    BrewerId: 968,
+    Name: HEATHER ALE,
+    Country: SCO
+  },
+  {
+    BrewerId: 969,
+    Name: HEIDELBERGER SCHLOSSQUELL,
+    Country: GER
+  },
+  {
+    BrewerId: 970,
+    Name: HEINEKEN,
+    Country: ITA
+  },
+  {
+    BrewerId: 971,
+    Name: HEINEKEN,
+    Country: NED
+  },
+  {
+    BrewerId: 972,
+    Name: HELLER,
+    Country: GER
+  },
+  {
+    BrewerId: 973,
+    Name: HENNINGER - SIB,
+    Country: GER
+  },
+  {
+    BrewerId: 974,
+    Name: HERBERT WERNER,
+    Country: GER
+  },
+  {
+    BrewerId: 975,
+    Name: HERFORDER,
+    Country: GER
+  },
+  {
+    BrewerId: 976,
+    Name: HERREHHAUSER,
+    Country: GER
+  },
+  {
+    BrewerId: 977,
+    Name: HERRNBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 978,
+    Name: HET ANKER,
+    Country: BEL
+  },
+  {
+    BrewerId: 979,
+    Name: HGI,
+    Country: GER
+  },
+  {
+    BrewerId: 980,
+    Name: HIGHGATE,
+    Country: ENG
+  },
+  {
+    BrewerId: 981,
+    Name: HIJOS DE RIVERA,
+    Country: SPA
+  },
+  {
+    BrewerId: 982,
+    Name: HILDEN,
+    Country: NIRL
+  },
+  {
+    BrewerId: 983,
+    Name: HIRTER,
+    Country: AUT
+  },
+  {
+    BrewerId: 984,
+    Name: HOFBRAUHAUS,
+    Country: GER
+  },
+  {
+    BrewerId: 985,
+    Name: HOFBRAUHAUS FREISING,
+    Country: GER
+  },
+  {
+    BrewerId: 986,
+    Name: HOFMARK,
+    Country: GER
+  },
+  {
+    BrewerId: 987,
+    Name: HOFSTETTEN,
+    Country: AUT
+  },
+  {
+    BrewerId: 988,
+    Name: HOLSTEN,
+    Country: GER
+  },
+  {
+    BrewerId: 989,
+    Name: HOOK NORTON,
+    Country: ENG
+  },
+  {
+    BrewerId: 990,
+    Name: HOP BACK,
+    Country: ENG
+  },
+  {
+    BrewerId: 991,
+    Name: HOSL,
+    Country: GER
+  },
+  {
+    BrewerId: 992,
+    Name: HOUGARDEN ARTOIS,
+    Country: BEL
+  },
+  {
+    BrewerId: 993,
+    Name: HURLIMANN,
+    Country: SUI
+  },
+  {
+    BrewerId: 994,
+    Name: HUYGHE - ARTEVELDE,
+    Country: BEL
+  },
+  {
+    BrewerId: 995,
+    Name: I.N.P.,
+    Country: ITA
+  },
+  {
+    BrewerId: 996,
+    Name: ICHNUSA,
+    Country: ITA
+  },
+  {
+    BrewerId: 997,
+    Name: IJ,
+    Country: NED
+  },
+  {
+    BrewerId: 998,
+    Name: IND COOPE,
+    Country: ENG
+  },
+  {
+    BrewerId: 999,
+    Name: INVERALMOND,
+    Country: SCO
+  },
+  {
+    BrewerId: 1000,
+    Name: IRLBACHER,
+    Country: GER
+  },
+  {
+    BrewerId: 1001,
+    Name: JAHNS,
+    Country: GER
+  },
+  {
+    BrewerId: 1002,
+    Name: JEANNE D'ARC,
+    Country: FRA
+  },
+  {
+    BrewerId: 1003,
+    Name: JEANNE D'ARC                      1,
+    Country: FRA
+  },
+  {
+    BrewerId: 1004,
+    Name: JOHN MARTIN,
+    Country: ENG
+  },
+  {
+    BrewerId: 1005,
+    Name: JOHN MARTIN,
+    Country: SCO
+  },
+  {
+    BrewerId: 1006,
+    Name: JOHN SMITH'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 1007,
+    Name: JOSEPH SIGL,
+    Country: AUT
+  },
+  {
+    BrewerId: 1008,
+    Name: JUPILER,
+    Country: BEL
+  },
+  {
+    BrewerId: 1009,
+    Name: KADEWE,
+    Country: GER
+  },
+  {
+    BrewerId: 1010,
+    Name: KAISERBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1011,
+    Name: KAISERDOM,
+    Country: GER
+  },
+  {
+    BrewerId: 1012,
+    Name: KALTENBERG,
+    Country: GER
+  },
+  {
+    BrewerId: 1013,
+    Name: KALTENHAUSEN,
+    Country: AUT
+  },
+  {
+    BrewerId: 1014,
+    Name: KANTERBRAU,
+    Country: FRA
+  },
+  {
+    BrewerId: 1015,
+    Name: KARLSBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1016,
+    Name: KENYA,
+    Country: KEN
+  },
+  {
+    BrewerId: 1017,
+    Name: KINDL,
+    Country: GER
+  },
+  {
+    BrewerId: 1018,
+    Name: KING & BARNES,
+    Country: ENG
+  },
+  {
+    BrewerId: 1019,
+    Name: KIRIN,
+    Country: JAP
+  },
+  {
+    BrewerId: 1020,
+    Name: KITZMANN,
+    Country: GER
+  },
+  {
+    BrewerId: 1021,
+    Name: KLOSTERBRAUEREI ANDECHS,
+    Country: GER
+  },
+  {
+    BrewerId: 1022,
+    Name: KNEITING,
+    Country: GER
+  },
+  {
+    BrewerId: 1023,
+    Name: KOEPFF - ABB. WEINGARTEN,
+    Country: GER
+  },
+  {
+    BrewerId: 1024,
+    Name: KOMPANIA PIWOWARSKA,
+    Country: POL
+  },
+  {
+    BrewerId: 1025,
+    Name: KONA,
+    Country: USA
+  },
+  {
+    BrewerId: 1026,
+    Name: KONIG,
+    Country: GER
+  },
+  {
+    BrewerId: 1027,
+    Name: KRONENBOURG,
+    Country: FRA
+  },
+  {
+    BrewerId: 1028,
+    Name: KULMBACHER SCHWEIZERHOF,
+    Country: GER
+  },
+  {
+    BrewerId: 1029,
+    Name: KUNSTHUIS,
+    Country: BEL
+  },
+  {
+    BrewerId: 1030,
+    Name: KUPPERS,
+    Country: GER
+  },
+  {
+    BrewerId: 1031,
+    Name: KUR,
+    Country: GER
+  },
+  {
+    BrewerId: 1032,
+    Name: KYOTO,
+    Country: JAP
+  },
+  {
+    BrewerId: 1033,
+    Name: LA BINCHOISE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1034,
+    Name: LA CHOUFFE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1035,
+    Name: LA CHOULETTE,
+    Country: FRA
+  },
+  {
+    BrewerId: 1036,
+    Name: LA CORNUE,
+    Country: FRA
+  },
+  {
+    BrewerId: 1037,
+    Name: LA FABBRICA,
+    Country: ITA
+  },
+  {
+    BrewerId: 1038,
+    Name: LA JOLLA,
+    Country: USA
+  },
+  {
+    BrewerId: 1039,
+    Name: LA TRAPPE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1040,
+    Name: LA ZARAGOZANA,
+    Country: SPA
+  },
+  {
+    BrewerId: 1041,
+    Name: LABATT - MORETTI,
+    Country: CAN
+  },
+  {
+    BrewerId: 1042,
+    Name: LAGUNITAS,
+    Country: USA
+  },
+  {
+    BrewerId: 1043,
+    Name: LAMBRATE,
+    Country: ITA
+  },
+  {
+    BrewerId: 1044,
+    Name: LANCELOT,
+    Country: FRA
+  },
+  {
+    BrewerId: 1045,
+    Name: LAPIN KULTA,
+    Country: FIN
+  },
+  {
+    BrewerId: 1046,
+    Name: LASKO,
+    Country: SLO
+  },
+  {
+    BrewerId: 1047,
+    Name: LAUVAUX,
+    Country: BEL
+  },
+  {
+    BrewerId: 1048,
+    Name: LEES,
+    Country: ENG
+  },
+  {
+    BrewerId: 1049,
+    Name: LEFEBVRE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1050,
+    Name: LEFEBVRE (ABB BONNE ESP.),
+    Country: BEL
+  },
+  {
+    BrewerId: 1051,
+    Name: LEFEBVRE (ABB FLOREFFE),
+    Country: BEL
+  },
+  {
+    BrewerId: 1052,
+    Name: LEFT COAST,
+    Country: USA
+  },
+  {
+    BrewerId: 1053,
+    Name: LEFT HAND,
+    Country: USA
+  },
+  {
+    BrewerId: 1054,
+    Name: LIDL,
+    Country: GER
+  },
+  {
+    BrewerId: 1055,
+    Name: LIEFMANS,
+    Country: BEL
+  },
+  {
+    BrewerId: 1056,
+    Name: LINDEMANS,
+    Country: BEL
+  },
+  {
+    BrewerId: 1057,
+    Name: LINDEN,
+    Country: GER
+  },
+  {
+    BrewerId: 1058,
+    Name: LOCHER,
+    Country: SUI
+  },
+  {
+    BrewerId: 1059,
+    Name: LOCKWOODS,
+    Country: ITA
+  },
+  {
+    BrewerId: 1060,
+    Name: LOSCHER,
+    Country: GER
+  },
+  {
+    BrewerId: 1061,
+    Name: LOUWAEGE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1062,
+    Name: LOWENBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1063,
+    Name: M. BROWN,
+    Country: ENG
+  },
+  {
+    BrewerId: 1064,
+    Name: M.S. GUIBERT - INTERBREW,
+    Country: BEL
+  },
+  {
+    BrewerId: 1065,
+    Name: MACLAY,
+    Country: SCO
+  },
+  {
+    BrewerId: 1066,
+    Name: MAES,
+    Country: BEL
+  },
+  {
+    BrewerId: 1067,
+    Name: MAGIC HAT,
+    Country: USA
+  },
+  {
+    BrewerId: 1068,
+    Name: MAGNOLIA,
+    Country: USA
+  },
+  {
+    BrewerId: 1069,
+    Name: MAHRS,
+    Country: GER
+  },
+  {
+    BrewerId: 1070,
+    Name: MAISEL,
+    Country: GER
+  },
+  {
+    BrewerId: 1071,
+    Name: MALZMUHLE,
+    Country: GER
+  },
+  {
+    BrewerId: 1072,
+    Name: MANNSFIELD,
+    Country: ENG
+  },
+  {
+    BrewerId: 1073,
+    Name: MARQUIS DE BOSH,
+    Country: NED
+  },
+  {
+    BrewerId: 1074,
+    Name: MARSTON'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 1075,
+    Name: MARTENS,
+    Country: BEL
+  },
+  {
+    BrewerId: 1076,
+    Name: MATT,
+    Country: USA
+  },
+  {
+    BrewerId: 1077,
+    Name: MATTHEW BROWN,
+    Country: ENG
+  },
+  {
+    BrewerId: 1078,
+    Name: MAXIMILIAAN,
+    Country: NED
+  },
+  {
+    BrewerId: 1079,
+    Name: MC GUIRE'S,
+    Country: USA
+  },
+  {
+    BrewerId: 1080,
+    Name: MC MULLEN,
+    Country: ENG
+  },
+  {
+    BrewerId: 1081,
+    Name: MENABREA,
+    Country: ITA
+  },
+  {
+    BrewerId: 1082,
+    Name: MENDOCINO,
+    Country: USA
+  },
+  {
+    BrewerId: 1083,
+    Name: METEOR,
+    Country: FRA
+  },
+  {
+    BrewerId: 1084,
+    Name: MIBRANA,
+    Country: BEL
+  },
+  {
+    BrewerId: 1085,
+    Name: MILLER,
+    Country: USA
+  },
+  {
+    BrewerId: 1086,
+    Name: MOCTEZUMA,
+    Country: MEX
+  },
+  {
+    BrewerId: 1087,
+    Name: MODELO,
+    Country: MEX
+  },
+  {
+    BrewerId: 1088,
+    Name: MONT BLANC,
+    Country: FRA
+  },
+  {
+    BrewerId: 1089,
+    Name: MONTEGIOCO,
+    Country: ITA
+  },
+  {
+    BrewerId: 1090,
+    Name: MOORTGAT,
+    Country: BEL
+  },
+  {
+    BrewerId: 1091,
+    Name: MOORTGAT (ABB MAREDSOUS),
+    Country: BEL
+  },
+  {
+    BrewerId: 1092,
+    Name: MORDUE,
+    Country: ENG
+  },
+  {
+    BrewerId: 1093,
+    Name: MORETTI,
+    Country: ITA
+  },
+  {
+    BrewerId: 1094,
+    Name: MORLAND,
+    Country: ENG
+  },
+  {
+    BrewerId: 1095,
+    Name: MOULIN DES MOINES,
+    Country: FRA
+  },
+  {
+    BrewerId: 1096,
+    Name: MOUSTIER-ST-MARIE,
+    Country: FRA
+  },
+  {
+    BrewerId: 1097,
+    Name: MURPHY - DREHER,
+    Country: IRL
+  },
+  {
+    BrewerId: 1098,
+    Name: MUTZIG,
+    Country: FRA
+  },
+  {
+    BrewerId: 1099,
+    Name: N.V. DECA,
+    Country: BEL
+  },
+  {
+    BrewerId: 1100,
+    Name: NEPTUN,
+    Country: DEN
+  },
+  {
+    BrewerId: 1101,
+    Name: NEPTUNE,
+    Country: USA
+  },
+  {
+    BrewerId: 1102,
+    Name: NETHERGATE,
+    Country: ENG
+  },
+  {
+    BrewerId: 1103,
+    Name: NEW BELGIUM,
+    Country: USA
+  },
+  {
+    BrewerId: 1104,
+    Name: NEW GLARUS,
+    Country: USA
+  },
+  {
+    BrewerId: 1105,
+    Name: NIAGARA FALLS,
+    Country: CAN
+  },
+  {
+    BrewerId: 1106,
+    Name: NORTH COAST,
+    Country: USA
+  },
+  {
+    BrewerId: 1107,
+    Name: O' HANLONS,
+    Country: ENG
+  },
+  {
+    BrewerId: 1108,
+    Name: OAKHAM,
+    Country: ENG
+  },
+  {
+    BrewerId: 1109,
+    Name: OFFICINA DELLA BIRRA - BOGGIO,
+    Country: ITA
+  },
+  {
+    BrewerId: 1110,
+    Name: OFFICINA DELLA BIRRA - BOGGIO,
+    Country: SUI
+  },
+  {
+    BrewerId: 1111,
+    Name: OFFICINA DELLA BIRRA - BRESSO,
+    Country: ITA
+  },
+  {
+    BrewerId: 1112,
+    Name: OLD COLUMBIA,
+    Country: USA
+  },
+  {
+    BrewerId: 1113,
+    Name: OLD WEST,
+    Country: USA
+  },
+  {
+    BrewerId: 1114,
+    Name: OLPP,
+    Country: GER
+  },
+  {
+    BrewerId: 1115,
+    Name: OLYMPIA,
+    Country: USA
+  },
+  {
+    BrewerId: 1116,
+    Name: OMMEGANG,
+    Country: USA
+  },
+  {
+    BrewerId: 1117,
+    Name: ORANGE,
+    Country: ENG
+  },
+  {
+    BrewerId: 1118,
+    Name: ORANJEBOOM,
+    Country: NED
+  },
+  {
+    BrewerId: 1119,
+    Name: ORKNEY,
+    Country: SCO
+  },
+  {
+    BrewerId: 1120,
+    Name: OSTERR. BRAU AG,
+    Country: AUT
+  },
+  {
+    BrewerId: 1121,
+    Name: OTTAKRINGER,
+    Country: AUT
+  },
+  {
+    BrewerId: 1122,
+    Name: OTTER CREEK,
+    Country: ENG
+  },
+  {
+    BrewerId: 1123,
+    Name: OTTER CREEK,
+    Country: USA
+  },
+  {
+    BrewerId: 1124,
+    Name: OUD BEERSEL,
+    Country: BEL
+  },
+  {
+    BrewerId: 1125,
+    Name: PABST,
+    Country: USA
+  },
+  {
+    BrewerId: 1126,
+    Name: PAELEMAN,
+    Country: BEL
+  },
+  {
+    BrewerId: 1127,
+    Name: PAFFGEN,
+    Country: GER
+  },
+  {
+    BrewerId: 1128,
+    Name: PAINE,
+    Country: ENG
+  },
+  {
+    BrewerId: 1129,
+    Name: PALM,
+    Country: BEL
+  },
+  {
+    BrewerId: 1130,
+    Name: PALMBRAU ZORN,
+    Country: GER
+  },
+  {
+    BrewerId: 1131,
+    Name: PAPER CITY,
+    Country: USA
+  },
+  {
+    BrewerId: 1132,
+    Name: PATRIZIER,
+    Country: GER
+  },
+  {
+    BrewerId: 1133,
+    Name: PAULANER THOMASBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1134,
+    Name: PELFORTH,
+    Country: FRA
+  },
+  {
+    BrewerId: 1135,
+    Name: PELICAN,
+    Country: USA
+  },
+  {
+    BrewerId: 1136,
+    Name: PEOPLE'S PINT,
+    Country: IRL
+  },
+  {
+    BrewerId: 1137,
+    Name: PEOPLE'S PINT,
+    Country: USA
+  },
+  {
+    BrewerId: 1138,
+    Name: PERNSTEJN,
+    Country: CEC
+  },
+  {
+    BrewerId: 1139,
+    Name: PERONI,
+    Country: ITA
+  },
+  {
+    BrewerId: 1140,
+    Name: PETE'S,
+    Country: USA
+  },
+  {
+    BrewerId: 1141,
+    Name: PIETRA,
+    Country: FRA
+  },
+  {
+    BrewerId: 1142,
+    Name: PINKUS MULLER,
+    Country: GER
+  },
+  {
+    BrewerId: 1143,
+    Name: PITFIELD,
+    Country: ENG
+  },
+  {
+    BrewerId: 1144,
+    Name: PIVA ISOKOVA - NIKSIC,
+    Country: YUG
+  },
+  {
+    BrewerId: 1145,
+    Name: PIVARA APATIN,
+    Country: YUG
+  },
+  {
+    BrewerId: 1146,
+    Name: PLZN (PILSEN),
+    Country: CEC
+  },
+  {
+    BrewerId: 1147,
+    Name: POLSTER - MENABREA,
+    Country: GER
+  },
+  {
+    BrewerId: 1148,
+    Name: PORETTI,
+    Country: ITA
+  },
+  {
+    BrewerId: 1149,
+    Name: PORTERHOUSE,
+    Country: IRL
+  },
+  {
+    BrewerId: 1150,
+    Name: PORTLAND,
+    Country: USA
+  },
+  {
+    BrewerId: 1151,
+    Name: POSTHORN,
+    Country: NED
+  },
+  {
+    BrewerId: 1152,
+    Name: PRINZ,
+    Country: ITA
+  },
+  {
+    BrewerId: 1153,
+    Name: PUNTIGAM,
+    Country: AUT
+  },
+  {
+    BrewerId: 1154,
+    Name: PUSTERTALER,
+    Country: ITA
+  },
+  {
+    BrewerId: 1155,
+    Name: PYRAMID,
+    Country: USA
+  },
+  {
+    BrewerId: 1156,
+    Name: RADERMACHER,
+    Country: BEL
+  },
+  {
+    BrewerId: 1157,
+    Name: RAUCHENFELS,
+    Country: GER
+  },
+  {
+    BrewerId: 1158,
+    Name: RCH,
+    Country: ENG
+  },
+  {
+    BrewerId: 1159,
+    Name: REDHOOK,
+    Country: USA
+  },
+  {
+    BrewerId: 1160,
+    Name: REGENTEN,
+    Country: GER
+  },
+  {
+    BrewerId: 1161,
+    Name: REICHELBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1162,
+    Name: RIDLEY,
+    Country: ENG
+  },
+  {
+    BrewerId: 1163,
+    Name: RIEDENBURGER,
+    Country: GER
+  },
+  {
+    BrewerId: 1164,
+    Name: RIEGELE,
+    Country: GER
+  },
+  {
+    BrewerId: 1165,
+    Name: RINGNES,
+    Country: NOR
+  },
+  {
+    BrewerId: 1166,
+    Name: RINGWOOD,
+    Country: ENG
+  },
+  {
+    BrewerId: 1167,
+    Name: RITTER,
+    Country: GER
+  },
+  {
+    BrewerId: 1168,
+    Name: RIVA,
+    Country: BEL
+  },
+  {
+    BrewerId: 1169,
+    Name: ROBINSON'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 1170,
+    Name: ROCHEFORTOISE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1171,
+    Name: ROCK BOTTOM,
+    Country: USA
+  },
+  {
+    BrewerId: 1172,
+    Name: RODENBACH,
+    Country: BEL
+  },
+  {
+    BrewerId: 1173,
+    Name: ROGUE,
+    Country: USA
+  },
+  {
+    BrewerId: 1174,
+    Name: ROHRLBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1175,
+    Name: ROMAN,
+    Country: BEL
+  },
+  {
+    BrewerId: 1176,
+    Name: ROOSTER,
+    Country: ENG
+  },
+  {
+    BrewerId: 1177,
+    Name: ROSEN,
+    Country: GER
+  },
+  {
+    BrewerId: 1178,
+    Name: ROSENBRAUREI,
+    Country: GER
+  },
+  {
+    BrewerId: 1179,
+    Name: ROTHAUS,
+    Country: GER
+  },
+  {
+    BrewerId: 1180,
+    Name: ROUTE 66,
+    Country: USA
+  },
+  {
+    BrewerId: 1181,
+    Name: RUDDLE,
+    Country: ENG
+  },
+  {
+    BrewerId: 1182,
+    Name: RULLES,
+    Country: BEL
+  },
+  {
+    BrewerId: 1183,
+    Name: S. BERNARDUS,
+    Country: BEL
+  },
+  {
+    BrewerId: 1184,
+    Name: S. LEONARD,
+    Country: FRA
+  },
+  {
+    BrewerId: 1185,
+    Name: S. MICHAEL,
+    Country: NOR
+  },
+  {
+    BrewerId: 1186,
+    Name: S. MIGUEL ESPANA,
+    Country: FIL
+  },
+  {
+    BrewerId: 1187,
+    Name: S. SYLVESTRE,
+    Country: FRA
+  },
+  {
+    BrewerId: 1188,
+    Name: SAARFURST,
+    Country: GER
+  },
+  {
+    BrewerId: 1189,
+    Name: SAILERBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1190,
+    Name: SAINT OMER,
+    Country: FRA
+  },
+  {
+    BrewerId: 1191,
+    Name: SAMUEL SMITH,
+    Country: ENG
+  },
+  {
+    BrewerId: 1192,
+    Name: SANDLER,
+    Country: GER
+  },
+  {
+    BrewerId: 1193,
+    Name: SANE,
+    Country: ITA
+  },
+  {
+    BrewerId: 1194,
+    Name: SAPPORO,
+    Country: JAP
+  },
+  {
+    BrewerId: 1195,
+    Name: SARAH HUGHES,
+    Country: ENG
+  },
+  {
+    BrewerId: 1196,
+    Name: SBA,
+    Country: FRA
+  },
+  {
+    BrewerId: 1197,
+    Name: SCARAMPOLA,
+    Country: ITA
+  },
+  {
+    BrewerId: 1198,
+    Name: SCHAFF,
+    Country: GER
+  },
+  {
+    BrewerId: 1199,
+    Name: SCHAFLY,
+    Country: USA
+  },
+  {
+    BrewerId: 1200,
+    Name: SCHARTNER,
+    Country: AUT
+  },
+  {
+    BrewerId: 1201,
+    Name: SCHELDEBROUWERIJ,
+    Country: NED
+  },
+  {
+    BrewerId: 1202,
+    Name: SCHLOSS KALTENBERG,
+    Country: GER
+  },
+  {
+    BrewerId: 1203,
+    Name: SCHLOSS STARKENBERG,
+    Country: AUT
+  },
+  {
+    BrewerId: 1204,
+    Name: SCHLOSSB. SOLDENAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1205,
+    Name: SCHNEIDER,
+    Country: GER
+  },
+  {
+    BrewerId: 1206,
+    Name: SCHWABEN,
+    Country: GER
+  },
+  {
+    BrewerId: 1207,
+    Name: SCOTTISH & NEWCASTLE,
+    Country: ENG
+  },
+  {
+    BrewerId: 1208,
+    Name: SCOTTISH & NEWCASTLE,
+    Country: SCO
+  },
+  {
+    BrewerId: 1209,
+    Name: SEVRES,
+    Country: FRA
+  },
+  {
+    BrewerId: 1210,
+    Name: SHANGAI BREWERIES,
+    Country: CINA
+  },
+  {
+    BrewerId: 1211,
+    Name: SHARP,
+    Country: ENG
+  },
+  {
+    BrewerId: 1212,
+    Name: SHEPHERD NEAME,
+    Country: ENG
+  },
+  {
+    BrewerId: 1213,
+    Name: SHERDEL HOF,
+    Country: GER
+  },
+  {
+    BrewerId: 1214,
+    Name: SHOFFERHOFER,
+    Country: GER
+  },
+  {
+    BrewerId: 1215,
+    Name: SIERRA NEVADA,
+    Country: USA
+  },
+  {
+    BrewerId: 1216,
+    Name: SILENRIEUX,
+    Country: BEL
+  },
+  {
+    BrewerId: 1217,
+    Name: SILLY,
+    Country: BEL
+  },
+  {
+    BrewerId: 1218,
+    Name: SIMMERBERG,
+    Country: GER
+  },
+  {
+    BrewerId: 1219,
+    Name: SINEBRYCHOFF,
+    Country: FIN
+  },
+  {
+    BrewerId: 1220,
+    Name: SION,
+    Country: GER
+  },
+  {
+    BrewerId: 1221,
+    Name: SKINNERS,
+    Country: ENG
+  },
+  {
+    BrewerId: 1222,
+    Name: SKOL,
+    Country: NED
+  },
+  {
+    BrewerId: 1223,
+    Name: SLAGHMUYLDER,
+    Country: BEL
+  },
+  {
+    BrewerId: 1224,
+    Name: SMILE'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 1225,
+    Name: SMITHWICK'S,
+    Country: IRL
+  },
+  {
+    BrewerId: 1226,
+    Name: SOLANA,
+    Country: USA
+  },
+  {
+    BrewerId: 1227,
+    Name: SONORA,
+    Country: USA
+  },
+  {
+    BrewerId: 1228,
+    Name: SORA' LAMA',
+    Country: ITA
+  },
+  {
+    BrewerId: 1229,
+    Name: SPATEN,
+    Country: GER
+  },
+  {
+    BrewerId: 1230,
+    Name: SPENDRUPS,
+    Country: SWE
+  },
+  {
+    BrewerId: 1231,
+    Name: SQUATTERS,
+    Country: USA
+  },
+  {
+    BrewerId: 1232,
+    Name: ST. AMAND,
+    Country: FRA
+  },
+  {
+    BrewerId: 1233,
+    Name: ST. AUSTELL,
+    Country: ENG
+  },
+  {
+    BrewerId: 1234,
+    Name: ST. CHRISTOFFEL,
+    Country: NED
+  },
+  {
+    BrewerId: 1235,
+    Name: ST. JOHANNES BRAU,
+    Country: ITA
+  },
+  {
+    BrewerId: 1236,
+    Name: ST. JOZEF,
+    Country: NED
+  },
+  {
+    BrewerId: 1237,
+    Name: ST. MONON,
+    Country: BEL
+  },
+  {
+    BrewerId: 1238,
+    Name: ST. PETER'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 1239,
+    Name: STANGLBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1240,
+    Name: STARBESS - ROME,
+    Country: ITA
+  },
+  {
+    BrewerId: 1241,
+    Name: STARBESS - ROME                   1,
+    Country: ITA
+  },
+  {
+    BrewerId: 1242,
+    Name: STAROBNO,
+    Country: CEC
+  },
+  {
+    BrewerId: 1243,
+    Name: STAROPRAMEN,
+    Country: CEC
+  },
+  {
+    BrewerId: 1244,
+    Name: STAUDER,
+    Country: GER
+  },
+  {
+    BrewerId: 1245,
+    Name: STEELHEAD,
+    Country: USA
+  },
+  {
+    BrewerId: 1246,
+    Name: STEIRERBRAU,
+    Country: AUT
+  },
+  {
+    BrewerId: 1247,
+    Name: STELVIO,
+    Country: ITA
+  },
+  {
+    BrewerId: 1248,
+    Name: STERKENS,
+    Country: BEL
+  },
+  {
+    BrewerId: 1249,
+    Name: STIEGL,
+    Country: AUT
+  },
+  {
+    BrewerId: 1250,
+    Name: STIFTSBRAUEREI SCHLAGL,
+    Country: AUT
+  },
+  {
+    BrewerId: 1251,
+    Name: STONE,
+    Country: USA
+  },
+  {
+    BrewerId: 1252,
+    Name: STONES,
+    Country: ENG
+  },
+  {
+    BrewerId: 1253,
+    Name: STRAFFE HENDRIJK,
+    Country: BEL
+  },
+  {
+    BrewerId: 1254,
+    Name: STRANGEWAYS,
+    Country: ENG
+  },
+  {
+    BrewerId: 1255,
+    Name: STROH,
+    Country: USA
+  },
+  {
+    BrewerId: 1256,
+    Name: SWIJNKELS,
+    Country: NED
+  },
+  {
+    BrewerId: 1257,
+    Name: TEIGNWORTHY,
+    Country: ENG
+  },
+  {
+    BrewerId: 1258,
+    Name: TEMPO,
+    Country:   ISR
+  },
+  {
+    BrewerId: 1259,
+    Name: TENNENT'S CALEDONIAN,
+    Country: SCO
+  },
+  {
+    BrewerId: 1260,
+    Name: TETLEY,
+    Country: ENG
+  },
+  {
+    BrewerId: 1261,
+    Name: THE COOPER'S  YARD PUB,
+    Country: ITA
+  },
+  {
+    BrewerId: 1262,
+    Name: THE FROG & ROSBIF PUB,
+    Country: FRA
+  },
+  {
+    BrewerId: 1263,
+    Name: THE ROSE STREET BREWERY,
+    Country: SCO
+  },
+  {
+    BrewerId: 1264,
+    Name: THEAKSTON,
+    Country: ENG
+  },
+  {
+    BrewerId: 1265,
+    Name: THERESIANER,
+    Country: ITA
+  },
+  {
+    BrewerId: 1266,
+    Name: THIRSTY BEAR,
+    Country: USA
+  },
+  {
+    BrewerId: 1267,
+    Name: THURN UND TAXIS,
+    Country: GER
+  },
+  {
+    BrewerId: 1268,
+    Name: TIMMERMANS,
+    Country: BEL
+  },
+  {
+    BrewerId: 1269,
+    Name: TIMOTHY TAYLOR,
+    Country: ENG
+  },
+  {
+    BrewerId: 1270,
+    Name: TINIMA CAMAGUEY,
+    Country: CUBA
+  },
+  {
+    BrewerId: 1271,
+    Name: TITANIC,
+    Country: ENG
+  },
+  {
+    BrewerId: 1272,
+    Name: TOMLINSONS,
+    Country: ENG
+  },
+  {
+    BrewerId: 1273,
+    Name: TORRECHIARA,
+    Country: ITA
+  },
+  {
+    BrewerId: 1274,
+    Name: TRAPPIST ABB. ACHEL,
+    Country: BEL
+  },
+  {
+    BrewerId: 1275,
+    Name: TRAPPIST ABB. DE SCOURMONT,
+    Country: BEL
+  },
+  {
+    BrewerId: 1276,
+    Name: TRAPPIST ABB. KOENIGHOEVE,
+    Country: NED
+  },
+  {
+    BrewerId: 1277,
+    Name: TRAPPIST ABB. KOENIGHOEVEN,
+    Country: NED
+  },
+  {
+    BrewerId: 1278,
+    Name: TRAPPIST ABB. ORVAL,
+    Country: BEL
+  },
+  {
+    BrewerId: 1279,
+    Name: TRAPPIST ABB. ROCHEFORT,
+    Country: BEL
+  },
+  {
+    BrewerId: 1280,
+    Name: TRAPPIST ABB. WESTMALLE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1281,
+    Name: TRAPPIST ABB. WESTVLETEREN,
+    Country: BEL
+  },
+  {
+    BrewerId: 1282,
+    Name: TRAQUAIR HOUSE,
+    Country: SCO
+  },
+  {
+    BrewerId: 1283,
+    Name: TRENT - S.GEMINIANO,
+    Country: ENG
+  },
+  {
+    BrewerId: 1284,
+    Name: TRIBBIERA,
+    Country: FRA
+  },
+  {
+    BrewerId: 1285,
+    Name: TRIFTERN BAUER,
+    Country: GER
+  },
+  {
+    BrewerId: 1286,
+    Name: TRIPLE F,
+    Country: ENG
+  },
+  {
+    BrewerId: 1287,
+    Name: TROLL,
+    Country: ITA
+  },
+  {
+    BrewerId: 1288,
+    Name: TRUMAN'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 1289,
+    Name: TSINGTAO,
+    Country:  CINA
+  },
+  {
+    BrewerId: 1290,
+    Name: TUBORG,
+    Country: DEN
+  },
+  {
+    BrewerId: 1291,
+    Name: TUBORG - PORETTI,
+    Country: DEN
+  },
+  {
+    BrewerId: 1292,
+    Name: TUCHER,
+    Country: GER
+  },
+  {
+    BrewerId: 1293,
+    Name: UERIGE,
+    Country: GER
+  },
+  {
+    BrewerId: 1294,
+    Name: UNERTL,
+    Country: GER
+  },
+  {
+    BrewerId: 1296,
+    Name: UNIBROUE,
+    Country: FRA
+  },
+  {
+    BrewerId: 1295,
+    Name: UNIBROUE,
+    Country: CAN
+  },
+  {
+    BrewerId: 1297,
+    Name: UNICER,
+    Country: POR
+  },
+  {
+    BrewerId: 1298,
+    Name: UNION,
+    Country: BEL
+  },
+  {
+    BrewerId: 1299,
+    Name: UNION,
+    Country: SLO
+  },
+  {
+    BrewerId: 1300,
+    Name: UNION DE BRASSERIES,
+    Country: FRA
+  },
+  {
+    BrewerId: 1301,
+    Name: UNITED BREWERIES,
+    Country: INDIA
+  },
+  {
+    BrewerId: 1302,
+    Name: UNSER BURGERBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1303,
+    Name: UPTOWN SCOTTSDALE,
+    Country: USA
+  },
+  {
+    BrewerId: 1304,
+    Name: URBAN,
+    Country: DEN
+  },
+  {
+    BrewerId: 1305,
+    Name: USHERS,
+    Country: ENG
+  },
+  {
+    BrewerId: 1306,
+    Name: UTRECHTSE,
+    Country: NED
+  },
+  {
+    BrewerId: 1307,
+    Name: VAL DE SAMBRE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1308,
+    Name: VAL-DIEU,
+    Country: BEL
+  },
+  {
+    BrewerId: 1309,
+    Name: VALHALLA,
+    Country: SCO
+  },
+  {
+    BrewerId: 1310,
+    Name: VALLEY BEER,
+    Country: ITA
+  },
+  {
+    BrewerId: 1311,
+    Name: VAN DE BOSSCHE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1312,
+    Name: VAN DER LINDEN,
+    Country: BEL
+  },
+  {
+    BrewerId: 1313,
+    Name: VAN EECKE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1314,
+    Name: VAN HONSEBROUCK,
+    Country: BEL
+  },
+  {
+    BrewerId: 1315,
+    Name: VAN STEENBERGE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1316,
+    Name: VAPEUR,
+    Country: BEL
+  },
+  {
+    BrewerId: 1317,
+    Name: VECCHIO BIRRAIO,
+    Country: ITA
+  },
+  {
+    BrewerId: 1318,
+    Name: VECCHIO CALABRESE,
+    Country: ITA
+  },
+  {
+    BrewerId: 1319,
+    Name: VELTINS,
+    Country: GER
+  },
+  {
+    BrewerId: 1320,
+    Name: VER. KARTNER VILLACH,
+    Country: AUT
+  },
+  {
+    BrewerId: 1321,
+    Name: VERHAEGHE,
+    Country: BEL
+  },
+  {
+    BrewerId: 1322,
+    Name: VES GLT COMBINAT,
+    Country: GER
+  },
+  {
+    BrewerId: 1323,
+    Name: VICTORY,
+    Country: USA
+  },
+  {
+    BrewerId: 1324,
+    Name: WADWORTH,
+    Country: ENG
+  },
+  {
+    BrewerId: 1325,
+    Name: WARSTEINER,
+    Country: GER
+  },
+  {
+    BrewerId: 1326,
+    Name: WATNEY,
+    Country: ENG
+  },
+  {
+    BrewerId: 1327,
+    Name: WEBSTER,
+    Country: ENG
+  },
+  {
+    BrewerId: 1328,
+    Name: WEIHENSTEPHAN,
+    Country: GER
+  },
+  {
+    BrewerId: 1329,
+    Name: WELTENBURG,
+    Country: GER
+  },
+  {
+    BrewerId: 1330,
+    Name: WELTON DORKINGS,
+    Country: ENG
+  },
+  {
+    BrewerId: 1331,
+    Name: WEYERBACHER,
+    Country: USA
+  },
+  {
+    BrewerId: 1332,
+    Name: WHITBREAD,
+    Country: ENG
+  },
+  {
+    BrewerId: 1333,
+    Name: WIBROE,
+    Country: DEN
+  },
+  {
+    BrewerId: 1334,
+    Name: WIENINGER,
+    Country: GER
+  },
+  {
+    BrewerId: 1335,
+    Name: WJ KING,
+    Country: ENG
+  },
+  {
+    BrewerId: 1336,
+    Name: WOLF,
+    Country: ENG
+  },
+  {
+    BrewerId: 1337,
+    Name: WOLTERS,
+    Country: GER
+  },
+  {
+    BrewerId: 1338,
+    Name: WOLVERHAMPTON & DUDLEY,
+    Country: ENG
+  },
+  {
+    BrewerId: 1339,
+    Name: WOODFORDES,
+    Country: ENG
+  },
+  {
+    BrewerId: 1340,
+    Name: WUHRER,
+    Country: ITA
+  },
+  {
+    BrewerId: 1341,
+    Name: WUNSTER,
+    Country: ITA
+  },
+  {
+    BrewerId: 1342,
+    Name: WURZBURGER HOFBRAU,
+    Country: GER
+  },
+  {
+    BrewerId: 1343,
+    Name: WYCHWOOD,
+    Country: ENG
+  },
+  {
+    BrewerId: 1344,
+    Name: WYE VALLEY,
+    Country: ENG
+  },
+  {
+    BrewerId: 1345,
+    Name: XXX,
+    Country: USA
+  },
+  {
+    BrewerId: 1346,
+    Name: XXX,
+    Country: INDIA
+  },
+  {
+    BrewerId: 1347,
+    Name: YACHIYO,
+    Country: JAP
+  },
+  {
+    BrewerId: 1348,
+    Name: YAKIMA,
+    Country: USA
+  },
+  {
+    BrewerId: 1349,
+    Name: YOUNG'S,
+    Country: ENG
+  },
+  {
+    BrewerId: 1350,
+    Name: ZAGREBACKE,
+    Country: YUG
+  },
+  {
+    BrewerId: 1351,
+    Name: ZAHRE SAURIS,
+    Country: ITA
+  },
+  {
+    BrewerId: 1352,
+    Name: ZHEJIANG QIANJIANG,
+    Country: CINA
+  },
+  {
+    BrewerId: 1353,
+    Name: ZHIGULI,
+    Country: URSS
+  },
+  {
+    BrewerId: 1354,
+    Name: ZYVIEC,
+    Country: POL
+  }
+]

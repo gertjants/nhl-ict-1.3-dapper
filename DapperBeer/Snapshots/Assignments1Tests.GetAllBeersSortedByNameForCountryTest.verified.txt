@@ -1,0 +1,26 @@
+﻿[
+  {
+    BeerId: 1512,
+    Name: 3 FONTEINEN OUDE GEUZE,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.0,
+    BrewerId: 680
+  },
+  {
+    BeerId: 952,
+    Name: ABBAYE DE ROCS NOEL,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 682
+  },
+  {
+    BeerId: 953,
+    Name: ABBAYE DES ROCS,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 682
+  }
+]

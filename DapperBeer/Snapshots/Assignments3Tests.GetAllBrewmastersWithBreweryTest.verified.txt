@@ -1,0 +1,29 @@
+﻿[
+  {
+    BrewmasterId: 5,
+    Name: Aiyana Dietrich,
+    Brewer: {
+      BrewerId: 738,
+      Name: BELHAVEN - TRAQUAIR HOUSE,
+      Country: SCO
+    }
+  },
+  {
+    BrewmasterId: 29,
+    Name: Alaina Hintz,
+    Brewer: {
+      BrewerId: 947,
+      Name: GUINNESS- SAPPORO,
+      Country: JAP
+    }
+  },
+  {
+    BrewmasterId: 21,
+    Name: Albina Toy,
+    Brewer: {
+      BrewerId: 907,
+      Name: FELDSCHLOSSCHEN,
+      Country: GER
+    }
+  }
+]

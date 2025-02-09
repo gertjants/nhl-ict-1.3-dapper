@@ -1,0 +1,14 @@
+﻿[
+  {
+    Country: GER,
+    NumberOfBreweries: 127
+  },
+  {
+    Country: BEL,
+    NumberOfBreweries: 108
+  },
+  {
+    Country: ENG,
+    NumberOfBreweries: 104
+  }
+]

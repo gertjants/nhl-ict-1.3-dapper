@@ -1,0 +1,62 @@
+﻿[
+  {
+    CustomerId: 505,
+    StoreId: 1,
+    FirstName: RAFAEL,
+    LastName: ABNEY,
+    Email: RAFAEL.ABNEY@sakilacustomer.org,
+    AddressId: 510,
+    Address: {
+      AddressId: 510,
+      Address1: 48 Maracabo Place,
+      District:  ,
+      CityId: 519,
+      PostalCode: 1570,
+      Phone:  ,
+      LastUpdate: DateTime_1
+    },
+    Active: 1,
+    CreateDate: DateTime_2,
+    LastUpdate: DateTime_3
+  },
+  {
+    CustomerId: 504,
+    StoreId: 1,
+    FirstName: NATHANIEL,
+    LastName: ADAM,
+    Email: NATHANIEL.ADAM@sakilacustomer.org,
+    AddressId: 509,
+    Address: {
+      AddressId: 509,
+      Address1: 786 Matsue Way,
+      District:  ,
+      CityId: 245,
+      PostalCode: 37469,
+      Phone:  ,
+      LastUpdate: DateTime_1
+    },
+    Active: 1,
+    CreateDate: DateTime_2,
+    LastUpdate: DateTime_3
+  },
+  {
+    CustomerId: 36,
+    StoreId: 2,
+    FirstName: KATHLEEN,
+    LastName: ADAMS,
+    Email: KATHLEEN.ADAMS@sakilacustomer.org,
+    AddressId: 40,
+    Address: {
+      AddressId: 40,
+      Address1: 334 Munger (Monghyr) Lane,
+      District:  ,
+      CityId: 31,
+      PostalCode: 38145,
+      Phone:  ,
+      LastUpdate: DateTime_1
+    },
+    Active: 1,
+    CreateDate: DateTime_4,
+    LastUpdate: DateTime_3
+  }
+]

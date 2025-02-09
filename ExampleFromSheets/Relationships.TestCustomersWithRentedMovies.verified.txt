@@ -1,0 +1,2506 @@
+﻿[
+  {
+    CustomerId: 1,
+    StoreId: 1,
+    FirstName: MARY,
+    LastName: SMITH,
+    Email: MARY.SMITH@sakilacustomer.org,
+    AddressId: 5,
+    Active: 1,
+    CreateDate: DateTime_1,
+    LastUpdate: DateTime_2,
+    Rentals: [
+      {
+        RentalId: 10437,
+        RentalDate: DateTime_3,
+        InventoryId: 14,
+        Inventory: {
+          InventoryId: 14,
+          FilmId: 3,
+          Film: {
+            FilmId: 3,
+            Title: ADAPTATION HOLES,
+            Description: A Astounding Reflection of a Lumberjack And a Car who must Sink a Lumberjack in A Baloon Factory,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 2.99,
+            Length: 50,
+            ReplacementCost: 18.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_6,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8326,
+        RentalDate: DateTime_8,
+        InventoryId: 108,
+        Inventory: {
+          InventoryId: 108,
+          FilmId: 22,
+          Film: {
+            FilmId: 22,
+            Title: AMISTAD MIDSUMMER,
+            Description: A Emotional Character Study of a Dentist And a Crocodile who must Meet a Sumo Wrestler in California,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 2.99,
+            Length: 85,
+            ReplacementCost: 10.99,
+            Rating: G,
+            SpecialFeatures: Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_9,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 2308,
+        RentalDate: DateTime_10,
+        InventoryId: 197,
+        Inventory: {
+          InventoryId: 197,
+          FilmId: 44,
+          Film: {
+            FilmId: 44,
+            Title: ATTACKS HATE,
+            Description: A Fast-Paced Panorama of a Technical Writer And a Mad Scientist who must Find a Feminist in An Abandoned Mine Shaft,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 113,
+            ReplacementCost: 21.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_11,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 15315,
+        RentalDate: DateTime_12,
+        InventoryId: 312,
+        Inventory: {
+          InventoryId: 312,
+          FilmId: 70,
+          Film: {
+            FilmId: 70,
+            Title: BIKINI BORROWERS,
+            Description: A Astounding Drama of a Astronaut And a Cat who must Discover a Woman in The First Manned Space Station,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 4.99,
+            Length: 142,
+            ReplacementCost: 26.99,
+            Rating: NC-17,
+            SpecialFeatures: Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_13,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 1725,
+        RentalDate: DateTime_14,
+        InventoryId: 726,
+        Inventory: {
+          InventoryId: 726,
+          FilmId: 159,
+          Film: {
+            FilmId: 159,
+            Title: CLOSER BANG,
+            Description: A Unbelieveable Panorama of a Frisbee And a Hunter who must Vanquish a Monkey in Ancient India,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 58,
+            ReplacementCost: 12.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_15,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 5326,
+        RentalDate: DateTime_16,
+        InventoryId: 797,
+        Inventory: {
+          InventoryId: 797,
+          FilmId: 174,
+          Film: {
+            FilmId: 174,
+            Title: CONFIDENTIAL INTERVIEW,
+            Description: A Stunning Reflection of a Cat And a Woman who must Find a Astronaut in Ancient Japan,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 4.99,
+            Length: 180,
+            ReplacementCost: 13.99,
+            Rating: NC-17,
+            SpecialFeatures: Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_17,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 12250,
+        RentalDate: DateTime_18,
+        InventoryId: 921,
+        Inventory: {
+          InventoryId: 921,
+          FilmId: 204,
+          Film: {
+            FilmId: 204,
+            Title: DALMATIONS SWEDEN,
+            Description: A Emotional Epistle of a Moose And a Hunter who must Overcome a Robot in A Manhattan Penthouse,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 106,
+            ReplacementCost: 25.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_19,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 1422,
+        RentalDate: DateTime_20,
+        InventoryId: 1021,
+        Inventory: {
+          InventoryId: 1021,
+          FilmId: 228,
+          Film: {
+            FilmId: 228,
+            Title: DETECTIVE VISION,
+            Description: A Fanciful Documentary of a Pioneer And a Woman who must Redeem a Hunter in Ancient Japan,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 143,
+            ReplacementCost: 16.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_21,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7841,
+        RentalDate: DateTime_22,
+        InventoryId: 1092,
+        Inventory: {
+          InventoryId: 1092,
+          FilmId: 243,
+          Film: {
+            FilmId: 243,
+            Title: DOORS PRESIDENT,
+            Description: A Awe-Inspiring Display of a Squirrel And a Woman who must Overcome a Boy in The Gulf of Mexico,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 4.99,
+            Length: 49,
+            ReplacementCost: 22.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_23,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 6163,
+        RentalDate: DateTime_24,
+        InventoryId: 1330,
+        Inventory: {
+          InventoryId: 1330,
+          FilmId: 294,
+          Film: {
+            FilmId: 294,
+            Title: EXPECATIONS NATURAL,
+            Description: A Amazing Drama of a Butler And a Husband who must Reach a A Shark in A U-Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 138,
+            ReplacementCost: 26.99,
+            Rating: PG-13,
+            SpecialFeatures: Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_25,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 1476,
+        RentalDate: DateTime_26,
+        InventoryId: 1407,
+        Inventory: {
+          InventoryId: 1407,
+          FilmId: 308,
+          Film: {
+            FilmId: 308,
+            Title: FERRIS MOTHER,
+            Description: A Touching Display of a Frisbee And a Frisbee who must Kill a Girl in The Gulf of Mexico,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 2.99,
+            Length: 142,
+            ReplacementCost: 13.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_27,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 11367,
+        RentalDate: DateTime_28,
+        InventoryId: 1440,
+        Inventory: {
+          InventoryId: 1440,
+          FilmId: 315,
+          Film: {
+            FilmId: 315,
+            Title: FINDING ANACONDA,
+            Description: A Fateful Tale of a Database Administrator And a Girl who must Battle a Squirrel in New Orleans,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 156,
+            ReplacementCost: 10.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_29,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 4526,
+        RentalDate: DateTime_30,
+        InventoryId: 1443,
+        Inventory: {
+          InventoryId: 1443,
+          FilmId: 316,
+          Film: {
+            FilmId: 316,
+            Title: FIRE WOLVES,
+            Description: A Intrepid Documentary of a Frisbee And a Dog who must Outrace a Lumberjack in Nigeria,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 173,
+            ReplacementCost: 18.99,
+            Rating: R,
+            SpecialFeatures: Trailers,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_31,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 14825,
+        RentalDate: DateTime_32,
+        InventoryId: 1449,
+        Inventory: {
+          InventoryId: 1449,
+          FilmId: 317,
+          Film: {
+            FilmId: 317,
+            Title: FIREBALL PHILADELPHIA,
+            Description: A Amazing Yarn of a Dentist And a A Shark who must Vanquish a Madman in An Abandoned Mine Shaft,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 148,
+            ReplacementCost: 25.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_33,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 15298,
+        RentalDate: DateTime_34,
+        InventoryId: 1446,
+        Inventory: {
+          InventoryId: 1446,
+          FilmId: 317,
+          Film: {
+            FilmId: 317,
+            Title: FIREBALL PHILADELPHIA,
+            Description: A Amazing Yarn of a Dentist And a A Shark who must Vanquish a Madman in An Abandoned Mine Shaft,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 148,
+            ReplacementCost: 25.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_35,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8074,
+        RentalDate: DateTime_36,
+        InventoryId: 1558,
+        Inventory: {
+          InventoryId: 1558,
+          FilmId: 341,
+          Film: {
+            FilmId: 341,
+            Title: FROST HEAD,
+            Description: A Amazing Reflection of a Lumberjack And a Cat who must Discover a Husband in A MySQL Convention,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 0.99,
+            Length: 82,
+            ReplacementCost: 13.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_37,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9571,
+        RentalDate: DateTime_38,
+        InventoryId: 2219,
+        Inventory: {
+          InventoryId: 2219,
+          FilmId: 480,
+          Film: {
+            FilmId: 480,
+            Title: JEEPERS WEDDING,
+            Description: A Astounding Display of a Composer And a Dog who must Kill a Pastry Chef in Soviet Georgia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 2.99,
+            Length: 84,
+            ReplacementCost: 29.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_39,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 13176,
+        RentalDate: DateTime_40,
+        InventoryId: 2269,
+        Inventory: {
+          InventoryId: 2269,
+          FilmId: 490,
+          Film: {
+            FilmId: 490,
+            Title: JUMANJI BLADE,
+            Description: A Intrepid Yarn of a Husband And a Womanizer who must Pursue a Mad Scientist in New Orleans,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 2.99,
+            Length: 121,
+            ReplacementCost: 13.99,
+            Rating: G,
+            SpecialFeatures: Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_41,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7273,
+        RentalDate: DateTime_42,
+        InventoryId: 2465,
+        Inventory: {
+          InventoryId: 2465,
+          FilmId: 539,
+          Film: {
+            FilmId: 539,
+            Title: LUCK OPUS,
+            Description: A Boring Display of a Moose And a Squirrel who must Outrace a Teacher in A Shark Tank,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 2.99,
+            Length: 152,
+            ReplacementCost: 21.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_43,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 11824,
+        RentalDate: DateTime_44,
+        InventoryId: 2639,
+        Inventory: {
+          InventoryId: 2639,
+          FilmId: 579,
+          Film: {
+            FilmId: 579,
+            Title: MINDS TRUMAN,
+            Description: A Taut Yarn of a Mad Scientist And a Crocodile who must Outgun a Database Administrator in A Monastery,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 4.99,
+            Length: 149,
+            ReplacementCost: 22.99,
+            Rating: PG-13,
+            SpecialFeatures: Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_45,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 1185,
+        RentalDate: DateTime_46,
+        InventoryId: 2785,
+        Inventory: {
+          InventoryId: 2785,
+          FilmId: 611,
+          Film: {
+            FilmId: 611,
+            Title: MUSKETEERS WAIT,
+            Description: A Touching Yarn of a Student And a Moose who must Fight a Mad Cow in Australia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 4.99,
+            Length: 73,
+            ReplacementCost: 17.99,
+            Rating: PG,
+            SpecialFeatures: Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_47,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 76,
+        RentalDate: DateTime_48,
+        InventoryId: 3021,
+        Inventory: {
+          InventoryId: 3021,
+          FilmId: 663,
+          Film: {
+            FilmId: 663,
+            Title: PATIENT SISTER,
+            Description: A Emotional Epistle of a Squirrel And a Robot who must Confront a Lumberjack in Soviet Georgia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 0.99,
+            Length: 99,
+            ReplacementCost: 29.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_49,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 13068,
+        RentalDate: DateTime_50,
+        InventoryId: 3019,
+        Inventory: {
+          InventoryId: 3019,
+          FilmId: 663,
+          Film: {
+            FilmId: 663,
+            Title: PATIENT SISTER,
+            Description: A Emotional Epistle of a Squirrel And a Robot who must Confront a Lumberjack in Soviet Georgia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 0.99,
+            Length: 99,
+            ReplacementCost: 29.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_51,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 11299,
+        RentalDate: DateTime_52,
+        InventoryId: 3232,
+        Inventory: {
+          InventoryId: 3232,
+          FilmId: 709,
+          Film: {
+            FilmId: 709,
+            Title: RACER EGG,
+            Description: A Emotional Display of a Monkey And a Waitress who must Reach a Secret Agent in California,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 2.99,
+            Length: 147,
+            ReplacementCost: 19.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_53,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 4611,
+        RentalDate: DateTime_54,
+        InventoryId: 3486,
+        Inventory: {
+          InventoryId: 3486,
+          FilmId: 764,
+          Film: {
+            FilmId: 764,
+            Title: SATURDAY LAMBS,
+            Description: A Thoughtful Reflection of a Mad Scientist And a Moose who must Kill a Husband in A Baloon,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 4.99,
+            Length: 150,
+            ReplacementCost: 28.99,
+            Rating: G,
+            SpecialFeatures: Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_55,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 2363,
+        RentalDate: DateTime_56,
+        InventoryId: 3497,
+        Inventory: {
+          InventoryId: 3497,
+          FilmId: 766,
+          Film: {
+            FilmId: 766,
+            Title: SAVANNAH TOWN,
+            Description: A Awe-Inspiring Tale of a Astronaut And a Database Administrator who must Chase a Secret Agent in The Gulf of Mexico,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 0.99,
+            Length: 84,
+            ReplacementCost: 25.99,
+            Rating: PG-13,
+            SpecialFeatures: Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_57,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 5244,
+        RentalDate: DateTime_58,
+        InventoryId: 3726,
+        Inventory: {
+          InventoryId: 3726,
+          FilmId: 814,
+          Film: {
+            FilmId: 814,
+            Title: SNATCH SLIPPER,
+            Description: A Insightful Panorama of a Woman And a Feminist who must Defeat a Forensic Psychologist in Berlin,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 4.99,
+            Length: 110,
+            ReplacementCost: 15.99,
+            Rating: PG,
+            SpecialFeatures: Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_59,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 573,
+        RentalDate: DateTime_60,
+        InventoryId: 4020,
+        Inventory: {
+          InventoryId: 4020,
+          FilmId: 875,
+          Film: {
+            FilmId: 875,
+            Title: TALENTED HOMICIDE,
+            Description: A Lacklusture Panorama of a Dentist And a Forensic Psychologist who must Outrace a Pioneer in A U-Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 0.99,
+            Length: 173,
+            ReplacementCost: 9.99,
+            Rating: PG,
+            SpecialFeatures: Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_61,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 14762,
+        RentalDate: DateTime_62,
+        InventoryId: 4249,
+        Inventory: {
+          InventoryId: 4249,
+          FilmId: 924,
+          Film: {
+            FilmId: 924,
+            Title: UNFORGIVEN ZOOLANDER,
+            Description: A Taut Epistle of a Monkey And a Sumo Wrestler who must Vanquish a A Shark in A Baloon Factory,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 0.99,
+            Length: 129,
+            ReplacementCost: 15.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_63,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8033,
+        RentalDate: DateTime_64,
+        InventoryId: 4268,
+        Inventory: {
+          InventoryId: 4268,
+          FilmId: 929,
+          Film: {
+            FilmId: 929,
+            Title: USUAL UNTOUCHABLES,
+            Description: A Touching Display of a Explorer And a Lumberjack who must Fight a Forensic Psychologist in A Shark Tank,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 128,
+            ReplacementCost: 21.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_65,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8116,
+        RentalDate: DateTime_66,
+        InventoryId: 4497,
+        Inventory: {
+          InventoryId: 4497,
+          FilmId: 982,
+          Film: {
+            FilmId: 982,
+            Title: WOMEN DORADO,
+            Description: A Insightful Documentary of a Waitress And a Butler who must Vanquish a Composer in Australia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 126,
+            ReplacementCost: 23.99,
+            Rating: R,
+            SpecialFeatures: Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_67,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 3284,
+        RentalDate: DateTime_68,
+        InventoryId: 4566,
+        Inventory: {
+          InventoryId: 4566,
+          FilmId: 997,
+          Film: {
+            FilmId: 997,
+            Title: YOUTH KICK,
+            Description: A Touching Drama of a Teacher And a Cat who must Challenge a Technical Writer in A U-Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 179,
+            ReplacementCost: 14.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 1,
+        ReturnDate: DateTime_69,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      }
+    ]
+  },
+  {
+    CustomerId: 2,
+    StoreId: 1,
+    FirstName: PATRICIA,
+    LastName: JOHNSON,
+    Email: PATRICIA.JOHNSON@sakilacustomer.org,
+    AddressId: 6,
+    Active: 1,
+    CreateDate: DateTime_1,
+    LastUpdate: DateTime_2,
+    Rentals: [
+      {
+        RentalId: 10466,
+        RentalDate: DateTime_70,
+        InventoryId: 138,
+        Inventory: {
+          InventoryId: 138,
+          FilmId: 27,
+          Film: {
+            FilmId: 27,
+            Title: ANONYMOUS HUMAN,
+            Description: A Amazing Reflection of a Database Administrator And a Astronaut who must Outrace a Database Administrator in A Shark Tank,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 0.99,
+            Length: 179,
+            ReplacementCost: 12.99,
+            Rating: NC-17,
+            SpecialFeatures: Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_71,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 2128,
+        RentalDate: DateTime_72,
+        InventoryId: 352,
+        Inventory: {
+          InventoryId: 352,
+          FilmId: 78,
+          Film: {
+            FilmId: 78,
+            Title: BLACKOUT PRIVATE,
+            Description: A Intrepid Yarn of a Pastry Chef And a Mad Scientist who must Challenge a Secret Agent in Ancient Japan,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 2.99,
+            Length: 85,
+            ReplacementCost: 12.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_73,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7376,
+        RentalDate: DateTime_74,
+        InventoryId: 488,
+        Inventory: {
+          InventoryId: 488,
+          FilmId: 109,
+          Film: {
+            FilmId: 109,
+            Title: BUTTERFLY CHOCOLAT,
+            Description: A Fateful Story of a Girl And a Composer who must Conquer a Husband in A Shark Tank,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 0.99,
+            Length: 89,
+            ReplacementCost: 17.99,
+            Rating: G,
+            SpecialFeatures: Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_75,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8598,
+        RentalDate: DateTime_76,
+        InventoryId: 626,
+        Inventory: {
+          InventoryId: 626,
+          FilmId: 136,
+          Film: {
+            FilmId: 136,
+            Title: CHAPLIN LICENSE,
+            Description: A Boring Drama of a Dog And a Forensic Psychologist who must Outrace a Explorer in Ancient India,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 2.99,
+            Length: 146,
+            ReplacementCost: 26.99,
+            Rating: NC-17,
+            SpecialFeatures: Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_77,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 11087,
+        RentalDate: DateTime_78,
+        InventoryId: 654,
+        Inventory: {
+          InventoryId: 654,
+          FilmId: 142,
+          Film: {
+            FilmId: 142,
+            Title: CHICKEN HELLFIGHTERS,
+            Description: A Emotional Drama of a Dog And a Explorer who must Outrace a Technical Writer in Australia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 0.99,
+            Length: 122,
+            ReplacementCost: 24.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_79,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7346,
+        RentalDate: DateTime_80,
+        InventoryId: 741,
+        Inventory: {
+          InventoryId: 741,
+          FilmId: 162,
+          Film: {
+            FilmId: 162,
+            Title: CLUELESS BUCKET,
+            Description: A Taut Tale of a Car And a Pioneer who must Conquer a Sumo Wrestler in An Abandoned Fun House,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 2.99,
+            Length: 95,
+            ReplacementCost: 13.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_81,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 11614,
+        RentalDate: DateTime_82,
+        InventoryId: 805,
+        Inventory: {
+          InventoryId: 805,
+          FilmId: 175,
+          Film: {
+            FilmId: 175,
+            Title: CONFUSED CANDLES,
+            Description: A Stunning Epistle of a Cat And a Forensic Psychologist who must Confront a Pioneer in A Baloon,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 2.99,
+            Length: 122,
+            ReplacementCost: 27.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_83,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 320,
+        RentalDate: DateTime_84,
+        InventoryId: 1090,
+        Inventory: {
+          InventoryId: 1090,
+          FilmId: 243,
+          Film: {
+            FilmId: 243,
+            Title: DOORS PRESIDENT,
+            Description: A Awe-Inspiring Display of a Squirrel And a Woman who must Overcome a Boy in The Gulf of Mexico,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 4.99,
+            Length: 49,
+            ReplacementCost: 22.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_85,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 11177,
+        RentalDate: DateTime_86,
+        InventoryId: 1149,
+        Inventory: {
+          InventoryId: 1149,
+          FilmId: 254,
+          Film: {
+            FilmId: 254,
+            Title: DRIVER ANNIE,
+            Description: A Lacklusture Character Study of a Butler And a Car who must Redeem a Boat in An Abandoned Fun House,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 2.99,
+            Length: 159,
+            ReplacementCost: 11.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_87,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9248,
+        RentalDate: DateTime_88,
+        InventoryId: 1382,
+        Inventory: {
+          InventoryId: 1382,
+          FilmId: 303,
+          Film: {
+            FilmId: 303,
+            Title: FANTASY TROOPERS,
+            Description: A Touching Saga of a Teacher And a Monkey who must Overcome a Secret Agent in A MySQL Convention,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 0.99,
+            Length: 58,
+            ReplacementCost: 27.99,
+            Rating: PG-13,
+            SpecialFeatures: Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_89,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 12963,
+        RentalDate: DateTime_90,
+        InventoryId: 1521,
+        Inventory: {
+          InventoryId: 1521,
+          FilmId: 331,
+          Film: {
+            FilmId: 331,
+            Title: FORWARD TEMPLE,
+            Description: A Astounding Display of a Forensic Psychologist And a Mad Scientist who must Challenge a Girl in New Orleans,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 2.99,
+            Length: 90,
+            ReplacementCost: 25.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_91,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8230,
+        RentalDate: DateTime_92,
+        InventoryId: 1937,
+        Inventory: {
+          InventoryId: 1937,
+          FilmId: 421,
+          Film: {
+            FilmId: 421,
+            Title: HOLIDAY GAMES,
+            Description: A Insightful Reflection of a Waitress And a Madman who must Pursue a Boy in Ancient Japan,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 4.99,
+            Length: 78,
+            ReplacementCost: 10.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_93,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7459,
+        RentalDate: DateTime_94,
+        InventoryId: 2053,
+        Inventory: {
+          InventoryId: 2053,
+          FilmId: 446,
+          Film: {
+            FilmId: 446,
+            Title: HYSTERICAL GRAIL,
+            Description: A Amazing Saga of a Madman And a Dentist who must Build a Car in A Manhattan Penthouse,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 150,
+            ReplacementCost: 19.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_95,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 11256,
+        RentalDate: DateTime_96,
+        InventoryId: 2060,
+        Inventory: {
+          InventoryId: 2060,
+          FilmId: 447,
+          Film: {
+            FilmId: 447,
+            Title: ICE CROSSING,
+            Description: A Fast-Paced Tale of a Butler And a Moose who must Overcome a Pioneer in A Manhattan Penthouse,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 2.99,
+            Length: 131,
+            ReplacementCost: 28.99,
+            Rating: R,
+            SpecialFeatures: Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_97,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 15145,
+        RentalDate: DateTime_98,
+        InventoryId: 2179,
+        Inventory: {
+          InventoryId: 2179,
+          FilmId: 471,
+          Film: {
+            FilmId: 471,
+            Title: ISLAND EXORCIST,
+            Description: A Fanciful Panorama of a Technical Writer And a Boy who must Find a Dentist in An Abandoned Fun House,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 2.99,
+            Length: 84,
+            ReplacementCost: 23.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_99,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9031,
+        RentalDate: DateTime_100,
+        InventoryId: 2377,
+        Inventory: {
+          InventoryId: 2377,
+          FilmId: 518,
+          Film: {
+            FilmId: 518,
+            Title: LIAISONS SWEET,
+            Description: A Boring Drama of a A Shark And a Explorer who must Redeem a Waitress in The Canadian Rockies,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 140,
+            ReplacementCost: 15.99,
+            Rating: PG,
+            SpecialFeatures: Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_101,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 5755,
+        RentalDate: DateTime_102,
+        InventoryId: 2760,
+        Inventory: {
+          InventoryId: 2760,
+          FilmId: 606,
+          Film: {
+            FilmId: 606,
+            Title: MUMMY CREATURES,
+            Description: A Fateful Character Study of a Crocodile And a Monkey who must Meet a Dentist in Australia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 0.99,
+            Length: 160,
+            ReplacementCost: 15.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_103,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 15907,
+        RentalDate: DateTime_104,
+        InventoryId: 2898,
+        Inventory: {
+          InventoryId: 2898,
+          FilmId: 637,
+          Film: {
+            FilmId: 637,
+            Title: OPEN AFRICAN,
+            Description: A Lacklusture Drama of a Secret Agent And a Explorer who must Discover a Car in A U-Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 4.99,
+            Length: 131,
+            ReplacementCost: 16.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_105,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9465,
+        RentalDate: DateTime_106,
+        InventoryId: 3084,
+        Inventory: {
+          InventoryId: 3084,
+          FilmId: 678,
+          Film: {
+            FilmId: 678,
+            Title: PICKUP DRIVING,
+            Description: A Touching Documentary of a Husband And a Boat who must Meet a Pastry Chef in A Baloon Factory,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 2.99,
+            Length: 77,
+            ReplacementCost: 23.99,
+            Rating: G,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_107,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 10136,
+        RentalDate: DateTime_108,
+        InventoryId: 3142,
+        Inventory: {
+          InventoryId: 3142,
+          FilmId: 690,
+          Film: {
+            FilmId: 690,
+            Title: POND SEATTLE,
+            Description: A Stunning Drama of a Teacher And a Boat who must Battle a Feminist in Ancient China,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 2.99,
+            Length: 185,
+            ReplacementCost: 25.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_109,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 14475,
+        RentalDate: DateTime_110,
+        InventoryId: 3164,
+        Inventory: {
+          InventoryId: 3164,
+          FilmId: 694,
+          Film: {
+            FilmId: 694,
+            Title: PREJUDICE OLEANDER,
+            Description: A Epic Saga of a Boy And a Dentist who must Outrace a Madman in A U-Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 4.99,
+            Length: 98,
+            ReplacementCost: 15.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_111,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 10918,
+        RentalDate: DateTime_112,
+        InventoryId: 3418,
+        Inventory: {
+          InventoryId: 3418,
+          FilmId: 748,
+          Film: {
+            FilmId: 748,
+            Title: RUGRATS SHAKESPEARE,
+            Description: A Touching Saga of a Crocodile And a Crocodile who must Discover a Technical Writer in Nigeria,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 109,
+            ReplacementCost: 16.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_113,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9236,
+        RentalDate: DateTime_114,
+        InventoryId: 4030,
+        Inventory: {
+          InventoryId: 4030,
+          FilmId: 878,
+          Film: {
+            FilmId: 878,
+            Title: TEEN APOLLO,
+            Description: A Awe-Inspiring Drama of a Dog And a Man who must Escape a Robot in A Shark Tank,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 4.99,
+            Length: 74,
+            ReplacementCost: 25.99,
+            Rating: G,
+            SpecialFeatures: Trailers,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_115,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8705,
+        RentalDate: DateTime_116,
+        InventoryId: 4038,
+        Inventory: {
+          InventoryId: 4038,
+          FilmId: 879,
+          Film: {
+            FilmId: 879,
+            Title: TELEGRAPH VOYAGE,
+            Description: A Fateful Yarn of a Husband And a Dog who must Battle a Waitress in A Jet Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 4.99,
+            Length: 148,
+            ReplacementCost: 20.99,
+            Rating: PG,
+            SpecialFeatures: Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_117,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9296,
+        RentalDate: DateTime_118,
+        InventoryId: 4088,
+        Inventory: {
+          InventoryId: 4088,
+          FilmId: 891,
+          Film: {
+            FilmId: 891,
+            Title: TIMBERLAND SKY,
+            Description: A Boring Display of a Man And a Dog who must Redeem a Girl in A U-Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 0.99,
+            Length: 69,
+            ReplacementCost: 13.99,
+            Rating: G,
+            SpecialFeatures: Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_119,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 5636,
+        RentalDate: DateTime_120,
+        InventoryId: 4116,
+        Inventory: {
+          InventoryId: 4116,
+          FilmId: 895,
+          Film: {
+            FilmId: 895,
+            Title: TOMORROW HUSTLER,
+            Description: A Thoughtful Story of a Moose And a Husband who must Face a Secret Agent in The Sahara Desert,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 2.99,
+            Length: 142,
+            ReplacementCost: 21.99,
+            Rating: R,
+            SpecialFeatures: Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_121,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 14743,
+        RentalDate: DateTime_122,
+        InventoryId: 4570,
+        Inventory: {
+          InventoryId: 4570,
+          FilmId: 999,
+          Film: {
+            FilmId: 999,
+            Title: ZOOLANDER FICTION,
+            Description: A Fateful Reflection of a Waitress And a Boat who must Discover a Sumo Wrestler in Ancient China,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 2.99,
+            Length: 101,
+            ReplacementCost: 28.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 2,
+        ReturnDate: DateTime_123,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      }
+    ]
+  },
+  {
+    CustomerId: 3,
+    StoreId: 1,
+    FirstName: LINDA,
+    LastName: WILLIAMS,
+    Email: LINDA.WILLIAMS@sakilacustomer.org,
+    AddressId: 7,
+    Active: 1,
+    CreateDate: DateTime_1,
+    LastUpdate: DateTime_2,
+    Rentals: [
+      {
+        RentalId: 1726,
+        RentalDate: DateTime_124,
+        InventoryId: 116,
+        Inventory: {
+          InventoryId: 116,
+          FilmId: 23,
+          Film: {
+            FilmId: 23,
+            Title: ANACONDA CONFESSIONS,
+            Description: A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 0.99,
+            Length: 92,
+            ReplacementCost: 9.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_125,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7724,
+        RentalDate: DateTime_126,
+        InventoryId: 346,
+        Inventory: {
+          InventoryId: 346,
+          FilmId: 77,
+          Film: {
+            FilmId: 77,
+            Title: BIRDS PERDITION,
+            Description: A Boring Story of a Womanizer And a Pioneer who must Face a Dog in California,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 61,
+            ReplacementCost: 15.99,
+            Rating: G,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_127,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7911,
+        RentalDate: DateTime_128,
+        InventoryId: 390,
+        Inventory: {
+          InventoryId: 390,
+          FilmId: 86,
+          Film: {
+            FilmId: 86,
+            Title: BOOGIE AMELIE,
+            Description: A Lacklusture Character Study of a Husband And a Sumo Wrestler who must Succumb a Technical Writer in The Gulf of Mexico,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 4.99,
+            Length: 121,
+            ReplacementCost: 11.99,
+            Rating: R,
+            SpecialFeatures: Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_129,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7503,
+        RentalDate: DateTime_130,
+        InventoryId: 579,
+        Inventory: {
+          InventoryId: 579,
+          FilmId: 126,
+          Film: {
+            FilmId: 126,
+            Title: CASUALTIES ENCINO,
+            Description: A Insightful Yarn of a A Shark And a Pastry Chef who must Face a Boy in A Monastery,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 4.99,
+            Length: 179,
+            ReplacementCost: 16.99,
+            Rating: G,
+            SpecialFeatures: Trailers,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_131,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 1911,
+        RentalDate: DateTime_132,
+        InventoryId: 910,
+        Inventory: {
+          InventoryId: 910,
+          FilmId: 202,
+          Film: {
+            FilmId: 202,
+            Title: DADDY PITTSBURGH,
+            Description: A Epic Story of a A Shark And a Student who must Confront a Explorer in The Gulf of Mexico,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 161,
+            ReplacementCost: 26.99,
+            Rating: G,
+            SpecialFeatures: Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_133,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8086,
+        RentalDate: DateTime_134,
+        InventoryId: 1182,
+        Inventory: {
+          InventoryId: 1182,
+          FilmId: 263,
+          Film: {
+            FilmId: 263,
+            Title: DURHAM PANKY,
+            Description: A Brilliant Panorama of a Girl And a Boy who must Face a Mad Scientist in An Abandoned Mine Shaft,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 4.99,
+            Length: 154,
+            ReplacementCost: 14.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_135,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 14699,
+        RentalDate: DateTime_136,
+        InventoryId: 1427,
+        Inventory: {
+          InventoryId: 1427,
+          FilmId: 312,
+          Film: {
+            FilmId: 312,
+            Title: FIDDLER LOST,
+            Description: A Boring Tale of a Squirrel And a Dog who must Challenge a Madman in The Gulf of Mexico,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 4.99,
+            Length: 75,
+            ReplacementCost: 20.99,
+            Rating: R,
+            SpecialFeatures: Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_137,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9443,
+        RentalDate: DateTime_138,
+        InventoryId: 1675,
+        Inventory: {
+          InventoryId: 1675,
+          FilmId: 366,
+          Film: {
+            FilmId: 366,
+            Title: GOLDFINGER SENSIBILITY,
+            Description: A Insightful Drama of a Mad Scientist And a Hunter who must Defeat a Pastry Chef in New Orleans,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 0.99,
+            Length: 93,
+            ReplacementCost: 29.99,
+            Rating: G,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_139,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 15038,
+        RentalDate: DateTime_140,
+        InventoryId: 1685,
+        Inventory: {
+          InventoryId: 1685,
+          FilmId: 367,
+          Film: {
+            FilmId: 367,
+            Title: GOLDMINE TYCOON,
+            Description: A Brilliant Epistle of a Composer And a Frisbee who must Conquer a Husband in The Outback,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 0.99,
+            Length: 153,
+            ReplacementCost: 20.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_141,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 4180,
+        RentalDate: DateTime_142,
+        InventoryId: 1704,
+        Inventory: {
+          InventoryId: 1704,
+          FilmId: 371,
+          Film: {
+            FilmId: 371,
+            Title: GOSFORD DONNIE,
+            Description: A Epic Panorama of a Mad Scientist And a Monkey who must Redeem a Secret Agent in Berlin,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 129,
+            ReplacementCost: 17.99,
+            Rating: G,
+            SpecialFeatures: Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_143,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 12556,
+        RentalDate: DateTime_144,
+        InventoryId: 1984,
+        Inventory: {
+          InventoryId: 1984,
+          FilmId: 433,
+          Film: {
+            FilmId: 433,
+            Title: HORN WORKING,
+            Description: A Stunning Display of a Mad Scientist And a Technical Writer who must Succumb a Monkey in A Shark Tank,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 2.99,
+            Length: 95,
+            ReplacementCost: 23.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_145,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 4725,
+        RentalDate: DateTime_146,
+        InventoryId: 2058,
+        Inventory: {
+          InventoryId: 2058,
+          FilmId: 447,
+          Film: {
+            FilmId: 447,
+            Title: ICE CROSSING,
+            Description: A Fast-Paced Tale of a Butler And a Moose who must Overcome a Pioneer in A Manhattan Penthouse,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 2.99,
+            Length: 131,
+            ReplacementCost: 28.99,
+            Rating: R,
+            SpecialFeatures: Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_147,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7703,
+        RentalDate: DateTime_148,
+        InventoryId: 2150,
+        Inventory: {
+          InventoryId: 2150,
+          FilmId: 464,
+          Film: {
+            FilmId: 464,
+            Title: INTENTIONS EMPIRE,
+            Description: A Astounding Epistle of a Cat And a Cat who must Conquer a Mad Cow in A U-Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 3,
+            RentalRate: 2.99,
+            Length: 107,
+            ReplacementCost: 13.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_149,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 15619,
+        RentalDate: DateTime_150,
+        InventoryId: 2468,
+        Inventory: {
+          InventoryId: 2468,
+          FilmId: 540,
+          Film: {
+            FilmId: 540,
+            Title: LUCKY FLYING,
+            Description: A Lacklusture Character Study of a A Shark And a Man who must Find a Forensic Psychologist in A U-Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 2.99,
+            Length: 97,
+            ReplacementCost: 10.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_151,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 13610,
+        RentalDate: DateTime_152,
+        InventoryId: 2526,
+        Inventory: {
+          InventoryId: 2526,
+          FilmId: 555,
+          Film: {
+            FilmId: 555,
+            Title: MALLRATS UNITED,
+            Description: A Thrilling Yarn of a Waitress And a Dentist who must Find a Hunter in A Monastery,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 0.99,
+            Length: 133,
+            ReplacementCost: 25.99,
+            Rating: PG,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_153,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 7096,
+        RentalDate: DateTime_154,
+        InventoryId: 2575,
+        Inventory: {
+          InventoryId: 2575,
+          FilmId: 563,
+          Film: {
+            FilmId: 563,
+            Title: MASSACRE USUAL,
+            Description: A Fateful Reflection of a Waitress And a Crocodile who must Challenge a Forensic Psychologist in California,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 4.99,
+            Length: 165,
+            ReplacementCost: 16.99,
+            Rating: R,
+            SpecialFeatures: Commentaries,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_155,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9595,
+        RentalDate: DateTime_156,
+        InventoryId: 2829,
+        Inventory: {
+          InventoryId: 2829,
+          FilmId: 621,
+          Film: {
+            FilmId: 621,
+            Title: NETWORK PEAK,
+            Description: A Unbelieveable Reflection of a Butler And a Boat who must Outgun a Mad Scientist in California,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 2.99,
+            Length: 75,
+            ReplacementCost: 23.99,
+            Rating: PG-13,
+            SpecialFeatures: Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_157,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 13403,
+        RentalDate: DateTime_158,
+        InventoryId: 3241,
+        Inventory: {
+          InventoryId: 3241,
+          FilmId: 711,
+          Film: {
+            FilmId: 711,
+            Title: RAGING AIRPLANE,
+            Description: A Astounding Display of a Secret Agent And a Technical Writer who must Escape a Mad Scientist in A Jet Boat,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 4.99,
+            Length: 154,
+            ReplacementCost: 18.99,
+            Rating: R,
+            SpecialFeatures: Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_159,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 8545,
+        RentalDate: DateTime_160,
+        InventoryId: 3261,
+        Inventory: {
+          InventoryId: 3261,
+          FilmId: 717,
+          Film: {
+            FilmId: 717,
+            Title: REAR TRADING,
+            Description: A Awe-Inspiring Reflection of a Forensic Psychologist And a Secret Agent who must Succumb a Pastry Chef in Soviet Georgia,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 0.99,
+            Length: 97,
+            ReplacementCost: 23.99,
+            Rating: NC-17,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_161,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 10597,
+        RentalDate: DateTime_162,
+        InventoryId: 3292,
+        Inventory: {
+          InventoryId: 3292,
+          FilmId: 725,
+          Film: {
+            FilmId: 725,
+            Title: REQUIEM TYCOON,
+            Description: A Unbelieveable Character Study of a Cat And a Database Administrator who must Pursue a Teacher in A Monastery,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 4.99,
+            Length: 167,
+            ReplacementCost: 25.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_163,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 435,
+        RentalDate: DateTime_164,
+        InventoryId: 3328,
+        Inventory: {
+          InventoryId: 3328,
+          FilmId: 732,
+          Film: {
+            FilmId: 732,
+            Title: RINGS HEARTBREAKERS,
+            Description: A Amazing Yarn of a Sumo Wrestler And a Boat who must Conquer a Waitress in New Orleans,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 0.99,
+            Length: 58,
+            ReplacementCost: 17.99,
+            Rating: G,
+            SpecialFeatures: Trailers,Commentaries,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_165,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 830,
+        RentalDate: DateTime_166,
+        InventoryId: 3464,
+        Inventory: {
+          InventoryId: 3464,
+          FilmId: 759,
+          Film: {
+            FilmId: 759,
+            Title: SALUTE APOLLO,
+            Description: A Awe-Inspiring Character Study of a Boy And a Feminist who must Sink a Crocodile in Ancient China,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 2.99,
+            Length: 73,
+            ReplacementCost: 29.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_167,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 1546,
+        RentalDate: DateTime_168,
+        InventoryId: 3913,
+        Inventory: {
+          InventoryId: 3913,
+          FilmId: 854,
+          Film: {
+            FilmId: 854,
+            Title: STRANGERS GRAFFITI,
+            Description: A Brilliant Character Study of a Secret Agent And a Man who must Find a Cat in The Gulf of Mexico,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 4,
+            RentalRate: 4.99,
+            Length: 119,
+            ReplacementCost: 22.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 2,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_169,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 2628,
+        RentalDate: DateTime_170,
+        InventoryId: 3917,
+        Inventory: {
+          InventoryId: 3917,
+          FilmId: 855,
+          Film: {
+            FilmId: 855,
+            Title: STREAK RIDGEMONT,
+            Description: A Astounding Character Study of a Hunter And a Waitress who must Sink a Man in New Orleans,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 7,
+            RentalRate: 0.99,
+            Length: 132,
+            ReplacementCost: 28.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_171,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9226,
+        RentalDate: DateTime_172,
+        InventoryId: 4315,
+        Inventory: {
+          InventoryId: 4315,
+          FilmId: 940,
+          Film: {
+            FilmId: 940,
+            Title: VICTORY ACADEMY,
+            Description: A Insightful Epistle of a Mad Scientist And a Explorer who must Challenge a Cat in The Sahara Desert,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 6,
+            RentalRate: 0.99,
+            Length: 64,
+            ReplacementCost: 19.99,
+            Rating: PG-13,
+            SpecialFeatures: Trailers,Behind the Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_173,
+        StaffId: 1,
+        LastUpdate: DateTime_7
+      },
+      {
+        RentalId: 9816,
+        RentalDate: DateTime_174,
+        InventoryId: 4560,
+        Inventory: {
+          InventoryId: 4560,
+          FilmId: 995,
+          Film: {
+            FilmId: 995,
+            Title: YENTL IDAHO,
+            Description: A Amazing Display of a Robot And a Astronaut who must Fight a Womanizer in Berlin,
+            ReleaseYear: 2006,
+            LanguageId: 1,
+            RentalDuration: 5,
+            RentalRate: 4.99,
+            Length: 86,
+            ReplacementCost: 11.99,
+            Rating: R,
+            SpecialFeatures: Trailers,Commentaries,Deleted Scenes,
+            LastUpdate: DateTime_4
+          },
+          StoreId: 1,
+          LastUpdate: DateTime_5
+        },
+        CustomerId: 3,
+        ReturnDate: DateTime_175,
+        StaffId: 2,
+        LastUpdate: DateTime_7
+      }
+    ]
+  }
+]

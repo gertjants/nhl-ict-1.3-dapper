@@ -1,0 +1,153 @@
+﻿[
+  {
+    BrewerId: 692,
+    Name: ALCATRAZ,
+    Country: USA,
+    Beers: [
+      {
+        BeerId: 778,
+        Name: BIG HOUSE RED,
+        Type: ALE, ENGLIS,
+        Style: IRISH RED,
+        Alcohol: 5.0,
+        BrewerId: 692,
+        Cafes: [
+          {}
+        ]
+      },
+      {
+        BeerId: 726,
+        Name: BIRDMAN BROWN,
+        Type: ALE, ENGLIS,
+        Style: BROWN,
+        Alcohol: 5.0,
+        BrewerId: 692,
+        Cafes: [
+          {
+            CafeId: 127,
+            Name: BURGEMEESTER,
+            Address: MARKT 40,
+            City: ETTEN LEUR
+          },
+          {
+            CafeId: 53,
+            Name: DE ROOSBERG,
+            Address: BAVELSE HEI 9,
+            City: BAVEL
+          },
+          {
+            CafeId: 96,
+            Name: PASSE PARTOUT,
+            Address: BRINK 7 -8,
+            City: DEVENTER
+          }
+        ]
+      },
+      {
+        BeerId: 726,
+        Name: BIRDMAN BROWN,
+        Type: ALE, ENGLIS,
+        Style: BROWN,
+        Alcohol: 5.0,
+        BrewerId: 692,
+        Cafes: [
+          {
+            CafeId: 127,
+            Name: BURGEMEESTER,
+            Address: MARKT 40,
+            City: ETTEN LEUR
+          },
+          {
+            CafeId: 53,
+            Name: DE ROOSBERG,
+            Address: BAVELSE HEI 9,
+            City: BAVEL
+          },
+          {
+            CafeId: 96,
+            Name: PASSE PARTOUT,
+            Address: BRINK 7 -8,
+            City: DEVENTER
+          }
+        ]
+      },
+      {
+        BeerId: 726,
+        Name: BIRDMAN BROWN,
+        Type: ALE, ENGLIS,
+        Style: BROWN,
+        Alcohol: 5.0,
+        BrewerId: 692,
+        Cafes: [
+          {
+            CafeId: 127,
+            Name: BURGEMEESTER,
+            Address: MARKT 40,
+            City: ETTEN LEUR
+          },
+          {
+            CafeId: 53,
+            Name: DE ROOSBERG,
+            Address: BAVELSE HEI 9,
+            City: BAVEL
+          },
+          {
+            CafeId: 96,
+            Name: PASSE PARTOUT,
+            Address: BRINK 7 -8,
+            City: DEVENTER
+          }
+        ]
+      },
+      {
+        BeerId: 1309,
+        Name: CABLE CAR STOUT,
+        Type: STOUT & POR,
+        Style: DRY,
+        Alcohol: 5.0,
+        BrewerId: 692,
+        Cafes: [
+          {}
+        ]
+      },
+      {
+        BeerId: 359,
+        Name: MAIBOCK,
+        Type: STRONG LAGE,
+        Style: BOCK,
+        Alcohol: 5.0,
+        BrewerId: 692,
+        Cafes: [
+          {}
+        ]
+      },
+      {
+        BeerId: 708,
+        Name: PELICAN PALE ALE,
+        Type: ALE, ENGLIS,
+        Style: BITTER/PALE,
+        Alcohol: 5.0,
+        BrewerId: 692,
+        Cafes: [
+          {
+            CafeId: 58,
+            Name: LIAN BAR,
+            Address: HOF 29,
+            City: BERGEYK
+          }
+        ]
+      },
+      {
+        BeerId: 1569,
+        Name: RASPBERRY WHEAT,
+        Type: SPECIAL,
+        Style: FRAGOLE,
+        Alcohol: 5.0,
+        BrewerId: 692,
+        Cafes: [
+          {}
+        ]
+      }
+    ]
+  }
+]

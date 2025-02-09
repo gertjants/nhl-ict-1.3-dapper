@@ -1,0 +1,33 @@
+﻿[
+  {
+    Cafe: AFFOURTIT,
+    Beeren: [
+      ABBAYE DE ROCS NOEL,
+      BLONDINE,
+      OLD JOCK,
+      PECHERESSE
+    ]
+  },
+  {
+    Cafe: ALLEMAN,
+    Beeren: [
+      EXMOOR ALE,
+      HARP,
+      LION STOUT,
+      MARSTON'S SINGLE MALT,
+      RED ERIC,
+      SIR HENRY'S STOUT,
+      VALLEY BEER MILD
+    ]
+  },
+  {
+    Cafe: ALT ARCE,
+    Beeren: [
+      AFFLIGEM TRIPLE,
+      BLUEBERRY,
+      BOON KRIEK,
+      LUCIFER,
+      SAINT OMER
+    ]
+  }
+]

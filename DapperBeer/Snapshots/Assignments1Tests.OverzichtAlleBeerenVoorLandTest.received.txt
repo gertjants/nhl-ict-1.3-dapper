@@ -1,0 +1,2306 @@
+﻿[
+  {
+    BeerId: 1512,
+    Name: 3 FONTEINEN OUDE GEUZE,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.0,
+    BrewerId: 680
+  },
+  {
+    BeerId: 952,
+    Name: ABBAYE DE ROCS NOEL,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 682
+  },
+  {
+    BeerId: 953,
+    Name: ABBAYE DES ROCS,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 682
+  },
+  {
+    BeerId: 999,
+    Name: MONTAGNARDE BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 7.5,
+    BrewerId: 682
+  },
+  {
+    BeerId: 1123,
+    Name: LA MONTAGNARDE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 682
+  },
+  {
+    BeerId: 1399,
+    Name: BLANCHE DES HONNELLES,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 6.0,
+    BrewerId: 682
+  },
+  {
+    BeerId: 1003,
+    Name: SERAFIJN CELTIC ANGEL,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 6.2,
+    BrewerId: 684
+  },
+  {
+    BeerId: 1137,
+    Name: SERAFIJN TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.0,
+    BrewerId: 684
+  },
+  {
+    BeerId: 994,
+    Name: AFFLIGEM BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 6.8,
+    BrewerId: 689
+  },
+  {
+    BeerId: 1026,
+    Name: AFFLIGEM DUBBEL,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.5,
+    BrewerId: 689
+  },
+  {
+    BeerId: 1213,
+    Name: WALLONIE,
+    Type: ALE, BELGIA,
+    Alcohol: 9.5,
+    BrewerId: 706
+  },
+  {
+    BeerId: 107,
+    Name: CLUB DE STELLA ARTOIS,
+    Type: LAGER,PALE,
+    Alcohol: 5.0,
+    BrewerId: 707
+  },
+  {
+    BeerId: 108,
+    Name: LOBURG,
+    Type: LAGER,PALE,
+    Alcohol: 5.0,
+    BrewerId: 707
+  },
+  {
+    BeerId: 109,
+    Name: STELLA ARTOIS,
+    Type: LAGER,PALE,
+    Alcohol: 5.0,
+    BrewerId: 707
+  },
+  {
+    BeerId: 948,
+    Name: VIEUX TEMPS,
+    Type: ALE, BELGIA,
+    Style: BELGIAN PALE,
+    Alcohol: 5.0,
+    BrewerId: 707
+  },
+  {
+    BeerId: 1004,
+    Name: ST. ERLIN,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 6.3,
+    BrewerId: 711
+  },
+  {
+    BeerId: 1017,
+    Name: PETRUS OUD BRUIN,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 5.5,
+    BrewerId: 731
+  },
+  {
+    BeerId: 1198,
+    Name: PETRUS WINTERBIER,
+    Type: ALE, BELGIA,
+    Alcohol: 6.5,
+    BrewerId: 731
+  },
+  {
+    BeerId: 1499,
+    Name: BELLEVUE FRAMBOISE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.2,
+    BrewerId: 739
+  },
+  {
+    BeerId: 1514,
+    Name: BELLEVUE GUEUZE LAMBIC,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.2,
+    BrewerId: 739
+  },
+  {
+    BeerId: 1522,
+    Name: BELLEVUE KRIEK LAMBIC,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 5.2,
+    BrewerId: 739
+  },
+  {
+    BeerId: 1075,
+    Name: BIERE DU BOUCANIER,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 11.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1085,
+    Name: PIRAAT,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 10.6,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1092,
+    Name: GULDEN DRAAK,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 11.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1115,
+    Name: BORNEM TRIPPEL,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1120,
+    Name: GENTSE TRIPEL,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1129,
+    Name: QUEUE DE CHARRUE BLONDE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1156,
+    Name: AUGUSTIJN,
+    Type: ALE, BELGIA,
+    Alcohol: 8.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1181,
+    Name: HY CUVEE,
+    Type: ALE, BELGIA,
+    Alcohol: 11.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1182,
+    Name: HY SUPER,
+    Type: ALE, BELGIA,
+    Alcohol: 11.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1192,
+    Name: LIVING 6.3,
+    Type: ALE, BELGIA,
+    Alcohol: 6.3,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1383,
+    Name: WILSON MILD STOUT,
+    Type: STOUT & POR,
+    Style: SWEET,
+    Alcohol: 5.0,
+    BrewerId: 748
+  },
+  {
+    BeerId: 1403,
+    Name: MEDITERRANEA,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 4.5,
+    BrewerId: 748
+  },
+  {
+    BeerId: 973,
+    Name: PATER NOSTER,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 6.3,
+    BrewerId: 749
+  },
+  {
+    BeerId: 1212,
+    Name: WAASE WOLF,
+    Type: ALE, BELGIA,
+    Alcohol: 6.5,
+    BrewerId: 760
+  },
+  {
+    BeerId: 1500,
+    Name: BOON FRAMBOISE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.0,
+    BrewerId: 762
+  },
+  {
+    BeerId: 1501,
+    Name: BOON FRAMBOISE 1997,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.0,
+    BrewerId: 762
+  },
+  {
+    BeerId: 1523,
+    Name: BOON KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 5.0,
+    BrewerId: 762
+  },
+  {
+    BeerId: 1142,
+    Name: TRIPLE KARMELIERT,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.0,
+    BrewerId: 764
+  },
+  {
+    BeerId: 1197,
+    Name: PAUWEL KWACK,
+    Type: ALE, BELGIA,
+    Alcohol: 5.0,
+    BrewerId: 764
+  },
+  {
+    BeerId: 968,
+    Name: LA GATTE D'OR,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 7.5,
+    BrewerId: 772
+  },
+  {
+    BeerId: 1498,
+    Name: BECASSE FRAMBOISE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.2,
+    BrewerId: 774
+  },
+  {
+    BeerId: 1513,
+    Name: BECASSE GUEUZE,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.0,
+    BrewerId: 774
+  },
+  {
+    BeerId: 1521,
+    Name: BECASSE KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 5.2,
+    BrewerId: 774
+  },
+  {
+    BeerId: 1128,
+    Name: MONT SAINT-AUBERT,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.0,
+    BrewerId: 788
+  },
+  {
+    BeerId: 1159,
+    Name: BRUNEHAUT TRADITION,
+    Type: ALE, BELGIA,
+    Alcohol: 6.5,
+    BrewerId: 788
+  },
+  {
+    BeerId: 1160,
+    Name: BRUNEHAUT VILLAGES,
+    Type: ALE, BELGIA,
+    Alcohol: 6.5,
+    BrewerId: 788
+  },
+  {
+    BeerId: 1188,
+    Name: L'ECUME DES JOURS,
+    Type: ALE, BELGIA,
+    Alcohol: 7.0,
+    BrewerId: 788
+  },
+  {
+    BeerId: 1492,
+    Name: IRIS 1996,
+    Type: LAMBIC,
+    Style: BARLEY (ORZO),
+    Alcohol: 5.0,
+    BrewerId: 802
+  },
+  {
+    BeerId: 1507,
+    Name: ROSE' DE GAMBRINUS,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.0,
+    BrewerId: 802
+  },
+  {
+    BeerId: 1511,
+    Name: VIGNERONNE,
+    Type: LAMBIC,
+    Style: GRAPE (UVA),
+    Alcohol: 5.0,
+    BrewerId: 802
+  },
+  {
+    BeerId: 1515,
+    Name: CANTILLON GUEUZE,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.0,
+    BrewerId: 802
+  },
+  {
+    BeerId: 1524,
+    Name: CANTILLON KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 5.0,
+    BrewerId: 802
+  },
+  {
+    BeerId: 1528,
+    Name: LOU PEPE KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 5.0,
+    BrewerId: 802
+  },
+  {
+    BeerId: 1532,
+    Name: CANTILLON LAMBIC,
+    Type: LAMBIC,
+    Style: LAMBIC,
+    Alcohol: 5.0,
+    BrewerId: 802
+  },
+  {
+    BeerId: 1534,
+    Name: GRAND CRU BRUOCSELLA 1996,
+    Type: LAMBIC,
+    Style: LAMBIC,
+    Alcohol: 5.0,
+    BrewerId: 802
+  },
+  {
+    BeerId: 1016,
+    Name: OUDENAAARDE CNUDDE,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 6.0,
+    BrewerId: 822
+  },
+  {
+    BeerId: 1022,
+    Name: ZOTTEGEMSE GRAND CRU,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 8.4,
+    BrewerId: 834
+  },
+  {
+    BeerId: 986,
+    Name: ZATTE BIE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 837
+  },
+  {
+    BeerId: 1178,
+    Name: HELLEKETERBIER,
+    Type: ALE, BELGIA,
+    Alcohol: 7.0,
+    BrewerId: 837
+  },
+  {
+    BeerId: 1086,
+    Name: SATAN GOLD,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 8.0,
+    BrewerId: 838
+  },
+  {
+    BeerId: 1117,
+    Name: DENDERMONDE TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.0,
+    BrewerId: 838
+  },
+  {
+    BeerId: 1516,
+    Name: DE CAM OUDE GEUZE,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 6.5,
+    BrewerId: 839
+  },
+  {
+    BeerId: 1076,
+    Name: BOSKEUN,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 8.9,
+    BrewerId: 840
+  },
+  {
+    BeerId: 1118,
+    Name: DULLE TEVE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 10.0,
+    BrewerId: 840
+  },
+  {
+    BeerId: 1126,
+    Name: LICHTERVELDS BLONDE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 840
+  },
+  {
+    BeerId: 1194,
+    Name: OERBIER,
+    Type: ALE, BELGIA,
+    Alcohol: 7.5,
+    BrewerId: 840
+  },
+  {
+    BeerId: 1205,
+    Name: STILLE NACHT,
+    Type: ALE, BELGIA,
+    Alcohol: 9.0,
+    BrewerId: 840
+  },
+  {
+    BeerId: 1322,
+    Name: EXPORT STOUT,
+    Type: STOUT & POR,
+    Style: IMPERIAL,
+    Alcohol: 9.0,
+    BrewerId: 840
+  },
+  {
+    BeerId: 1036,
+    Name: STEENBRUGGE DUBBEL,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.5,
+    BrewerId: 841
+  },
+  {
+    BeerId: 1116,
+    Name: BRUGSE TRIPEL,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 841
+  },
+  {
+    BeerId: 1139,
+    Name: STEENBRUGGE TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 841
+  },
+  {
+    BeerId: 1396,
+    Name: BLANCHE DE BRUGES,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 5.0,
+    BrewerId: 841
+  },
+  {
+    BeerId: 1157,
+    Name: BLONDINE,
+    Type: ALE, BELGIA,
+    Alcohol: 9.0,
+    BrewerId: 842
+  },
+  {
+    BeerId: 1161,
+    Name: BRUNETTE,
+    Type: ALE, BELGIA,
+    Alcohol: 9.0,
+    BrewerId: 842
+  },
+  {
+    BeerId: 1493,
+    Name: MORT SUBITE CASSIS,
+    Type: LAMBIC,
+    Style: CASSIS,
+    Alcohol: 3.5,
+    BrewerId: 843
+  },
+  {
+    BeerId: 1506,
+    Name: MORT SUBITE FRAMBOISE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 4.5,
+    BrewerId: 843
+  },
+  {
+    BeerId: 1518,
+    Name: MORT SUBITE GUEUZE,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.0,
+    BrewerId: 843
+  },
+  {
+    BeerId: 1529,
+    Name: MORT SUBITE KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 5.0,
+    BrewerId: 843
+  },
+  {
+    BeerId: 1536,
+    Name: MORT SUBITE PECHE,
+    Type: LAMBIC,
+    Style: PECHE,
+    Alcohol: 4.0,
+    BrewerId: 843
+  },
+  {
+    BeerId: 1031,
+    Name: S. BENEDICT,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.5,
+    BrewerId: 845
+  },
+  {
+    BeerId: 1082,
+    Name: JULIUS,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 8.7,
+    BrewerId: 845
+  },
+  {
+    BeerId: 1179,
+    Name: HOEGAARDS GRAND CRU,
+    Type: ALE, BELGIA,
+    Alcohol: 8.7,
+    BrewerId: 845
+  },
+  {
+    BeerId: 1183,
+    Name: IL FRUTTO PROIBITO,
+    Type: ALE, BELGIA,
+    Alcohol: 8.0,
+    BrewerId: 845
+  },
+  {
+    BeerId: 1401,
+    Name: HOEGAARDS DAS,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 5.0,
+    BrewerId: 845
+  },
+  {
+    BeerId: 1402,
+    Name: HOEGAARDS WIT,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 5.0,
+    BrewerId: 845
+  },
+  {
+    BeerId: 943,
+    Name: CUVEE' DE KONINK,
+    Type: ALE, BELGIA,
+    Style: BELGIAN PALE,
+    Alcohol: 8.0,
+    BrewerId: 846
+  },
+  {
+    BeerId: 944,
+    Name: DE KONINK,
+    Type: ALE, BELGIA,
+    Style: BELGIAN PALE,
+    Alcohol: 5.0,
+    BrewerId: 846
+  },
+  {
+    BeerId: 1503,
+    Name: DE NEVE FRAMBOISE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.0,
+    BrewerId: 847
+  },
+  {
+    BeerId: 1509,
+    Name: S. PIERRE FRAMBOISE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.2,
+    BrewerId: 847
+  },
+  {
+    BeerId: 1567,
+    Name: BLOEMENBIER,
+    Type: SPECIAL,
+    Style: FIORI (FLOWERS),
+    Alcohol: 7.0,
+    BrewerId: 848
+  },
+  {
+    BeerId: 1214,
+    Name: XX BITTER,
+    Type: ALE, BELGIA,
+    Alcohol: 6.2,
+    BrewerId: 849
+  },
+  {
+    BeerId: 1561,
+    Name: KRIEK DE RANKE,
+    Type: SPECIAL,
+    Style: CILIEGE,
+    Alcohol: 7.0,
+    BrewerId: 849
+  },
+  {
+    BeerId: 883,
+    Name: NAPOLEON,
+    Type: ALE, ENGLIS,
+    Style: STRONG SCOTCH,
+    Alcohol: 8.0,
+    BrewerId: 851
+  },
+  {
+    BeerId: 1013,
+    Name: GROTTENBIER,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 6.5,
+    BrewerId: 851
+  },
+  {
+    BeerId: 1180,
+    Name: HOTTEUSE-BIERE DE CHINY,
+    Type: ALE, BELGIA,
+    Alcohol: 8.0,
+    BrewerId: 851
+  },
+  {
+    BeerId: 954,
+    Name: AFFLIGEM XMAS,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 853
+  },
+  {
+    BeerId: 1113,
+    Name: AFFLIGEM TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.5,
+    BrewerId: 853
+  },
+  {
+    BeerId: 1170,
+    Name: FORMULA ANT. RENOVATA,
+    Type: ALE, BELGIA,
+    Alcohol: 10.0,
+    BrewerId: 853
+  },
+  {
+    BeerId: 995,
+    Name: BLONDE DES PERES,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 6.0,
+    BrewerId: 854
+  },
+  {
+    BeerId: 1090,
+    Name: ADA 10,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 10.0,
+    BrewerId: 854
+  },
+  {
+    BeerId: 1166,
+    Name: DE BROGNE BLONDE,
+    Type: ALE, BELGIA,
+    Alcohol: 5.0,
+    BrewerId: 855
+  },
+  {
+    BeerId: 1020,
+    Name: SNOECK BRUIN,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 5.5,
+    BrewerId: 856
+  },
+  {
+    BeerId: 1497,
+    Name: CHAPEAU FRAISES,
+    Type: LAMBIC,
+    Style: FRAISES,
+    Alcohol: 3.0,
+    BrewerId: 857
+  },
+  {
+    BeerId: 1502,
+    Name: CHAPEAU FRAMBOISE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.0,
+    BrewerId: 857
+  },
+  {
+    BeerId: 1208,
+    Name: TER DOLEN,
+    Type: ALE, BELGIA,
+    Alcohol: 6.0,
+    BrewerId: 867
+  },
+  {
+    BeerId: 959,
+    Name: CUVEE DE NOEL,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.5,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1005,
+    Name: WALLONIE ARTISANS BRASSEURS,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 6.5,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1032,
+    Name: S. BENOIT BRUNE,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.3,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1105,
+    Name: SAISON REGAL,
+    Type: ALE, BELGIA,
+    Style: SAISON,
+    Alcohol: 6.5,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1143,
+    Name: TRIPLE MOINE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.0,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1171,
+    Name: GAULOISE,
+    Type: ALE, BELGIA,
+    Alcohol: 8.2,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1172,
+    Name: GAULOISE BLONDE,
+    Type: ALE, BELGIA,
+    Alcohol: 7.0,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1173,
+    Name: GAULOISE BRUNE,
+    Type: ALE, BELGIA,
+    Alcohol: 8.5,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1177,
+    Name: GRAND MONARQUE,
+    Type: ALE, BELGIA,
+    Alcohol: 8.4,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1185,
+    Name: KNIGHT'S ALE,
+    Type: ALE, BELGIA,
+    Alcohol: 6.0,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1203,
+    Name: REGAL CHRISTMAS,
+    Type: ALE, BELGIA,
+    Alcohol: 9.0,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1397,
+    Name: BLANCHE DE NAMUR,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 4.5,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1398,
+    Name: BLANCHE DE NOEL,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 4.2,
+    BrewerId: 874
+  },
+  {
+    BeerId: 1114,
+    Name: AGNUS DEI,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.0,
+    BrewerId: 875
+  },
+  {
+    BeerId: 532,
+    Name: BUSH BEER,
+    Type: ALE, ENGLIS,
+    Style: BARLEY WINE,
+    Alcohol: 12.0,
+    BrewerId: 877
+  },
+  {
+    BeerId: 533,
+    Name: BUSH NOEL,
+    Type: ALE, ENGLIS,
+    Style: BARLEY WINE,
+    Alcohol: 12.0,
+    BrewerId: 877
+  },
+  {
+    BeerId: 1077,
+    Name: BUSH BLONDE,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 10.5,
+    BrewerId: 877
+  },
+  {
+    BeerId: 1162,
+    Name: BUSH 7,
+    Type: ALE, BELGIA,
+    Alcohol: 7.0,
+    BrewerId: 877
+  },
+  {
+    BeerId: 971,
+    Name: MOINETTE BLONDE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.5,
+    BrewerId: 878
+  },
+  {
+    BeerId: 972,
+    Name: MOINETTE BRUNE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.5,
+    BrewerId: 878
+  },
+  {
+    BeerId: 1102,
+    Name: CERVESIA,
+    Type: ALE, BELGIA,
+    Style: SAISON,
+    Alcohol: 8.5,
+    BrewerId: 878
+  },
+  {
+    BeerId: 1104,
+    Name: SAISON DUPONT,
+    Type: ALE, BELGIA,
+    Style: SAISON,
+    Alcohol: 6.5,
+    BrewerId: 878
+  },
+  {
+    BeerId: 1098,
+    Name: ULTRABRUNE,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 10.0,
+    BrewerId: 880
+  },
+  {
+    BeerId: 1200,
+    Name: QUINTINE,
+    Type: ALE, BELGIA,
+    Alcohol: 8.0,
+    BrewerId: 890
+  },
+  {
+    BeerId: 1201,
+    Name: QUINTINE AMBREE,
+    Type: ALE, BELGIA,
+    Alcohol: 8.5,
+    BrewerId: 890
+  },
+  {
+    BeerId: 1323,
+    Name: HERCULE STOUT,
+    Type: STOUT & POR,
+    Style: IMPERIAL,
+    Alcohol: 9.0,
+    BrewerId: 890
+  },
+  {
+    BeerId: 1405,
+    Name: SAISIS,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 6.2,
+    BrewerId: 890
+  },
+  {
+    BeerId: 1505,
+    Name: FRATER AMBROSIUS,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.0,
+    BrewerId: 902
+  },
+  {
+    BeerId: 964,
+    Name: JOYEUX NOEL,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 904
+  },
+  {
+    BeerId: 1560,
+    Name: NERKENBERRY,
+    Type: SPECIAL,
+    Style: CHOCO/BERRY,
+    Alcohol: 3.0,
+    BrewerId: 912
+  },
+  {
+    BeerId: 979,
+    Name: ST. FEUILLEN CUVEE DE NOEL,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 922
+  },
+  {
+    BeerId: 1138,
+    Name: ST. FEUILLEN TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.5,
+    BrewerId: 922
+  },
+  {
+    BeerId: 1517,
+    Name: GIRARDIN GUEUZE,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.0,
+    BrewerId: 935
+  },
+  {
+    BeerId: 1525,
+    Name: GIRARDIN KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 5.0,
+    BrewerId: 935
+  },
+  {
+    BeerId: 1533,
+    Name: GIRARDIN LAMBIC,
+    Type: LAMBIC,
+    Style: LAMBIC,
+    Alcohol: 5.0,
+    BrewerId: 935
+  },
+  {
+    BeerId: 1030,
+    Name: GERARDUS KLOOSTERBIER DUBBEL,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 7.0,
+    BrewerId: 949
+  },
+  {
+    BeerId: 1027,
+    Name: CHARLES QUINT,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 7.0,
+    BrewerId: 951
+  },
+  {
+    BeerId: 1174,
+    Name: GILDENBIER,
+    Type: ALE, BELGIA,
+    Alcohol: 7.0,
+    BrewerId: 951
+  },
+  {
+    BeerId: 1209,
+    Name: TONGERLO,
+    Type: ALE, BELGIA,
+    Alcohol: 6.0,
+    BrewerId: 951
+  },
+  {
+    BeerId: 1526,
+    Name: HANSSENS OUDE KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 5.0,
+    BrewerId: 961
+  },
+  {
+    BeerId: 1015,
+    Name: MECHELSCHEN BRUYNEN,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 5.5,
+    BrewerId: 978
+  },
+  {
+    BeerId: 1140,
+    Name: TOISON D'OR TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.0,
+    BrewerId: 978
+  },
+  {
+    BeerId: 1175,
+    Name: GOUDEN CAROLUS,
+    Type: ALE, BELGIA,
+    Alcohol: 7.4,
+    BrewerId: 978
+  },
+  {
+    BeerId: 1176,
+    Name: GOUDEN CAROLUS AMBRIO,
+    Type: ALE, BELGIA,
+    Alcohol: 6.5,
+    BrewerId: 978
+  },
+  {
+    BeerId: 945,
+    Name: KETJE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN PALE,
+    Alcohol: 5.0,
+    BrewerId: 992
+  },
+  {
+    BeerId: 1078,
+    Name: DELIRIUM TREMENS,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 9.0,
+    BrewerId: 994
+  },
+  {
+    BeerId: 1083,
+    Name: LA GUILLOTINE,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 9.1,
+    BrewerId: 994
+  },
+  {
+    BeerId: 1133,
+    Name: S. MICHAEL,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 6.8,
+    BrewerId: 994
+  },
+  {
+    BeerId: 1141,
+    Name: TRAP 40,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 994
+  },
+  {
+    BeerId: 1155,
+    Name: ARTEVELDE GRAND CRU,
+    Type: ALE, BELGIA,
+    Alcohol: 6.7,
+    BrewerId: 994
+  },
+  {
+    BeerId: 1169,
+    Name: FIREFOX,
+    Type: ALE, BELGIA,
+    Alcohol: 7.0,
+    BrewerId: 994
+  },
+  {
+    BeerId: 1585,
+    Name: MONGOZO PALMNUT,
+    Type: SPECIAL,
+    Style: PALM,
+    Alcohol: 7.0,
+    BrewerId: 994
+  },
+  {
+    BeerId: 1586,
+    Name: MONGOZO QUINOA,
+    Type: SPECIAL,
+    Style: QUINOA,
+    Alcohol: 5.9,
+    BrewerId: 994
+  },
+  {
+    BeerId: 13,
+    Name: JUPILER PILS,
+    Type: LAGER,PALE,
+    Style: PILSEN,
+    Alcohol: 5.0,
+    BrewerId: 1008
+  },
+  {
+    BeerId: 15,
+    Name: VEGA,
+    Type: LAGER,PALE,
+    Style: PILSEN,
+    Alcohol: 5.0,
+    BrewerId: 1008
+  },
+  {
+    BeerId: 960,
+    Name: EX LIBRIS,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 7.0,
+    BrewerId: 1029
+  },
+  {
+    BeerId: 965,
+    Name: LA BINCHOISE BRUNE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.2,
+    BrewerId: 1033
+  },
+  {
+    BeerId: 966,
+    Name: LA BINCHOISE NOEL,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 1033
+  },
+  {
+    BeerId: 997,
+    Name: GRIBOUSINE MALONNE BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 9.0,
+    BrewerId: 1033
+  },
+  {
+    BeerId: 1577,
+    Name: BIERE DES OURS,
+    Type: SPECIAL,
+    Style: HONEY (MIELE),
+    Alcohol: 9.0,
+    BrewerId: 1033
+  },
+  {
+    BeerId: 1095,
+    Name: N'ICE CHOUFFE,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 10.0,
+    BrewerId: 1034
+  },
+  {
+    BeerId: 1186,
+    Name: LA CHOUFFE,
+    Type: ALE, BELGIA,
+    Alcohol: 8.0,
+    BrewerId: 1034
+  },
+  {
+    BeerId: 998,
+    Name: LA TRAPPE BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 6.5,
+    BrewerId: 1039
+  },
+  {
+    BeerId: 1207,
+    Name: SUPER DES FAGNES,
+    Type: ALE, BELGIA,
+    Alcohol: 8.0,
+    BrewerId: 1047
+  },
+  {
+    BeerId: 970,
+    Name: MOEDER OVERSTE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 1049
+  },
+  {
+    BeerId: 1029,
+    Name: FLOREFFE DOUBLE,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 7.0,
+    BrewerId: 1049
+  },
+  {
+    BeerId: 1576,
+    Name: BARBAR,
+    Type: SPECIAL,
+    Style: HONEY (MIELE),
+    Alcohol: 5.0,
+    BrewerId: 1049
+  },
+  {
+    BeerId: 955,
+    Name: BONNE ESPERANCE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 1050
+  },
+  {
+    BeerId: 961,
+    Name: FLOREFFE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 1051
+  },
+  {
+    BeerId: 1014,
+    Name: LIEFMANS GOUDENBAND,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 6.0,
+    BrewerId: 1055
+  },
+  {
+    BeerId: 1184,
+    Name: JAN VAN GENT,
+    Type: ALE, BELGIA,
+    Alcohol: 5.5,
+    BrewerId: 1055
+  },
+  {
+    BeerId: 1552,
+    Name: LIEFMANS KRIEK,
+    Type: SPECIAL,
+    Style: CHERRY(CILIEGE),
+    Alcohol: 7.1,
+    BrewerId: 1055
+  },
+  {
+    BeerId: 1570,
+    Name: LIEFMANS FRAMBOISE,
+    Type: SPECIAL,
+    Style: FRAMBOISE,
+    Alcohol: 5.1,
+    BrewerId: 1055
+  },
+  {
+    BeerId: 1496,
+    Name: LINDEMANS FARO LAMBIC,
+    Type: LAMBIC,
+    Style: FARO,
+    Alcohol: 5.0,
+    BrewerId: 1056
+  },
+  {
+    BeerId: 1504,
+    Name: FRAMBOISE FOUDROYANTE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.0,
+    BrewerId: 1056
+  },
+  {
+    BeerId: 1527,
+    Name: LINDEMANS KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 6.0,
+    BrewerId: 1056
+  },
+  {
+    BeerId: 1537,
+    Name: PECHERESSE,
+    Type: LAMBIC,
+    Style: PECHE,
+    Alcohol: 3.0,
+    BrewerId: 1056
+  },
+  {
+    BeerId: 1080,
+    Name: HAPKIN,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 8.5,
+    BrewerId: 1061
+  },
+  {
+    BeerId: 974,
+    Name: RADIEUSE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.5,
+    BrewerId: 1064
+  },
+  {
+    BeerId: 983,
+    Name: VIEILLE CUVEE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 1064
+  },
+  {
+    BeerId: 1125,
+    Name: LEFFE TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.4,
+    BrewerId: 1064
+  },
+  {
+    BeerId: 1189,
+    Name: LEFFE BLONDE,
+    Type: ALE, BELGIA,
+    Alcohol: 6.0,
+    BrewerId: 1064
+  },
+  {
+    BeerId: 1190,
+    Name: LEFFE BRUNE,
+    Type: ALE, BELGIA,
+    Alcohol: 6.2,
+    BrewerId: 1064
+  },
+  {
+    BeerId: 1191,
+    Name: LEFFE ROSSA,
+    Type: ALE, BELGIA,
+    Alcohol: 6.5,
+    BrewerId: 1064
+  },
+  {
+    BeerId: 14,
+    Name: MAES PILS,
+    Type: LAGER,PALE,
+    Style: PILSEN,
+    Alcohol: 5.0,
+    BrewerId: 1066
+  },
+  {
+    BeerId: 1106,
+    Name: SEZOENS,
+    Type: ALE, BELGIA,
+    Style: SAISON,
+    Alcohol: 6.0,
+    BrewerId: 1075
+  },
+  {
+    BeerId: 1154,
+    Name: ALDEGONDE,
+    Type: ALE, BELGIA,
+    Alcohol: 8.5,
+    BrewerId: 1084
+  },
+  {
+    BeerId: 1079,
+    Name: DUVEL,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 8.6,
+    BrewerId: 1090
+  },
+  {
+    BeerId: 1168,
+    Name: DUVEL BRUNE,
+    Type: ALE, BELGIA,
+    Alcohol: 5.0,
+    BrewerId: 1090
+  },
+  {
+    BeerId: 1193,
+    Name: MAREDSOUS 6,
+    Type: ALE, BELGIA,
+    Alcohol: 6.8,
+    BrewerId: 1090
+  },
+  {
+    BeerId: 969,
+    Name: MAREDSOUS 8,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 1091
+  },
+  {
+    BeerId: 1127,
+    Name: MAREDSOUS 10,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 10.0,
+    BrewerId: 1091
+  },
+  {
+    BeerId: 984,
+    Name: VLETEREN ALT,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 1099
+  },
+  {
+    BeerId: 1530,
+    Name: OUD BEERSEL OUDE KRIEK,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 6.2,
+    BrewerId: 1124
+  },
+  {
+    BeerId: 1210,
+    Name: UIZET,
+    Type: ALE, BELGIA,
+    Alcohol: 6.8,
+    BrewerId: 1126
+  },
+  {
+    BeerId: 942,
+    Name: AERST 1900,
+    Type: ALE, BELGIA,
+    Style: BELGIAN PALE,
+    Alcohol: 8.0,
+    BrewerId: 1129
+  },
+  {
+    BeerId: 946,
+    Name: PALM SPECIALE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN PALE,
+    Alcohol: 5.0,
+    BrewerId: 1129
+  },
+  {
+    BeerId: 1000,
+    Name: RADER BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 6.5,
+    BrewerId: 1156
+  },
+  {
+    BeerId: 1024,
+    Name: ABB DE FLANDRES DOUBLE,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 5.0,
+    BrewerId: 1168
+  },
+  {
+    BeerId: 1084,
+    Name: LUCIFER,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 9.0,
+    BrewerId: 1168
+  },
+  {
+    BeerId: 1130,
+    Name: RIVA ABBEY TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.5,
+    BrewerId: 1168
+  },
+  {
+    BeerId: 1136,
+    Name: S.ARNOLDUS,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.2,
+    BrewerId: 1168
+  },
+  {
+    BeerId: 1400,
+    Name: DENTERGEM'S WITBIER,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 5.0,
+    BrewerId: 1168
+  },
+  {
+    BeerId: 1001,
+    Name: ROCHEFORTOISE BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 6.2,
+    BrewerId: 1170
+  },
+  {
+    BeerId: 1204,
+    Name: ROCHEFORTOISE WINTER,
+    Type: ALE, BELGIA,
+    Alcohol: 12.0,
+    BrewerId: 1170
+  },
+  {
+    BeerId: 1044,
+    Name: RODENBACH,
+    Type: ALE, BELGIA,
+    Style: FLEMISH SOUR,
+    Alcohol: 5.0,
+    BrewerId: 1172
+  },
+  {
+    BeerId: 1045,
+    Name: RODENBACH ALEXANDER,
+    Type: ALE, BELGIA,
+    Style: FLEMISH SOUR,
+    Alcohol: 5.1,
+    BrewerId: 1172
+  },
+  {
+    BeerId: 1046,
+    Name: RODENBACH GRAND CRU,
+    Type: ALE, BELGIA,
+    Style: FLEMISH SOUR,
+    Alcohol: 5.2,
+    BrewerId: 1172
+  },
+  {
+    BeerId: 947,
+    Name: SLOEBER,
+    Type: ALE, BELGIA,
+    Style: BELGIAN PALE,
+    Alcohol: 7.5,
+    BrewerId: 1175
+  },
+  {
+    BeerId: 1019,
+    Name: ROMAN OUDENAARDS,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 5.0,
+    BrewerId: 1175
+  },
+  {
+    BeerId: 1028,
+    Name: ENAMEL DUBBEL,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.5,
+    BrewerId: 1175
+  },
+  {
+    BeerId: 1119,
+    Name: ENAMEL TRIPEL,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 1175
+  },
+  {
+    BeerId: 1002,
+    Name: RULLES BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 7.0,
+    BrewerId: 1182
+  },
+  {
+    BeerId: 977,
+    Name: S. SIXTUS (BERN.) PATER,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 6.2,
+    BrewerId: 1183
+  },
+  {
+    BeerId: 1097,
+    Name: S. SIXTUS (BERN.) ABT,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 10.0,
+    BrewerId: 1183
+  },
+  {
+    BeerId: 1135,
+    Name: S. SIXTUS (BERN.) TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.5,
+    BrewerId: 1183
+  },
+  {
+    BeerId: 978,
+    Name: SILENRIEUX NOEL,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 7.5,
+    BrewerId: 1216
+  },
+  {
+    BeerId: 884,
+    Name: SCOTCH DE SILLY,
+    Type: ALE, ENGLIS,
+    Style: STRONG SCOTCH,
+    Alcohol: 8.0,
+    BrewerId: 1217
+  },
+  {
+    BeerId: 967,
+    Name: LA DIVINE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 1217
+  },
+  {
+    BeerId: 1103,
+    Name: SAISON DE SILLY,
+    Type: ALE, BELGIA,
+    Style: SAISON,
+    Alcohol: 5.0,
+    BrewerId: 1217
+  },
+  {
+    BeerId: 1167,
+    Name: DOUBLE ENGHIEN,
+    Type: ALE, BELGIA,
+    Alcohol: 8.0,
+    BrewerId: 1217
+  },
+  {
+    BeerId: 1146,
+    Name: WITKAP PATER TRIPEL,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.5,
+    BrewerId: 1223
+  },
+  {
+    BeerId: 980,
+    Name: ST. MONON AMBREE',
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 6.5,
+    BrewerId: 1237
+  },
+  {
+    BeerId: 981,
+    Name: ST. MONON BRUNE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 7.5,
+    BrewerId: 1237
+  },
+  {
+    BeerId: 1578,
+    Name: ST. MONON AU MIEL,
+    Type: SPECIAL,
+    Style: HONEY (MIELE),
+    Alcohol: 8.0,
+    BrewerId: 1237
+  },
+  {
+    BeerId: 1033,
+    Name: S. DENISE DARK,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.9,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1034,
+    Name: S. LAURENT DOUBLE,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.9,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1035,
+    Name: S. SEBASTIAN DARK,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.9,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1131,
+    Name: S. DENISE GRAND CRU,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.6,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1132,
+    Name: S. LAURENT TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.6,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1134,
+    Name: S. SEBASTIAN GRAND CRU,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.6,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1187,
+    Name: LA RESERVE DE L'ABBESSE,
+    Type: ALE, BELGIA,
+    Alcohol: 7.6,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1195,
+    Name: OREGON RODEO BEER,
+    Type: ALE, BELGIA,
+    Alcohol: 4.3,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1404,
+    Name: OREGON WHITE BEER,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 5.5,
+    BrewerId: 1248
+  },
+  {
+    BeerId: 1021,
+    Name: STRAFFE HENDRIJK BRUIN,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 8.5,
+    BrewerId: 1253
+  },
+  {
+    BeerId: 1206,
+    Name: STRAFFE HENDRIK,
+    Type: ALE, BELGIA,
+    Alcohol: 6.5,
+    BrewerId: 1253
+  },
+  {
+    BeerId: 1012,
+    Name: BOURGOGNE DES FLANDRES,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 5.0,
+    BrewerId: 1268
+  },
+  {
+    BeerId: 1495,
+    Name: TIMMERMANS CASSIS,
+    Type: LAMBIC,
+    Style: CASSIS,
+    Alcohol: 5.5,
+    BrewerId: 1268
+  },
+  {
+    BeerId: 1531,
+    Name: TIMMERMANS PECHE,
+    Type: LAMBIC,
+    Style: KRIEK,
+    Alcohol: 4.5,
+    BrewerId: 1268
+  },
+  {
+    BeerId: 1539,
+    Name: TIMMERMANS KRIEK,
+    Type: LAMBIC,
+    Style: PECHE,
+    Alcohol: 5.5,
+    BrewerId: 1268
+  },
+  {
+    BeerId: 993,
+    Name: ACHEL BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 8.0,
+    BrewerId: 1274
+  },
+  {
+    BeerId: 1025,
+    Name: ACHEL DONKER,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 8.0,
+    BrewerId: 1274
+  },
+  {
+    BeerId: 956,
+    Name: CHIMAY TAPPO BIANCO,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 1275
+  },
+  {
+    BeerId: 957,
+    Name: CHIMAY TAPPO BLU,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 1275
+  },
+  {
+    BeerId: 958,
+    Name: CHIMAY TAPPO ROSSO,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 7.0,
+    BrewerId: 1275
+  },
+  {
+    BeerId: 1196,
+    Name: ORVAL,
+    Type: ALE, BELGIA,
+    Alcohol: 5.7,
+    BrewerId: 1278
+  },
+  {
+    BeerId: 975,
+    Name: ROCHEFORT 6,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 7.5,
+    BrewerId: 1279
+  },
+  {
+    BeerId: 976,
+    Name: ROCHEFORT 8,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.2,
+    BrewerId: 1279
+  },
+  {
+    BeerId: 1096,
+    Name: ROCHEFORT 10,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 11.3,
+    BrewerId: 1279
+  },
+  {
+    BeerId: 1037,
+    Name: WESTMALLE DOUBLE,
+    Type: ALE, BELGIA,
+    Style: DUBBEL,
+    Alcohol: 6.5,
+    BrewerId: 1280
+  },
+  {
+    BeerId: 1145,
+    Name: WESTMALLE TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 1280
+  },
+  {
+    BeerId: 985,
+    Name: WESTVLETEREN 8,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 1281
+  },
+  {
+    BeerId: 1006,
+    Name: WESTVLETEREN BLOND,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 5.8,
+    BrewerId: 1281
+  },
+  {
+    BeerId: 1099,
+    Name: WESTVLETEREN 12,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 10.6,
+    BrewerId: 1281
+  },
+  {
+    BeerId: 573,
+    Name: WELLINGTON PALE ALE,
+    Type: ALE, ENGLIS,
+    Style: BITTER/PALE,
+    Alcohol: 5.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 885,
+    Name: WELLINGTON SCOTCH ALE,
+    Type: ALE, ENGLIS,
+    Style: STRONG SCOTCH,
+    Alcohol: 5.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 962,
+    Name: GRIMBERGEN,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 5.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 996,
+    Name: CINEY BLONDE,
+    Type: ALE, BELGIA,
+    Style: BLONDE,
+    Alcohol: 7.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 1081,
+    Name: JUDAS,
+    Type: ALE, BELGIA,
+    Style: GOLDEN,
+    Alcohol: 8.5,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 1091,
+    Name: GRIMBERGEN OPTIMO BRUNO,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 10.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 1121,
+    Name: GRIMBERGER TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 7.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 1163,
+    Name: CINEY BRUNE,
+    Type: ALE, BELGIA,
+    Alcohol: 7.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 1164,
+    Name: CINEY SPECIALE,
+    Type: ALE, BELGIA,
+    Alcohol: 9.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 1165,
+    Name: CUVEE DE L'ERMITAGE,
+    Type: ALE, BELGIA,
+    Alcohol: 5.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 1202,
+    Name: RED LION,
+    Type: ALE, BELGIA,
+    Alcohol: 5.0,
+    BrewerId: 1298
+  },
+  {
+    BeerId: 951,
+    Name: ABBAYE D'AULNE TRIPLE BRUNE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 1307
+  },
+  {
+    BeerId: 982,
+    Name: VAL-DIEU BRUNE,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 8.0,
+    BrewerId: 1308
+  },
+  {
+    BeerId: 1144,
+    Name: VAL DIEU TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 9.0,
+    BrewerId: 1308
+  },
+  {
+    BeerId: 1211,
+    Name: VAL-DIEU AMBREE,
+    Type: ALE, BELGIA,
+    Alcohol: 7.0,
+    BrewerId: 1308
+  },
+  {
+    BeerId: 1124,
+    Name: LAMORAL TRIPEL,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 8.0,
+    BrewerId: 1311
+  },
+  {
+    BeerId: 1382,
+    Name: BUFFALO,
+    Type: STOUT & POR,
+    Style: SWEET,
+    Alcohol: 6.5,
+    BrewerId: 1311
+  },
+  {
+    BeerId: 1510,
+    Name: VAN DER LINDEN FRAMBOZEN,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 7.0,
+    BrewerId: 1312
+  },
+  {
+    BeerId: 1535,
+    Name: DUIVELS,
+    Type: LAMBIC,
+    Style: LAMBIC+ALE,
+    Alcohol: 5.0,
+    BrewerId: 1312
+  },
+  {
+    BeerId: 963,
+    Name: HET KAPITTEL PRIOR,
+    Type: ALE, BELGIA,
+    Style: BELGIAN STRONG,
+    Alcohol: 9.0,
+    BrewerId: 1313
+  },
+  {
+    BeerId: 1093,
+    Name: HET KAPITTEL ABT,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 10.0,
+    BrewerId: 1313
+  },
+  {
+    BeerId: 1199,
+    Name: POPERINGS HOMMEL BIER,
+    Type: ALE, BELGIA,
+    Alcohol: 7.5,
+    BrewerId: 1313
+  },
+  {
+    BeerId: 1406,
+    Name: WATOU BLANCHE,
+    Type: WHEAT (GRAN,
+    Style: BLANCHE-WIT,
+    Alcohol: 5.0,
+    BrewerId: 1313
+  },
+  {
+    BeerId: 1042,
+    Name: BACCHUS,
+    Type: ALE, BELGIA,
+    Style: FLEMISH SOUR,
+    Alcohol: 4.6,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 1094,
+    Name: KASTEEL,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 12.0,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 1122,
+    Name: KASTEEL TRIPLE,
+    Type: ALE, BELGIA,
+    Style: TRIPLE,
+    Alcohol: 11.0,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 1158,
+    Name: BRIGAND,
+    Type: ALE, BELGIA,
+    Alcohol: 9.0,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 1494,
+    Name: S. LOUIS CASSIS,
+    Type: LAMBIC,
+    Style: CASSIS,
+    Alcohol: 5.0,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 1508,
+    Name: S. LOUIS FRAMBOISE,
+    Type: LAMBIC,
+    Style: FRAMBOISE,
+    Alcohol: 5.0,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 1519,
+    Name: S. LOUIS GUEUZE,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.0,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 1520,
+    Name: VIEUX BRUGES,
+    Type: LAMBIC,
+    Style: GUEUZE,
+    Alcohol: 5.0,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 1538,
+    Name: S. LOUIS PECHE,
+    Type: LAMBIC,
+    Style: PECHE,
+    Alcohol: 5.0,
+    BrewerId: 1314
+  },
+  {
+    BeerId: 12,
+    Name: HOPPE,
+    Type: LAGER,PALE,
+    Style: PILSEN,
+    Alcohol: 5.0,
+    BrewerId: 1315
+  },
+  {
+    BeerId: 534,
+    Name: LA COCHONNETTE,
+    Type: ALE, ENGLIS,
+    Style: BARLEY WINE,
+    Alcohol: 9.5,
+    BrewerId: 1316
+  },
+  {
+    BeerId: 1018,
+    Name: QUEUE DE CHARRUE,
+    Type: ALE, BELGIA,
+    Style: BRUIN,
+    Alcohol: 5.4,
+    BrewerId: 1321
+  },
+  {
+    BeerId: 1043,
+    Name: CAVES,
+    Type: ALE, BELGIA,
+    Style: FLEMISH SOUR,
+    Alcohol: 5.5,
+    BrewerId: 1321
+  }
+]

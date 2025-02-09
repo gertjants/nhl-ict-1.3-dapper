@@ -1,0 +1,186 @@
+﻿[
+  {
+    Country: GER,
+    NumberOfBreweries: 127
+  },
+  {
+    Country: BEL,
+    NumberOfBreweries: 108
+  },
+  {
+    Country: ENG,
+    NumberOfBreweries: 104
+  },
+  {
+    Country: USA,
+    NumberOfBreweries: 81
+  },
+  {
+    Country: ITA,
+    NumberOfBreweries: 55
+  },
+  {
+    Country: FRA,
+    NumberOfBreweries: 39
+  },
+  {
+    Country: NED,
+    NumberOfBreweries: 26
+  },
+  {
+    Country: AUT,
+    NumberOfBreweries: 19
+  },
+  {
+    Country: SCO,
+    NumberOfBreweries: 19
+  },
+  {
+    Country: DEN,
+    NumberOfBreweries: 11
+  },
+  {
+    Country: SUI,
+    NumberOfBreweries: 10
+  },
+  {
+    Country: IRL,
+    NumberOfBreweries: 9
+  },
+  {
+    Country: JAP,
+    NumberOfBreweries: 7
+  },
+  {
+    Country: CEC,
+    NumberOfBreweries: 5
+  },
+  {
+    Country: MEX,
+    NumberOfBreweries: 4
+  },
+  {
+    Country: CAN,
+    NumberOfBreweries: 4
+  },
+  {
+    Country: YUG,
+    NumberOfBreweries: 4
+  },
+  {
+    Country: POL,
+    NumberOfBreweries: 3
+  },
+  {
+    Country: NOR,
+    NumberOfBreweries: 3
+  },
+  {
+    Country: SPA,
+    NumberOfBreweries: 3
+  },
+  {
+    Country: INDIA,
+    NumberOfBreweries: 3
+  },
+  {
+    Country: CUBA,
+    NumberOfBreweries: 2
+  },
+  {
+    Country: CINA,
+    NumberOfBreweries: 2
+  },
+  {
+    Country: AUS,
+    NumberOfBreweries: 2
+  },
+  {
+    Country: POR,
+    NumberOfBreweries: 2
+  },
+  {
+    Country: SLO,
+    NumberOfBreweries: 2
+  },
+  {
+    Country: FIN,
+    NumberOfBreweries: 2
+  },
+  {
+    Country: BRA,
+    NumberOfBreweries: 2
+  },
+  {
+    Country: SWE,
+    NumberOfBreweries: 2
+  },
+  {
+    Country: FIL,
+    NumberOfBreweries: 1
+  },
+  {
+    Country:   ISR,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: KEN,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: NIRL,
+    NumberOfBreweries: 1
+  },
+  {
+    Country:  CINA,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: URSS,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: MALTA,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: ISL,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: SHK,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: PERU,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: HON,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: DOM,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: TAH,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: WAL,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: THAI,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: BIR,
+    NumberOfBreweries: 1
+  },
+  {
+    Country: SING,
+    NumberOfBreweries: 1
+  }
+]

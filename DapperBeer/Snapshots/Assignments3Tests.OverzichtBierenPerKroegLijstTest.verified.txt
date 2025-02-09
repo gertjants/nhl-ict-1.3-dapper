@@ -1,0 +1,1457 @@
+﻿[
+  {
+    CafeNaam: ABSOLUUT
+  },
+  {
+    CafeNaam: AFFOURTIT,
+    BeerNames: [
+      ABBAYE DE ROCS NOEL,BLONDINE,OLD JOCK,PECHERESSE
+    ]
+  },
+  {
+    CafeNaam: ALLEMAN,
+    BeerNames: [
+      EXMOOR ALE,HARP,LION STOUT,MARSTON'S SINGLE MALT,RED ERIC,SIR HENRY'S STOUT,VALLEY BEER MILD
+    ]
+  },
+  {
+    CafeNaam: ALT ARCE,
+    BeerNames: [
+      AFFLIGEM TRIPLE,BLUEBERRY,BOON KRIEK,LUCIFER,SAINT OMER
+    ]
+  },
+  {
+    CafeNaam: ALTSTADT,
+    BeerNames: [
+      ALESMITH'S ESB,GRAND CRU BRUOCSELLA 1996,KADEWE,LA MONTAGNARDE,LOBURG,MONT SAINT-AUBERT,RASPBERRY TART,SAPPORO BLACK BEER,WESTVLETEREN 12
+    ]
+  },
+  {
+    CafeNaam: APARTHOTEL REKREATIECENTR DELDEN,
+    BeerNames: [
+      BISHOP'S ALE,GARDE KOLSCH,HELEN PIVO,PIETRA NOEL,PRIDE OF ROMSEY,RIVA ABBEY TRIPLE,VELDENSTEINER PILSENER
+    ]
+  },
+  {
+    CafeNaam: BACCHUS,
+    BeerNames: [
+      NERKENBERRY,PRINZ BRAU PREMIUM,SIXTUS,VAL-DIEU BRUNE
+    ]
+  },
+  {
+    CafeNaam: BAR BECOLOTH,
+    BeerNames: [
+      EDELWEISS HEFETRUB,OKTOBERFESTBIER,THERESIANER STRONG ALE,TIMMERMANS PECHE
+    ]
+  },
+  {
+    CafeNaam: BAR MENEER JANSEN,
+    BeerNames: [
+      GRIMBERGER TRIPLE,TRIFTERN WEIZE,ZYWIEC PORTER
+    ]
+  },
+  {
+    CafeNaam: BEEKMAN EN BEEKMAN,
+    BeerNames: [
+      BARBARA,EISBOCK,FESTIVE ALE,LIMFJORD PORTER,SILENRIEUX NOEL,YOUNG'S BITTER
+    ]
+  },
+  {
+    CafeNaam: BELGISCHE KEIZER
+  },
+  {
+    CafeNaam: BERGER
+  },
+  {
+    CafeNaam: BERLAGE,
+    BeerNames: [
+      'T SCHOENLAPPERTJE,ARCEN BOCK,CELIS WHITE,HARP,LIMFJORD PORTER
+    ]
+  },
+  {
+    CafeNaam: BESTEK
+  },
+  {
+    CafeNaam: BIG BULL
+  },
+  {
+    CafeNaam: BLIJBURG AAN ZEE,
+    BeerNames: [
+      SILENRIEUX NOEL
+    ]
+  },
+  {
+    CafeNaam: BLUESCAFE,
+    BeerNames: [
+      ABBAYE DES ROCS,BRUNE DU BALADIN,ENTIRE STOUT,MIRROR POND PALE ALE,ROYAL BRAND
+    ]
+  },
+  {
+    CafeNaam: BOEGSCHROEF,
+    BeerNames: [
+      HANSA PILS,LA BINCHOISE BRUNE,MANNLICH,S. LAURENT DOUBLE,SHARP'S SPECIAL,SNOW CAP
+    ]
+  },
+  {
+    CafeNaam: BOEKANIER
+  },
+  {
+    CafeNaam: BOERKE VERSCHUREN,
+    BeerNames: [
+      1066,ANGELUS,FALKENTURM,NIGRA,ST. ANDREWS,ZYWIEC PORTER
+    ]
+  },
+  {
+    CafeNaam: BOMMEL
+  },
+  {
+    CafeNaam: BOOGIE WONDERLAND
+  },
+  {
+    CafeNaam: BORDEAUX,
+    BeerNames: [
+      AVENTINUS,INDIA PALE ALE,KLOSTERBRAU,MANNLICH,RASPBERRY TART,ULTRABRUNE
+    ]
+  },
+  {
+    CafeNaam: BOSPOP 2005
+  },
+  {
+    CafeNaam: BOVEN WATER,
+    BeerNames: [
+      1492,MONKSCROFT HOUSE ALE,OLD BARLEY IMPERIAL,WILSON MILD STOUT
+    ]
+  },
+  {
+    CafeNaam: BUCKSHOT,
+    BeerNames: [
+      BEAUBOURG,BUSH 7,CASTELBERG,CLUB DE STELLA ARTOIS,GOLDIE BARLEY WINE,IMPERIAL STOUT,PERBACCO,VALLEY CONTINENTAL LAGER,WETZLARER ALT
+    ]
+  },
+  {
+    CafeNaam: BURGEMEESTER,
+    BeerNames: [
+      150 ANNIVERSARIO AMBRATA,BIRDMAN BROWN,CERVESIA,COURAGE (BEST) BITTER,IPA,ULTRABRUNE
+    ]
+  },
+  {
+    CafeNaam: CAFE 'T HOF
+  },
+  {
+    CafeNaam: CAFE BASS
+  },
+  {
+    CafeNaam: CAFE BLAAKVEN
+  },
+  {
+    CafeNaam: CAFE CLOUSO
+  },
+  {
+    CafeNaam: CAFE DE BOEMEL
+  },
+  {
+    CafeNaam: CAFE DE COMPAGNIE
+  },
+  {
+    CafeNaam: CAFE DE KARRE
+  },
+  {
+    CafeNaam: CAFE DE KLOK
+  },
+  {
+    CafeNaam: CAFE DE SLEUTEL
+  },
+  {
+    CafeNaam: CAFE DE SWAEN
+  },
+  {
+    CafeNaam: CAFE DE TWEE
+  },
+  {
+    CafeNaam: CAFE DU COMMERCE
+  },
+  {
+    CafeNaam: CAFE GOTCHA
+  },
+  {
+    CafeNaam: CAFE HARMONIE
+  },
+  {
+    CafeNaam: CAFE SCHUTTERSHOEVE
+  },
+  {
+    CafeNaam: CAFE SUYKERBUYK
+  },
+  {
+    CafeNaam: CAFE ZOMERHOF
+  },
+  {
+    CafeNaam: CAMINO REAL
+  },
+  {
+    CafeNaam: CASABLANCA,
+    BeerNames: [
+      ASTRA,BEAMISH STOUT,BEAUBOURG,GATZWEILERS ALT,LA DIVINE,MACKESON,VALDERA
+    ]
+  },
+  {
+    CafeNaam: CASINO,
+    BeerNames: [
+      BLONDE DU BALADIN,ESTASI,TONGERLO
+    ]
+  },
+  {
+    CafeNaam: CELEBRATION
+  },
+  {
+    CafeNaam: CENTRAAL
+  },
+  {
+    CafeNaam: CHOC0LATE BAR,
+    BeerNames: [
+      BARNEY FLATS,S. SIXTUS (BERN.) TRIPLE,SUSSEX BEST BITTER
+    ]
+  },
+  {
+    CafeNaam: CORDES
+  },
+  {
+    CafeNaam: CUBA LIBRE
+  },
+  {
+    CafeNaam: D ARTAGNAN
+  },
+  {
+    CafeNaam: D INGEL
+  },
+  {
+    CafeNaam: D N BEL,
+    BeerNames: [
+      CHESTER BROWN,FOWLER'S WEE HEAVY,OLD STOCK ALE,RAUCH PORTER,SEZOENS,VAL DIEU TRIPLE,WRASSLER'S XXXX
+    ]
+  },
+  {
+    CafeNaam: D N HEMEL
+  },
+  {
+    CafeNaam: DE BANJAARD
+  },
+  {
+    CafeNaam: DE BARON,
+    BeerNames: [
+      BARRIQUEE,BERGBOCK DUNKEL,BOON FRAMBOISE 1997,DOPPO AMBER,GAMBRINUS DOPPELBOCK,GUINNESS COOL CASK,LUTECE,MAREDSOUS 6
+    ]
+  },
+  {
+    CafeNaam: DE BEL
+  },
+  {
+    CafeNaam: DE BENGEL,
+    BeerNames: [
+      EINBECKER URBOCK,GOSSER DARK,ROSEN PILS,SION KOLSCH,SOHO RED
+    ]
+  },
+  {
+    CafeNaam: DE BEURS
+  },
+  {
+    CafeNaam: DE BEUZE
+  },
+  {
+    CafeNaam: DE BOSCHWACHTER,
+    BeerNames: [
+      CASTA MORENA,FURSTENBERG,KITZMANN EDELPILS,S. LOUIS GUEUZE
+    ]
+  },
+  {
+    CafeNaam: DE BOSUIL
+  },
+  {
+    CafeNaam: DE BOUT
+  },
+  {
+    CafeNaam: DE BRINK VIJF
+  },
+  {
+    CafeNaam: DE BROUWER
+  },
+  {
+    CafeNaam: DE BURCHT
+  },
+  {
+    CafeNaam: DE BUREN VAN SCHIMMELPENNINCK,
+    BeerNames: [
+      BROOKLIN LAGER,BRUNEHAUT VILLAGES,FOUR PEAKS OATMEAL STOUT,IMMORT'ALE,JEVER PILSENER,O'HANLONS PORT STOUT,TRIPLE MOINE,TULIPAN,UNERTL WEISSBIER,WOLF STOUT
+    ]
+  },
+  {
+    CafeNaam: DE BUURVROUW
+  },
+  {
+    CafeNaam: DE CLOWN,
+    BeerNames: [
+      VLETEREN ALT,WALLACE
+    ]
+  },
+  {
+    CafeNaam: DE DAMPKRING,
+    BeerNames: [
+      S. LAURENT DOUBLE,SAISON DU BI-DU,SPENDRUP'S ORIGINAL,SUN DEVIL'S I.P.A.,VIEUX TEMPS
+    ]
+  },
+  {
+    CafeNaam: DE DIKKE
+  },
+  {
+    CafeNaam: DE DIKKE VAN DALE
+  },
+  {
+    CafeNaam: DE DORPSHERBERG
+  },
+  {
+    CafeNaam: DE DRIE LINDEN
+  },
+  {
+    CafeNaam: DE DUVEL,
+    BeerNames: [
+      1837 IPA,BRUGSE TRIPEL,CUVEE DE L'ERMITAGE,FAXE,VIEILLE CUVEE,ZIPFER MARZEN
+    ]
+  },
+  {
+    CafeNaam: DE ENGEL,
+    BeerNames: [
+      MAREDSOUS 6,S. SMITH'S DARK MILD,SUMMER LIGHTNING,ZIPPIL
+    ]
+  },
+  {
+    CafeNaam: DE FANTAST
+  },
+  {
+    CafeNaam: DE FONTEYN,
+    BeerNames: [
+      1830 AMBER,CHIMAY TAPPO BLU,EGGENBERGER FESTBOCK,IND COOPE PALE ALE
+    ]
+  },
+  {
+    CafeNaam: DE FRANCISKANER,
+    BeerNames: [
+      N.1,PERBACCO,PIRAAT
+    ]
+  },
+  {
+    CafeNaam: DE GEERE
+  },
+  {
+    CafeNaam: DE GEKROONDE SUIKERBIET
+  },
+  {
+    CafeNaam: DE GEREGHTHOF
+  },
+  {
+    CafeNaam: DE GOUDEN ENGEL
+  },
+  {
+    CafeNaam: DE GROENE VLINDER,
+    BeerNames: [
+      ANIMATOR,BAJA TRIPLE,BOMBAY BOMBER,CALANDA WEIZEN,STONES BITTER
+    ]
+  },
+  {
+    CafeNaam: DE HAVERKIST
+  },
+  {
+    CafeNaam: DE HEBBERD,
+    BeerNames: [
+      CREMONA,EGGENBERGER FESTBOCK,HET KAPITTEL ABT,MCFARLAND,PAULVER LAGER,ST. GEORGE
+    ]
+  },
+  {
+    CafeNaam: DE HERBERG
+  },
+  {
+    CafeNaam: DE KEMPEN
+  },
+  {
+    CafeNaam: DE KERKBRINK,
+    BeerNames: [
+      ADA 10,BLONDE DES PERES,DEVIL'S KISS,PAULANER HELL URTYP,PAULANER WEISS DUNKEL,S. VICTOR'S,YORKSHIRE BITTER,ZLATOROG CLUB
+    ]
+  },
+  {
+    CafeNaam: DE KEULSE KAR
+  },
+  {
+    CafeNaam: DE KEYZER
+  },
+  {
+    CafeNaam: DE KOGELVANGER,
+    BeerNames: [
+      BELLEVUE KRIEK LAMBIC,CAESAURUS,FIOR DI LUPPOLO,GOLDIE BARLEY WINE,HERTOG JAN TRIPLE,ROXANNE,UERIGE ALT
+    ]
+  },
+  {
+    CafeNaam: DE KOMBUIS,
+    BeerNames: [
+      GAMBRINUS DOPPELBOCK,OLD GUARDIAN,RUDDLE'S BARLEY WINE,SHARP'S WILLI,STARKENBERGER DUNKEL,YEBISU
+    ]
+  },
+  {
+    CafeNaam: DE KOPEREN TUIN
+  },
+  {
+    CafeNaam: DE KRAM,
+    BeerNames: [
+      ARROGANT BASTARD ALE,ASTRA,KIRIN STOUT,LA TOURMENTE DE MARS,MCFARLAND,RED MAC GREGOR,SUSSEX BEST BITTER
+    ]
+  },
+  {
+    CafeNaam: DE KROEG,
+    BeerNames: [
+      BELHAVEN PALE ALE,JULIUS,SKULLSPLITTER,SPELTOR
+    ]
+  },
+  {
+    CafeNaam: DE LEUGENAAR
+  },
+  {
+    CafeNaam: DE LINDEBOOM,
+    BeerNames: [
+      ARROL'S 80/-,GOLDSTADT 22,HEN'S TOOTH,HOOK NORTON BITTER,S. SIXTUS (BERN.) ABT
+    ]
+  },
+  {
+    CafeNaam: DE LOCHT
+  },
+  {
+    CafeNaam: DE MEESTER
+  },
+  {
+    CafeNaam: DE MERT,
+    BeerNames: [
+      IL FRUTTO PROIBITO,JUDAS,MASTERPIECE IPA,PELFORTH FRESH,REDSON
+    ]
+  },
+  {
+    CafeNaam: DE MIDDENSTIP,
+    BeerNames: [
+      AMSTEL ZOMMER,CITTAVECCHIA WEIZEN,DOUBLE ENGHIEN,EXMOOR FOX,FUSCA,MARTIN'S PALE ALE,PAUWEL KWACK,TABACHERA
+    ]
+  },
+  {
+    CafeNaam: DE MORIAAN ETEN EN DRINKEN
+  },
+  {
+    CafeNaam: DE ONTMOETING
+  },
+  {
+    CafeNaam: DE PASTORIE,
+    BeerNames: [
+      BATEMANS XB,BELHAVEN 80/-,INSAINE,MONCHSGOLD,SAGRES,WORTHINGTON EXPORT ALE
+    ]
+  },
+  {
+    CafeNaam: DE PIJP,
+    BeerNames: [
+      ALLOA EXPORT 80/-,EXTRA HOP,MC EWANS SCOTCH ALE,RUFUS BOCK,S. DENISE DARK
+    ]
+  },
+  {
+    CafeNaam: DE PINTELIER
+  },
+  {
+    CafeNaam: DE PLAATS
+  },
+  {
+    CafeNaam: DE POORTWACHTER,
+    BeerNames: [
+      EPI NOIR,HEINEKEN BOCK
+    ]
+  },
+  {
+    CafeNaam: DE POSTHOORN,
+    BeerNames: [
+      CREST SUPER,LA TRAPPE DUBBEL
+    ]
+  },
+  {
+    CafeNaam: DE ROOSBERG,
+    BeerNames: [
+      BIRDMAN BROWN,OUDENAAARDE CNUDDE,WAASE WOLF,YOUNGER'S N.3
+    ]
+  },
+  {
+    CafeNaam: DE ROOSTER
+  },
+  {
+    CafeNaam: DE RUIF,
+    BeerNames: [
+      CALANDA WEIZEN,CAMPBELL SCOTCH ALE,HANSSENS OUDE KRIEK,SCHAFLY SCOTCH ALE,STAROPRAMEN GRANAT,TENNENT'S 70/-,TRAQUAIR ANNIVERSARY,WAASE WOLF
+    ]
+  },
+  {
+    CafeNaam: DE SLEUTEL
+  },
+  {
+    CafeNaam: DE SLUYSWACHT,
+    BeerNames: [
+      709,ADNAMS BITTER,APPENZELLER WEIZEN,GEORGE KILLIAN'S
+    ]
+  },
+  {
+    CafeNaam: DE STAALMEESTERS,
+    BeerNames: [
+      ABBATIALE,BUSH,DOUBLE CHOCOLATE,FLAG PORTER,HERCULE STOUT,MOLTOMALTO,OLD HOOKY,RODENBACH ALEXANDER,WESTVLETEREN 12
+    ]
+  },
+  {
+    CafeNaam: DE STEE
+  },
+  {
+    CafeNaam: DE SWAEN
+  },
+  {
+    CafeNaam: DE TEERKAMER,
+    BeerNames: [
+      HEAVYWEIGHT,IRIS 1996,JACOBITE ALE,MANN'S BROWN,MOULIN ROUGE,QUOLLFRISCH,S. GEORGEN BOCK
+    ]
+  },
+  {
+    CafeNaam: DE TIP,
+    BeerNames: [
+      ZAHRE AFFUMICATA
+    ]
+  },
+  {
+    CafeNaam: DE TOOG,
+    BeerNames: [
+      BOHEMIA LAGER,BRAIN'S DARK,GAULOISE BLONDE,LOCKWOODS EXPORT BIER,ROAD DOG,SPATENGOLD
+    ]
+  },
+  {
+    CafeNaam: DE TUIN
+  },
+  {
+    CafeNaam: DE VALK
+  },
+  {
+    CafeNaam: DE VERGULDE GAPER,
+    BeerNames: [
+      DOUBLE HOP,GIRARDIN KRIEK,JULIUS,KING'S ALE,NEW QUAY STEAM STOUT
+    ]
+  },
+  {
+    CafeNaam: DE VOORTUIN
+  },
+  {
+    CafeNaam: DE VOSSENBERG
+  },
+  {
+    CafeNaam: DE WITTE HOEVE
+  },
+  {
+    CafeNaam: DE WITTE ZWAAN,
+    BeerNames: [
+      FELDSCHLOSSCHEN PILSN.,LICHTERVELDS BLONDE,MERLIN'S PILSENER,TANGLEFOOT,TIMMERMANS CASSIS,ZLATOROG PIVO
+    ]
+  },
+  {
+    CafeNaam: DE WOLTHOORN,
+    BeerNames: [
+      HANNEN ALT,MORT SUBITE FRAMBOISE,NEERLANDS ALE 21
+    ]
+  },
+  {
+    CafeNaam: DE YPELAAR,
+    BeerNames: [
+      FLEURETTE,LA FABBRICA WEIZE,PUSTERTALER WEIZEN,QUOLLFRISCH,SCHWARZE WEISSE,TENNENT'S LAGER,XB
+    ]
+  },
+  {
+    CafeNaam: DE ZAAK
+  },
+  {
+    CafeNaam: DE ZEEMEEUW
+  },
+  {
+    CafeNaam: DE ZEVEN GEITJES
+  },
+  {
+    CafeNaam: DE ZUIDWAL
+  },
+  {
+    CafeNaam: DE ZWAAN
+  },
+  {
+    CafeNaam: DE ZWIJGER
+  },
+  {
+    CafeNaam: DEN BELS
+  },
+  {
+    CafeNaam: DEN BROOY,
+    BeerNames: [
+      BOON FRAMBOISE 1997,BRITT BLANCHE,CINEY BRUNE,FARGO,MICA,N'ICE CHOUFFE,PANIL BLONDE,SPECIAL LONDON ALE,STEELHEAD AMBER
+    ]
+  },
+  {
+    CafeNaam: DEN HOEK
+  },
+  {
+    CafeNaam: DEPENDANCE,
+    BeerNames: [
+      BROUGHTON SPECIAL,S. MIGUEL,WHITE WIFE,ZIPPIL
+    ]
+  },
+  {
+    CafeNaam: DINGSPILHUUS,
+    BeerNames: [
+      ANCHOR PORTER,BOMBAY BOMBER,GAULOISE,MONGOZO QUINOA,OUD LIMBOURGS,ROCHEFORT 6
+    ]
+  },
+  {
+    CafeNaam: DONKENHOF
+  },
+  {
+    CafeNaam: DORPSZICHT
+  },
+  {
+    CafeNaam: DU BASTION,
+    BeerNames: [
+      AMBAR,BROWN BEAR,BROWN BEAR,DON DE DIEU,GREEN ROCKY,LOSCHER PILS,MONTESTELLA,POINT LOMA PORTER,TEKKNO
+    ]
+  },
+  {
+    CafeNaam: EEMS HOTEL,
+    BeerNames: [
+      BUSH BLONDE,SERAFIJN TRIPLE,TIGER
+    ]
+  },
+  {
+    CafeNaam: EETCAFE BULLS,
+    BeerNames: [
+      BLANCHEE,DOUGLAS XMAS,OLD STOCK ALE,WOW!
+    ]
+  },
+  {
+    CafeNaam: EETCAFE DE SLOOTHAAK,
+    BeerNames: [
+      CHASING TAIL,DOMM,EVERARDS OLD BILL,HOFBRAU ROYAL,OWD ROGER,SKULLSPLITTER,TROMPE LA MORT,WOW!
+    ]
+  },
+  {
+    CafeNaam: EXTASE
+  },
+  {
+    CafeNaam: FABELS,
+    BeerNames: [
+      BOON KRIEK,CALANDA ICE,CASTLEMAINE XXXX,DOS EQUIS LAGER,PETE'S WICKED SUMMER,SPENDRUP'S EXPORT,STRAWBERRY & CREAM,VALENTINUS HEFE WEIZEN
+    ]
+  },
+  {
+    CafeNaam: FESTINA LENTE,
+    BeerNames: [
+      MC EWANS EXPORT,MOLINGS,NEW YORK RED,VON WUNSTER
+    ]
+  },
+  {
+    CafeNaam: FILMHUIS,
+    BeerNames: [
+      COLUMBUS STIEGL PILS,HENNINGER MEISTER,INSAINE,ORANJEBOOM DE LUXE,ST. FEUILLEN TRIPLE,TROIS PISTOLES,VECCHIO BIRRAIO AMBRATA
+    ]
+  },
+  {
+    CafeNaam: FLOOW
+  },
+  {
+    CafeNaam: FRAPPANT,
+    BeerNames: [
+      IPA,ORANJEBOOM DARK,PASKE BRYG,RE ALE,SAMUEL ADAMS OCTOBERFEST,WHITBREAD PALE,YOUNG ROWLEY 29/7/81
+    ]
+  },
+  {
+    CafeNaam: FRESH FASHION DE VERLEIDING,
+    BeerNames: [
+      AMBRA,BARBARA,OLD STOCK ALE,OZUJSKO PIVO,VALENTINUS HEFE WEIZEN,WEIHENSTEPHAN
+    ]
+  },
+  {
+    CafeNaam: GASTERIJ SMITS
+  },
+  {
+    CafeNaam: GERAATS,
+    BeerNames: [
+      BARBU',CLASSIC,FORST PILS,JACK FROST,LA CHOULETTE AMBREE',ROSE' DE GAMBRINUS,ROXANNE,SHELTER PALE ALE,ST. MONON BRUNE
+    ]
+  },
+  {
+    CafeNaam: GILZE,
+    BeerNames: [
+      BALTIKA PORTER,GROLSCH LAGER,VECCHIO PESCATORE
+    ]
+  },
+  {
+    CafeNaam: GONZO BAR
+  },
+  {
+    CafeNaam: GRANDCAFE T GELAGH,
+    BeerNames: [
+      DREHER,GORDON'S FINEST RED,OUWE DAEN WIT,SAMICHLAUS DARK
+    ]
+  },
+  {
+    CafeNaam: HAAGSCHE KLUISCH
+  },
+  {
+    CafeNaam: HAARLEMS KOFFIEHUIS,
+    BeerNames: [
+      PACIFIC RIDGE,SERAFIJN CELTIC ANGEL,TRIPLE KARMELIERT
+    ]
+  },
+  {
+    CafeNaam: HARMONIE THORN
+  },
+  {
+    CafeNaam: HEEMSKERK,
+    BeerNames: [
+      BIGFOOT,GEORGE KILLIAN'S,JOHN COURAGE EXPORT,OLD HORIZONTAL,OLD RASPUTIN,QUINTINE
+    ]
+  },
+  {
+    CafeNaam: HEEREHUYS
+  },
+  {
+    CafeNaam: HEEREN VAN BARENDRECHT,
+    BeerNames: [
+      DOUGLAS SCOTCH,RED ERIC,RED RIBBON,SUSSEX IMPERIAL STOUT
+    ]
+  },
+  {
+    CafeNaam: HEEREN VAN BEIJERLAND
+  },
+  {
+    CafeNaam: HEEREN VAN SLIEDRECHT
+  },
+  {
+    CafeNaam: HEERENPLEIN UTRECHT
+  },
+  {
+    CafeNaam: HEKSENKETEL
+  },
+  {
+    CafeNaam: HERBERG 'T PLEIN
+  },
+  {
+    CafeNaam: HERENGRACHT,
+    BeerNames: [
+      BOONT AMBER,FIOR DI LUPPOLO,GOUDEN CAROLUS AMBRIO,HARVIESTOUN BELGIAN WHITE,HIRTER EXPORT PILS,OLD STOCK,RAPUNZEL EXPORT,SNOECK BRUIN,TYROLIAN BRAU,YOUNGER'S SCOTCH
+    ]
+  },
+  {
+    CafeNaam: HERMES,
+    BeerNames: [
+      AMBER SHOCK,BLANCHE DE CHAMBY,BRUNE DU BALADIN,IMPERIAL STOUT,JULEBRYG,NERKENBERRY,SOVEREIGN BEST BITTER,VIGNERONNE
+    ]
+  },
+  {
+    CafeNaam: HERTOG JAN,
+    BeerNames: [
+      DELICATOR,HOPF DUNKLE,QUOLLFRISCH,XIAOYU
+    ]
+  },
+  {
+    CafeNaam: HET BLAAUWHOOFT,
+    BeerNames: [
+      CERVESIA,KILKENNY IRISH BEER,OLD SLUG PORTER,S.NICOLO',SHOREDITCH STOUT,SPECIAL CHRISTMAS
+    ]
+  },
+  {
+    CafeNaam: HET BRUIN KAFEE
+  },
+  {
+    CafeNaam: HET CENTRUM
+  },
+  {
+    CafeNaam: HET HOFJE
+  },
+  {
+    CafeNaam: HET PAKHUIS,
+    BeerNames: [
+      CESARUM 1,HEFEWEIZEN,HOLSTEN EXPORT,SAISON DUPONT,SCHAFLY DOPPELBOCK,SHARP'S WILLI
+    ]
+  },
+  {
+    CafeNaam: HET VEULEN
+  },
+  {
+    CafeNaam: HET WAPEN VAN NIEUW BEIJERLAND
+  },
+  {
+    CafeNaam: HET WITTE PAARD,
+    BeerNames: [
+      BANDERSNATCH 25TH,LA CHOULETTE AMBREE',SHARKBITE,STELVIO WEISS
+    ]
+  },
+  {
+    CafeNaam: HEUVEL 15
+  },
+  {
+    CafeNaam: HEUVEL 3
+  },
+  {
+    CafeNaam: HILL STREET BLUES,
+    BeerNames: [
+      RIJSELS,VOLL DAMM
+    ]
+  },
+  {
+    CafeNaam: HOEGAARDEN,
+    BeerNames: [
+      BREDA,EXTRA HOP,FAT TIRE,KRONENBOURG,OLD BREWERY PALE,REICHELBRAU FESTBIER,ST. ANDREWS,TRIPLE DIAMOND
+    ]
+  },
+  {
+    CafeNaam: HOEGAARDEN TILBURG
+  },
+  {
+    CafeNaam: HOENDERDAAL,
+    BeerNames: [
+      HUBER WEISS,MAISEL WEISSE,NORA,REGAL CHRISTMAS
+    ]
+  },
+  {
+    CafeNaam: HOOGSTE TIJD,
+    BeerNames: [
+      AECHT SCHLENKERLA URBOCK,EX LIBRIS
+    ]
+  },
+  {
+    CafeNaam: HOV
+  },
+  {
+    CafeNaam: HUIS TEN BOS,
+    BeerNames: [
+      SUPER DES FAGNES,WESTVLETEREN 12
+    ]
+  },
+  {
+    CafeNaam: IJSCLUB KRALINGEN
+  },
+  {
+    CafeNaam: IN DE GOUWEGEIT,
+    BeerNames: [
+      BONNE ESPERANCE,IMPERIAL RUSSIAN STOUT,LA TRAPPE BLONDE,PORTER 39,S. VICTOR'S
+    ]
+  },
+  {
+    CafeNaam: IN DE KLEINE WERELT
+  },
+  {
+    CafeNaam: IN DE WALLEVIS
+  },
+  {
+    CafeNaam: IN DE ZOTTE WILG,
+    BeerNames: [
+      BLANCHE DE BROOKLIN,CAVALIER MC EWANS,HELLEKETERBIER,TIMMERMANS CASSIS
+    ]
+  },
+  {
+    CafeNaam: IN DEN BLAUWEN BOCK
+  },
+  {
+    CafeNaam: IN DEN BOCKENREIJDER,
+    BeerNames: [
+      HOFBRAU ROYAL,S.GIORGIO,TRENT STRONG BEER
+    ]
+  },
+  {
+    CafeNaam: IN HOLLAND,
+    BeerNames: [
+      BOON KRIEK,HOFBRAU ROYAL,PORTER 39,ROXANNE
+    ]
+  },
+  {
+    CafeNaam: INDOOR FUNCENTRE BREDA,
+    BeerNames: [
+      IMPERIAL OLD ALE 89,OTTAKRINGER LAGER
+    ]
+  },
+  {
+    CafeNaam: IRISH INN
+  },
+  {
+    CafeNaam: JACK S GRILL HOUSE
+  },
+  {
+    CafeNaam: JAN VAN HOEK,
+    BeerNames: [
+      709,OLD STOCK ALE,STELVIO
+    ]
+  },
+  {
+    CafeNaam: JANSEN EN JANSEN
+  },
+  {
+    CafeNaam: JANSSEN JANSSEN,
+    BeerNames: [
+      HERCULE STOUT,MASTERPIECE IPA,MORTIMER,RED ERIC
+    ]
+  },
+  {
+    CafeNaam: JOEY BAR,
+    BeerNames: [
+      ALBANI BEER,JOHN SMITH SMOOTH,NAVIGATOR,NOEL CHOCOLATE
+    ]
+  },
+  {
+    CafeNaam: KAFFEE LOMMUS
+  },
+  {
+    CafeNaam: KAREL
+  },
+  {
+    CafeNaam: KATOEN,
+    BeerNames: [
+      CARDINAL DRAFT,SCHAFLY ALTBIER
+    ]
+  },
+  {
+    CafeNaam: KORBELD
+  },
+  {
+    CafeNaam: KORENBEURS
+  },
+  {
+    CafeNaam: KRITERION THEATER,
+    BeerNames: [
+      ST. PETER'S STRONG ALE
+    ]
+  },
+  {
+    CafeNaam: LA GARE
+  },
+  {
+    CafeNaam: LA RAMBLA,
+    BeerNames: [
+      BEAUBOURG,CLUB DE STELLA ARTOIS,EXPORT STOUT,LA TORPILLE
+    ]
+  },
+  {
+    CafeNaam: LAFAYETTE
+  },
+  {
+    CafeNaam: LE BYBLOS
+  },
+  {
+    CafeNaam: LEKKER BELANGRIJK,
+    BeerNames: [
+      HANNEN ALT,JAHRHUNDERTBIER,MAES PILS,PAULANER WEISS DUNKEL,TENNENT'S 1885
+    ]
+  },
+  {
+    CafeNaam: LEOPOLD
+  },
+  {
+    CafeNaam: LIAN BAR,
+    BeerNames: [
+      BELFAGOR,DOMESDAY (STRONGEST),NINA,PELICAN PALE ALE,PENNANT ALE,QUINTINE
+    ]
+  },
+  {
+    CafeNaam: LOKAAL
+  },
+  {
+    CafeNaam: LUNCHROOM BEKX
+  },
+  {
+    CafeNaam: LUXEMBOURG,
+    BeerNames: [
+      DOUBLE CHOCOLATE,EDELHELL,LA FABBRICA WEIZE,LIMFJORD PORTER,OATMEAL STOUT,RUTLAND BITTER,ZLATOROG PIVO
+    ]
+  },
+  {
+    CafeNaam: MARQUIS
+  },
+  {
+    CafeNaam: MICHELS,
+    BeerNames: [
+      PREMIUM PILS,ST. JOHANNES BRAU PILS,TIPOPILS
+    ]
+  },
+  {
+    CafeNaam: MILLY'S
+  },
+  {
+    CafeNaam: MIRO,
+    BeerNames: [
+      HEN'S TOOTH,JOHN COURAGE EXPORT,STEFFL EXPORT
+    ]
+  },
+  {
+    CafeNaam: MOEDER OVERSTE
+  },
+  {
+    CafeNaam: MONTPERNASSE
+  },
+  {
+    CafeNaam: MULLIGAN S,
+    BeerNames: [
+      HERTOG JAN DOUBLE,YOUNG ROWLEY 29/7/81,ZATTE BIE
+    ]
+  },
+  {
+    CafeNaam: NERO GRANDCAFE RESTAURANT,
+    BeerNames: [
+      1837 IPA,HAZELNUT BROWN,PRAFORTE ROSSA,ROYAL BRAND,STAROPRAMEN,STUCK,TROIS PISTOLES,WEISS!
+    ]
+  },
+  {
+    CafeNaam: NSVV
+  },
+  {
+    CafeNaam: O REILLY S,
+    BeerNames: [
+      ABBAYE D'AULNE TRIPLE BRUNE,CASTA MORENA,CORONA EXTRA,FISCHER DOPPIO MALTO,HOPF DUNKLE,MILLER HIGH LIFE,PETE'S WICKED ALE,QUINTINE,WUNSTER EXPORT 14,YEBISU
+    ]
+  },
+  {
+    CafeNaam: OLD DUTCH
+  },
+  {
+    CafeNaam: OP STAANDE VOET
+  },
+  {
+    CafeNaam: OSSENVOORT
+  },
+  {
+    CafeNaam: OUDE BAREEL
+  },
+  {
+    CafeNaam: OUDE HAVEN
+  },
+  {
+    CafeNaam: OUT OF THE BLUES
+  },
+  {
+    CafeNaam: PACKHUYS,
+    BeerNames: [
+      ALL BLACK,HSB 25' ANNIVERSARY,S. SIXTUS (BERN.) TRIPLE
+    ]
+  },
+  {
+    CafeNaam: PANNEKOECKERSHUYS,
+    BeerNames: [
+      FLOWERS ORIGINAL,MEDITERRANEA,RABBID RABBIT,VIN D'ORZ,WINSTON SWEET STOUT
+    ]
+  },
+  {
+    CafeNaam: PANNENKOEKENBOOT,
+    BeerNames: [
+      AUGUSTIJN,DARK STAR,FALKENTURM,GREENE KING IPA,LA TRAPPE BLONDE,ROCHEFORTOISE WINTER
+    ]
+  },
+  {
+    CafeNaam: PASSE PARTOUT,
+    BeerNames: [
+      ARCENER STOUT,BIRDMAN BROWN,BROWN BEAR,BUFFALO,S.ARNOLDUS,TIMMERMANS KRIEK,ZYWIEC PORTER
+    ]
+  },
+  {
+    CafeNaam: PELT
+  },
+  {
+    CafeNaam: PERROEN
+  },
+  {
+    CafeNaam: PINTELIER,
+    BeerNames: [
+      1824 PARTICULAR,HIRTER PRIVAT PILS,OTTER BITTER,TENNENT'S EXPORT 80/-
+    ]
+  },
+  {
+    CafeNaam: POCO LOCO,
+    BeerNames: [
+      BOONT AMBER,MOULIN ROUGE,MULLER,PENNANT ALE,RUPERTUS WEIZENBOCK
+    ]
+  },
+  {
+    CafeNaam: POLLY MAGGOO
+  },
+  {
+    CafeNaam: POPEYE
+  },
+  {
+    CafeNaam: PUFFELEN,
+    BeerNames: [
+      ANCHOR STEAM BEER,BRIGHELLA,RED LION,SAISON DU BI-DU,WORTHINGTON EXPORT ALE
+    ]
+  },
+  {
+    CafeNaam: QUERELLE SWING CAFE,
+    BeerNames: [
+      BECASSE GUEUZE,GHISA,NOT TONIGHT HONEY PORTER,SCHAFLY SCOTCH ALE,WHITE WIFE
+    ]
+  },
+  {
+    CafeNaam: REKKO
+  },
+  {
+    CafeNaam: RIKS CAFE,
+    BeerNames: [
+      CD PILS,CERVISIA,RAUCH PORTER,SHARP'S WILLI
+    ]
+  },
+  {
+    CafeNaam: ROUTE 66
+  },
+  {
+    CafeNaam: RUST WAT
+  },
+  {
+    CafeNaam: SAINT TROPEZ
+  },
+  {
+    CafeNaam: SAMSAM,
+    BeerNames: [
+      BRUNEHAUT TRADITION,KARL STRAUSS PALE ALE,LICHTERVELDS BLONDE,PETE'S WICKED SUMMER,SAMICHLAUS PALE
+    ]
+  },
+  {
+    CafeNaam: SCHLEMMER
+  },
+  {
+    CafeNaam: SCHOUWKE
+  },
+  {
+    CafeNaam: SCOOBIES
+  },
+  {
+    CafeNaam: SILLY S
+  },
+  {
+    CafeNaam: SILVA DUCIS
+  },
+  {
+    CafeNaam: SLIJTERIJ VD FEESTEN
+  },
+  {
+    CafeNaam: SOC CULTUREEL WERK
+  },
+  {
+    CafeNaam: SPANJER & VAN TWIST,
+    BeerNames: [
+      BLONDE BOCK,DON STUART,FARGO,HONKER'S ALE,LIQUORICE STOUT,S. SIXTUS (BERN.) ABT,SARAH HUGHES PALE AMBER,WAYAN CUVEE D'ETE',WUNDERBAR PILS
+    ]
+  },
+  {
+    CafeNaam: SPOT THE LOONY
+  },
+  {
+    CafeNaam: SSR LEIDEN
+  },
+  {
+    CafeNaam: ST LOUIS
+  },
+  {
+    CafeNaam: STACCATO
+  },
+  {
+    CafeNaam: STALLES
+  },
+  {
+    CafeNaam: STRAVINSKY
+  },
+  {
+    CafeNaam: STUDIO CV
+  },
+  {
+    CafeNaam: STUYVESANT
+  },
+  {
+    CafeNaam: SWING CAFE DE DOCTER
+  },
+  {
+    CafeNaam: T BAEKSKE
+  },
+  {
+    CafeNaam: T BOERKE
+  },
+  {
+    CafeNaam: T BOLWERK
+  },
+  {
+    CafeNaam: T CAFEEKE
+  },
+  {
+    CafeNaam: T CARILLON,
+    BeerNames: [
+      CARLSBERG SPECIAL,LA GUILLOTINE,S. SEBASTIAN DARK
+    ]
+  },
+  {
+    CafeNaam: T CHAAMSE WAPEN,
+    BeerNames: [
+      1417
+    ]
+  },
+  {
+    CafeNaam: T FIELJAAL
+  },
+  {
+    CafeNaam: T GEVELTJE
+  },
+  {
+    CafeNaam: T HART VAN MADE
+  },
+  {
+    CafeNaam: T HART VAN VEGHEL
+  },
+  {
+    CafeNaam: T LOKAAL,
+    BeerNames: [
+      ANIMATOR,CASTA DORADA,CERVOISE LANCELOT,CHARRINGTON IPA,DACHSENFRANZ KELLERBIER,JAHRHUNDERTBIER,LEFFE BRUNE,SION KOLSCH,WUNDERBAR PILS,YOUNGER'S SWEET STOUT
+    ]
+  },
+  {
+    CafeNaam: T MASTEBOLLEKE,
+    BeerNames: [
+      ALPHAND BLANCHE,AMBREE DU BALADIN,BRAIN'S SA,HENNINGER KAISER PREMIUM,JOHN COURAGE EXPORT,SAISON DUPONT,SMITH'S OATMEAL STOUT
+    ]
+  },
+  {
+    CafeNaam: T MOLENPAD,
+    BeerNames: [
+      709,ARROL'S 80/-,L'ECUME DES JOURS,RE ALE,TICKLE BRAIN,VIA LATTEA,WARSTEINER
+    ]
+  },
+  {
+    CafeNaam: T OUDE POSTKANTOOR
+  },
+  {
+    CafeNaam: T PANNELAND
+  },
+  {
+    CafeNaam: T PATERKE
+  },
+  {
+    CafeNaam: T PLEINTJE
+  },
+  {
+    CafeNaam: T PRAETHUYS
+  },
+  {
+    CafeNaam: T ROZENKNOPJE,
+    BeerNames: [
+      BIERE DU DESERT,HINANO,PUSTERTALER WEIZEN,WEIZENGOLD (HEFE)
+    ]
+  },
+  {
+    CafeNaam: T SONNEKE
+  },
+  {
+    CafeNaam: T SPEKTAKEL,
+    BeerNames: [
+      FIOR DI LUPPOLO,LAMORAL TRIPEL,SMILE'S BRISTOL IPA,SMITH'S OATMEAL STOUT
+    ]
+  },
+  {
+    CafeNaam: T STULPKE
+  },
+  {
+    CafeNaam: T T HUIS,
+    BeerNames: [
+      KADEWE,LASKO
+    ]
+  },
+  {
+    CafeNaam: T TAPPERIJKE,
+    BeerNames: [
+      AUGUSTINER OCTOBERFEST,O'HANLONS RED ALE,PAULANER HEFE-WEISSBIER
+    ]
+  },
+  {
+    CafeNaam: T TONNETJE,
+    BeerNames: [
+      ALPHAND BLONDE,ISAAC,OLD STOCK ALE,PELFORTH BRUNE
+    ]
+  },
+  {
+    CafeNaam: T TORP VOF
+  },
+  {
+    CafeNaam: T TREFPUNT
+  },
+  {
+    CafeNaam: T VEERHUIS
+  },
+  {
+    CafeNaam: T VONDERKE,
+    BeerNames: [
+      110 JUBILAEUMS PILSNER,BLANCHE DE NOEL,EKU PILS,GRAIN D'ORGE,MONGOZO PALMNUT,S. SMITH'S EXTRA STOUT,TRAQUAIR ANNIVERSARY
+    ]
+  },
+  {
+    CafeNaam: T WAPEN VAN EGMOND,
+    BeerNames: [
+      ADAMBRAU,ASASHI BLACK BEER,BROOKLIN LAGER,HANSA,KING'S ALE,WHITBREAD EXTRA STOUT
+    ]
+  },
+  {
+    CafeNaam: T WAPEN VAN STREEFKERK
+  },
+  {
+    CafeNaam: T WAPEN VAN ZES GEHUCHTEN,
+    BeerNames: [
+      1417,AFFLIGEM TRIPLE,BLITHERING IDIOT,CASTA BRUNA,CRIPPLE DICK,MONTAGNARDE BLONDE,SCHMIDT'S,STRENNA,TULIPAN,VINTAGE ALE 1997
+    ]
+  },
+  {
+    CafeNaam: TABAC,
+    BeerNames: [
+      ALTENMUNSTER,ANTILLANA,S.GIORGIO
+    ]
+  },
+  {
+    CafeNaam: TAVEERNE TIVOLIE
+  },
+  {
+    CafeNaam: TER BRUGGE,
+    BeerNames: [
+      GULDEN DRAAK,JOHN BULL BITTER,RODENBACH
+    ]
+  },
+  {
+    CafeNaam: TETRA,
+    BeerNames: [
+      1417,SANS SOUCI,WARRINGTON BROWN
+    ]
+  },
+  {
+    CafeNaam: THAIPHOON
+  },
+  {
+    CafeNaam: THE GAZ STATION
+  },
+  {
+    CafeNaam: THE GETAWAY,
+    BeerNames: [
+      DE KONINK,DRYBOROUGH SPECIAL,MURPHY'S STOUT,ST. MONON AU MIEL,YANKEES
+    ]
+  },
+  {
+    CafeNaam: THE PADDOCK,
+    BeerNames: [
+      BALTIKA PORTER,BOON KRIEK,FIREFOX,GOLDEN PRIDE,HAPKIN,ICHNUSA,KADEWE,LA TORPILLE,LAMBRATE,SUSSEX BEST BITTER
+    ]
+  },
+  {
+    CafeNaam: THEATER CLINIQUE
+  },
+  {
+    CafeNaam: THIJSSEN
+  },
+  {
+    CafeNaam: THUNDERROADHOUSE,
+    BeerNames: [
+      LECH PREMIUM,RUDDLE'S BEST,S. BENOIT BRUNE,S. LOUIS GUEUZE,VINTAGE ALE 1997,WIENINGER ZWICKEL
+    ]
+  },
+  {
+    CafeNaam: TIJDLOOS
+  },
+  {
+    CafeNaam: TIPSY DUCK PUB,
+    BeerNames: [
+      ABC STOUT,ACHEL BLONDE,BIERE DU MYSTERE,NOEL CHOCOLATE,STEFFL EXPORT
+    ]
+  },
+  {
+    CafeNaam: TRIBUNAAL
+  },
+  {
+    CafeNaam: TROUBADOUR,
+    BeerNames: [
+      KIRIN ICHIBAN,LEFFE ROSSA,PASKE BRYG,ROSENWEIZEN,STINGO MIDDLE,UNION AMBER,VIEILLE CUVEE
+    ]
+  },
+  {
+    CafeNaam: TV RIEL
+  },
+  {
+    CafeNaam: TV ZANDLIGT,
+    BeerNames: [
+      APPENZELLER WEIZEN,EKU PILS,FISCHER DOPPIO MALTO,GOLDIE BARLEY WINE,OFFICINA WEIZEN,PIETRA NOEL,TRENT EXPORT LAGER,TRIUMPHATOR
+    ]
+  },
+  {
+    CafeNaam: UILENBOS OGC
+  },
+  {
+    CafeNaam: UIT
+  },
+  {
+    CafeNaam: UNREAL CAFE
+  },
+  {
+    CafeNaam: UT INGELKE
+  },
+  {
+    CafeNaam: VAN HAM,
+    BeerNames: [
+      YOUNG'S SPECIAL
+    ]
+  },
+  {
+    CafeNaam: VAN RIJCKE VORSEL
+  },
+  {
+    CafeNaam: VAN ZANTEN,
+    BeerNames: [
+      'T SCHOENLAPPERTJE,BLUEBERRY,BREDA,BUDWEISER BUDVAR,FIREFOX,OLD ELIOT,SMILE,VOLL DAMM
+    ]
+  },
+  {
+    CafeNaam: VINCHOTTE
+  },
+  {
+    CafeNaam: VOSSENHOLE
+  },
+  {
+    CafeNaam: WAPEN VAN TILBURG
+  },
+  {
+    CafeNaam: WESTERGAS TERRAS,
+    BeerNames: [
+      COURAGE (BEST) BITTER,HARVEYS XMAS,JOHN COURAGE EXPORT,VIEUX BRUGES
+    ]
+  },
+  {
+    CafeNaam: WILDSCHUT,
+    BeerNames: [
+      ALBION PORTER,BLUEBERRY ALE,DON STUART,GEARY'S PALE ALE,HACKER-PSCHORR WEISSE,HOPDEVIL IPA,ROSSA
+    ]
+  },
+  {
+    CafeNaam: WILHELMINA,
+    BeerNames: [
+      DEUCHAR'S IPA,MOINETTE BRUNE,PYRAMID APRICOT ALE
+    ]
+  },
+  {
+    CafeNaam: YOUNITED BREDA,
+    BeerNames: [
+      BRIGHELLA,GRIMBERGEN,NELSON'S REVENGE,SOVEREIGN BEST BITTER
+    ]
+  },
+  {
+    CafeNaam: ZAAL ACHT
+  },
+  {
+    CafeNaam: ZUS & ZO,
+    BeerNames: [
+      APPENZELLER WEIZEN,BIERE DU MYSTERE,FOSTER'S LAGER,OLD GOLD,PENNANT ALE,WARSTEINER
+    ]
+  },
+  {
+    CafeNaam: ZWALUWHOEVE
+  }
+]

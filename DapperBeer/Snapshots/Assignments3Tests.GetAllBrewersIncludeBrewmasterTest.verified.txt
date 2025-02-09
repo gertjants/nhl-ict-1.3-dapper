@@ -1,0 +1,17 @@
+﻿[
+  {
+    BrewerId: 678,
+    Name: (EX-MORREL'S),
+    Country: ENG
+  },
+  {
+    BrewerId: 679,
+    Name: 3 FLOYDS,
+    Country: USA
+  },
+  {
+    BrewerId: 680,
+    Name: 3 FONTEINEN,
+    Country: BEL
+  }
+]
