@@ -4,6 +4,8 @@ De opgave staan in Assignment1.cs, Assignment2.cs en Assignment3.cs.
 Onder iedere opgave staat een test die je kunt gebruiken om te controleren of je oplossing werkt.
 
 In ``DBHelper.cs`` staat de connectonstring. Deze moet je aanpassen naar jouw eigen database.
+De tests maken de database automatisch aan. **Onderstaande hoeft je dus niet te doen.** 
+
 Een database met de naam ``DapperBeer`` kan je zelf aanmaken in MySQL m.b.v.:
 ```sql
 CREATE DATABASE DapperBeer;
