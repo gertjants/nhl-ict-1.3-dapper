@@ -9,7 +9,14 @@ public static class DbHelper
 {
     public static IDbConnection GetConnection()
     {
-        return new MySqlConnection("server=localhost;database=DapperBeer;user=DapperBeer;password=Test@1234!;AllowUserVariables=True");
+        var appDatabaseServer = Environment.GetEnvironmentVariable("APP_DB_SERVER");
+        var appDatabaseName = Environment.GetEnvironmentVariable("APP_DB_NAME");
+        var appDatabaseUser = Environment.GetEnvironmentVariable("APP_DB_USER");
+        var appDatabasePass = Environment.GetEnvironmentVariable("APP_DB_PASS");
+
+        System.Console.WriteLine($"Connecting to {appDatabaseServer}/{appDatabaseName}");
+
+        return new MySqlConnection($"server={appDatabaseServer};database={appDatabaseName};user={appDatabaseUser};password={appDatabasePass};AllowUserVariables=True");
     }
 
     public static void CreateTablesAndInsertData()

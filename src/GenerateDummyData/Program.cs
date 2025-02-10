@@ -4,7 +4,6 @@ using Bogus;
 using Dapper;
 using DapperBeer;
 using DapperBeer.Model;
-using DapperBieren.Model;
 
 using var connection = DbHelper.GetConnection();
 var brewers = connection.Query<Brewer>("SELECT * FROM Brewer ORDER BY BrewerId").ToList();

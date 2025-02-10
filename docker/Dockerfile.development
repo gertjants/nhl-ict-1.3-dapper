@@ -1,0 +1,29 @@
+FROM mcr.microsoft.com/dotnet/sdk:9.0
+ARG SCRIPTS_DIR='/scripts'
+
+# Swapping to root for installation
+USER root
+
+# Installing packages
+RUN mkdir -p ${SCRIPTS_DIR}
+RUN apt-get update\
+    && apt-get install -y \
+        curl \
+        wget \
+    && rm -rf /var/lib/apt/lists/*
+COPY --chmod=755 docker/scripts/install_mssql_tools.sh ${SCRIPTS_DIR}/install_mssql_tools.sh
+RUN ${SCRIPTS_DIR}/install_mssql_tools.sh
+
+# Installing AZ Cli
+RUN apt-get update \
+    && update-ca-certificates \
+    && curl --progress-bar -L https://aka.ms/InstallAzureCLIDeb | bash
+
+# Installing Bicep
+RUN curl -Lo /usr/local/bin/bicep https://github.com/Azure/bicep/releases/latest/download/bicep-linux-$(dpkg --print-architecture)
+
+# Install SQL templates
+RUN dotnet tool install -g Microsoft.SqlPackage
+
+# install Microsoft.Build.Sql.Templates
+RUN dotnet new install Microsoft.Build.Sql.Templates

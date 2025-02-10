@@ -8,6 +8,7 @@ public class GithubClassroomYmlHelper
     public void GenerateClassroomYml()
     {
         Type[] testClassesTypes = [typeof(Assignments1Tests), typeof(Assignments2Tests), typeof(Assignments3Tests)];
+        //Type[] testClassesTypes = [typeof(Assignments1Tests)];
 
         var ids = new List<string>();
         int exerciseIndex = 1;

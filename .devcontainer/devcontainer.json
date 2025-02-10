@@ -1,0 +1,40 @@
+{
+	"name": "Local .NET API Development",
+	"dockerComposeFile": ["docker-compose.yaml"],
+    "service": "development",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "",
+    "overrideCommand": true,
+    "customizations": {
+        "vscode" : {
+            "settings": {
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "/bin/bash"
+                    }
+                },
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "plantuml.exportFormat": "png",
+                "plantuml.render": "PlantUMLServer",
+                "plantuml.server": "http://plantuml:8080",
+                "plantuml.diagramsRoot": "src/diagrams",
+                "plantuml.exportOutDir": "diagrams"
+            },
+            "extensions": [
+				"ms-dotnettools.csdevkit",
+				"ms-azuretools.vscode-docker",
+				"jebbs.plantuml",
+                "ms-mssql.mssql",
+                "ms-dotnettools.dotnet-interactive-vscode",
+                "ms-vscode.PowerShell",
+                "ms-azuretools.vscode-bicep",
+                "formulahendry.vscode-mysql"
+			]
+        }
+    }
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [5000, 5001],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "dotnet restore",
+}

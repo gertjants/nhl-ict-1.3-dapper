@@ -1,0 +1,74 @@
+services:
+  # Local MySQL database service
+  database:
+    image: mysql
+    volumes:
+      - ../bin/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=${SA_PASSWORD}
+      - MYSQL_DATABASE=${APP_DB_NAME}
+      - MYSQL_USER=${APP_DB_USER}
+      - MYSQL_PASSWORD=${APP_DB_PASS}
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    restart: always
+
+  phpmyadmin:
+    image: phpmyadmin
+    environment:
+      - MYSQL_ROOT_PASSWORD=${SA_PASSWORD}
+      - PMA_HOST=database
+    ports:
+      - 9090:80
+    
+  development:
+    build: 
+      # Bringing the context to root
+      context: ..
+      dockerfile: docker/Dockerfile.development
+    volumes:
+      - ../:/workspace
+      # Docker socket to access Docker server
+      - /var/run/docker.sock:/var/run/docker.sock
+      # SSH directory
+      - ~/.ssh:/root/.ssh
+      # For Windows without WSL, a copy will be made
+      # from /tmp/.ssh to ~/.ssh to fix permissions
+      # - ~/.ssh:/tmp/.ssh:ro
+      # Shell history persistence
+      - ~/.zsh_history:/root/.zsh_history:z
+      # Git config
+      - ~/.gitconfig:/root/.gitconfig
+      # Easy of Use
+      - ../scripts:/scripts
+    #restart: unless-stopped
+    environment:
+      - APP_DB_SERVER=database
+      - APP_DB_NAME=${APP_DB_NAME}
+      - APP_DB_USER=${APP_DB_USER}
+      - APP_DB_PASS=${APP_DB_PASS}
+    depends_on:
+      - database
+      - plantuml
+  
+  # api:
+  #   build: 
+  #     context: ..
+  #     dockerfile: docker/Dockerfile.dotnet
+  #   volumes:
+  #     - ../:/workspace
+  #   depends_on:
+  #     - mssql_db
+  #     - plantuml
+  
+  # frontend:
+  #   build:
+  #     context: ..
+  #     dockerfile: docker/Dockerfile.dotnet
+  #   volumes:
+  #     - ../:/workspace/02-frontend/
+    
+  plantuml:
+    image: plantuml/plantuml-server:jetty
