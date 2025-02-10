@@ -22,7 +22,7 @@ Het is nuttig om eens een test te runnen en te kijken en je database te bekijken
 (zie opdracht 1 in Assignments1.cs).
 
 De code om een database en de tabellen aan te maken staat in de directory ``SQL\``.
-** Het is belangrijk om eerste DapperBrewer.sql toe te voegen en daarna pas DapperBeer.sql.**
+**Het is belangrijk om eerste DapperBrewer.sql toe te voegen en daarna pas DapperBeer.sql.**
 Daar staat ook een afbeelding van het databaseontwerp ``DapperBeerDatabaseDiagram.png``.
 En het klassendiagram ``DapperBeerClassDiagram.png``.
 En het klassendiagram ``DapperBeerClassDiagram.png``.
