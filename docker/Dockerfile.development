@@ -10,6 +10,9 @@ RUN apt-get update\
     && apt-get install -y \
         curl \
         wget \
+        git \
+        iputils-ping \
+        openssh-client \
     && rm -rf /var/lib/apt/lists/*
 COPY --chmod=755 docker/scripts/install_mssql_tools.sh ${SCRIPTS_DIR}/install_mssql_tools.sh
 RUN ${SCRIPTS_DIR}/install_mssql_tools.sh
