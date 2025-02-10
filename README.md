@@ -9,7 +9,7 @@ Een database met de naam ``DapperBeer`` kan je zelf aanmaken in MySQL m.b.v.:
 CREATE DATABASE DapperBeer;
 ```
 
-Een database user met de naam ``DapperBeerUser`` en wachtwoord ``Test@1234!`` kan je aanmaken in MySQL m.b.v.:
+Een database user met de naam ``DapperBeer`` en wachtwoord ``Test@1234!`` kan je aanmaken in MySQL m.b.v.:
 ```sql
 CREATE USER 'DapperBeer'@'localhost' IDENTIFIED BY 'Test@1234!'; 
 GRANT ALL ON DapperBeer.* TO 'DapperBeer'@'localhost'; 
@@ -22,6 +22,7 @@ Het is nuttig om eens een test te runnen en te kijken en je database te bekijken
 (zie opdracht 1 in Assignments1.cs).
 
 De code om een database en de tabellen aan te maken staat in de directory ``SQL\``.
+*** Het is belangrijk om eerste DapperBrewer.sql toe te voegen en daarna pas DapperBeer.sql.***
 Daar staat ook een afbeelding van het databaseontwerp ``DapperBeerDatabaseDiagram.png``.
 En het klassendiagram ``DapperBeerClassDiagram.png``.
 En het klassendiagram ``DapperBeerClassDiagram.png``.
