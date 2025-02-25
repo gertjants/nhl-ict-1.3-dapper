@@ -8,19 +8,19 @@
     BrewerId: 680
   },
   {
-    BeerId: 952,
-    Name: ABBAYE DE ROCS NOEL,
+    BeerId: 1024,
+    Name: ABB DE FLANDRES DOUBLE,
     Type: ALE, BELGIA,
-    Style: BELGIAN STRONG,
-    Alcohol: 9.0,
-    BrewerId: 682
+    Style: DUBBEL,
+    Alcohol: 5.0,
+    BrewerId: 1168
   },
   {
-    BeerId: 953,
-    Name: ABBAYE DES ROCS,
+    BeerId: 951,
+    Name: ABBAYE D'AULNE TRIPLE BRUNE,
     Type: ALE, BELGIA,
     Style: BELGIAN STRONG,
     Alcohol: 9.0,
-    BrewerId: 682
+    BrewerId: 1307
   }
 ]

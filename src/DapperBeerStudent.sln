@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperBeer", "DapperBeer\DapperBeer.csproj", "{7B66F411-93C0-4ABB-9E06-A323EFF64D89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperBeer_nunit", "DapperBeer_nunit\DapperBeer_nunit.csproj", "{7B66F411-93C0-4ABB-9E06-A323EFF64D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperBeer_tunit", "DapperBeer_tunit\DapperBeer_tunit.csproj", "{7B66F411-93C0-4ABB-9E06-A323EFF64D87}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleFromSheets", "ExampleFromSheets\ExampleFromSheets.csproj", "{D3F4D894-3E05-40CF-B9FF-905999CCC3F2}"
 EndProject
 Global

@@ -1,26 +1,26 @@
 ﻿[
   {
-    BeerId: 7,
-    Name: GULL,
-    Type: LAGER,PALE,
-    Style: LIGHT,
-    Alcohol: 2.2,
-    BrewerId: 885
-  },
-  {
-    BeerId: 1394,
-    Name: BERLINER WEISSE,
-    Type: WHEAT (GRAN,
-    Style: BERLINER,
-    Alcohol: 2.5,
-    BrewerId: 1017
-  },
-  {
-    BeerId: 692,
-    Name: IMPOSSIBLE,
+    BeerId: 555,
+    Name: XIAOYU,
     Type: ALE, ENGLIS,
-    Style: BITTER/PALE,
-    Alcohol: 2.6,
-    BrewerId: 821
+    Style: BARLEY WINE,
+    Alcohol: 13.0,
+    BrewerId: 717
+  },
+  {
+    BeerId: 415,
+    Name: CAESAURUS,
+    Type: LAGER, AMBE,
+    Style: EXTRASTRONG,
+    Alcohol: 12.6,
+    BrewerId: 993
+  },
+  {
+    BeerId: 1101,
+    Name: WEYERBACHER QUAD,
+    Type: ALE, BELGIA,
+    Style: QUADRUPEL,
+    Alcohol: 12.1,
+    BrewerId: 1331
   }
 ]

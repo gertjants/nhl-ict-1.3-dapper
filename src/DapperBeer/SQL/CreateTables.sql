@@ -1,4 +1,4 @@
--- create database DapperBeeren; 
+create database if not exists DapperBeer;
 use DapperBeer;
 
 SET FOREIGN_KEY_CHECKS = 0;
@@ -8,6 +8,7 @@ drop table if exists Cafe;
 drop table if exists Sells;
 drop table if exists Address;
 drop table if exists Brewmaster;
+drop table if exists Review;
 SET FOREIGN_KEY_CHECKS = 1;
 
 create table Brewer
@@ -69,3 +70,17 @@ create table Sells
     constraint Sells_Cafe_CafeId_fk
         foreign key (CafeId) references Cafe (CafeId)
 );
+
+create table Review
+(
+    ReviewId int auto_increment
+        primary key,
+    BeerId   int           null,
+    Score    decimal(4, 2) null,
+    constraint Review_ibfk_1
+        foreign key (BeerId) references DapperBeer.Beer (BeerId)
+);
+
+create index BeerId
+    on DapperBeer.Review (BeerId);
+

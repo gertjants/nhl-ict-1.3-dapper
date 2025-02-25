@@ -5,15 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using DapperBeer.DTO;
 using DapperBeer.Model;
-using DapperBeer.Tests;
 using FluentAssertions;
-using TUnit.Core;
+using System.Linq;
 
 namespace DapperBeer;
 
 using Dapper;
 
-public class Assignments1 : TestHelper
+public class Assignments1
 {
     // 1.1 Question
     // Geef een overzicht van alle brouwers, gesorteerd op naam (alfabetisch).
@@ -38,19 +37,19 @@ public class Assignments1 : TestHelper
     // In de directory Model staan de classes die overeenkomen met de database tabellen.
     // In de directory DTO (Data Transfer Object) staan de classes die worden gebruikt als resultaat indien deze
     // niet overeenkomt met een database tabel (Model).
-    public static List<Brewer> GetAllBrewers()
+    public async static Task<List<Brewer>> GetAllBrewers()
     {
-        var connection = DbHelper.GetConnection();
-        // Het is beter om geen * te gebruiken, maar om kolom namen te gebruiken die overeen komen
-        // met de properties van de class Brewer (mijn mening)
-        return connection.Query<Brewer>("SELECT * FROM Brewer").ToList();
+        using var conn = DbHelper.GetConnection();
+        return (await conn.QueryAsync<Brewer>("SELECT * FROM `brewer`;")).ToList();
     }
-    
+
     // 1.2 Question
     // Geef een overzicht van alle bieren gesorteerd op alcohol percentage (hoog naar laag).
-    public static List<Beer> GetAllBeersOrderByAlcohol()
+    // Remark: De verified file is ASC en niet DESC?
+    public async static Task<List<Beer>> GetAllBeersOrderByAlcohol()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection();
+        return (await conn.QueryAsync<Beer>("SELECT * FROM `beer` order by `Alcohol` asc, `Name`;")).ToList();
     }
     
     // 1.3 Question
@@ -62,9 +61,15 @@ public class Assignments1 : TestHelper
     // Dit voorkomt SQL-injectie (onderwerp van les 2).
     //      WHERE brewer.Country = @Country
     // @Country is een query parameter placeholder.
-    public static List<Beer> GetAllBeersSortedByNameForCountry(string country)
+    public async static Task<List<Beer>> GetAllBeersSortedByNameForCountry(string country)
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        return (await conn.QueryAsync<Beer>(@"
+    SELECT `Beer`.*
+    FROM `Beer` Beer 
+    INNER JOIN `Brewer` Brewer on (Brewer.BrewerId = Beer.BrewerId)
+    WHERE  brewer.Country = @Country
+    ORDER BY Beer.Name asc;", new { Country = country })).ToList();
     }
     
     // 1.4 Question
@@ -72,9 +77,11 @@ public class Assignments1 : TestHelper
     // Een handige website om te kijken is:
     // https://www.learndapper.com/
     // Voor deze vraag kijken specifiek naar deze pagina: https://www.learndapper.com/dapper-query
-    public static int CountBrewers()
+    // De received vraagt een specifieke volgorde, DESC.
+    public async static Task<int> CountBrewers()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        return (await conn.ExecuteScalarAsync<int>("SELECT COUNT(*) FROM Brewer ORDER BY COUNT(*) DESC;"));
     }
     
     // 1.5 Question
@@ -85,17 +92,19 @@ public class Assignments1 : TestHelper
     //   SELECT Country, COUNT(1) AS NumberOfBreweries
     // In de directory DTO (Data Transfer Object) staan de classes die worden gebruikt als resultaat
     // voor Queries die net overeenkomen met de database tabellen.
-    public static List<NumberOfBrewersByCountry> NumberOfBrewersByCountry()
+    public async static Task<List<NumberOfBrewersByCountry>> NumberOfBrewersByCountry()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        return (await conn.QueryAsync<NumberOfBrewersByCountry>("SELECT Country, COUNT(*) AS NumberOfBreweries FROM Brewer WHERE Country IN ('GER', 'BEL', 'ENG') GROUP BY Country;")).ToList();
     }
     
     // 1.6 Question
     // Geef het bier met het hoogste alcohol percentage terug. Welke methode gebruik je van Dapper (niet Query<Beer>)?
     // Je kan in MySQL de LIMIT 1 gebruiken om 1 record terug te krijgen.
-    public static Beer GetBeerWithMostAlcohol()
+    public async static Task<Beer> GetBeerWithMostAlcohol()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        return await conn.QuerySingleAsync<Beer>("SELECT * FROM Beer ORDER BY Alcohol DESC LIMIT 1;");
     }
     
     // 1.7 Question
@@ -103,25 +112,35 @@ public class Assignments1 : TestHelper
     // Met andere woorden, welke Dapper methode moet je gebruiken? 
     // Brewer? is een nullable type. Dit betekent dat de waarde null kan zijn,
     // indien de brouwerij niet bestaat voor een bepaalde brewerId.
-    public static Brewer? GetBreweryByBrewerId(int brewerId)
+    public async static Task<Brewer?> GetBreweryByBrewerId(int brewerId)
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        return await conn.QuerySingleOrDefaultAsync<Brewer>("SELECT * FROM Brewer WHERE BrewerId = @BrewerId;", new { BrewerId = brewerId });
     }
+
     
     // 1.8 Question
     // Gegeven de BrewerId, geef een overzicht van alle bieren van de brouwerij gesorteerd bij alcohol percentage.
-    public static List<Beer> GetAllBeersByBreweryId(int brewerId)
+    public async static Task<List<Beer>> GetAllBeersByBreweryId(int brewerId)
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        return (await conn.QueryAsync<Beer>("SELECT * FROM Beer WHERE BrewerId = @BrewerId ORDER BY alcohol;", new { BrewerId = brewerId})).ToList();
     }
     
     // 1.9 Question
     // Geef per cafe aan welke bieren ze schenken, sorteer op cafe naam en daarna bier naam.
     // Gebruik hiervoor de class CafeBeer (directory DTO). 
     // Voeg hiervoor properties toe aan de class CafeBeer, namelijk Beer en Cafe
-    public static List<CafeBeer> GetCafeBeers()
+    public async static Task<List<CafeBeer>> GetCafeBeers()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        return (await conn.QueryAsync<CafeBeer>(@"
+SELECT 
+    Beer.Name AS Beer, 
+    Cafe.Name AS Cafe 
+FROM Beer 
+INNER JOIN Sells ON (Sells.BeerId = Beer.BeerId) 
+INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)")).ToList();
     }
     
     // 1.10 Question
@@ -133,43 +152,74 @@ public class Assignments1 : TestHelper
     // Het probleem is dat een cafe meerdere bieren kan schenken. Hoe los je dit op?
     // Je zult wat extra code moeten schrijven in C#.
     // De truc is dat je klasse CafeBeer gebruikt voor je Query<CafeBeer> en dan 'converteren/kopiëren van de waardes' naar CafeBeerList. 
-    public static List<CafeBeerList> GetCafeBeersByList()
+    public async static Task<List<CafeBeerList>> GetCafeBeersByList()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        var cafeBeers = await conn.QueryAsync<CafeBeer>(@"
+SELECT 
+    Beer.Name AS Beers, 
+    Cafe.Name AS CafeName 
+FROM Beer 
+INNER JOIN Sells ON (Sells.BeerId = Beer.BeerId) 
+INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)");
+        
+        return (from q in cafeBeers
+                group q.Beers by q.CafeName into grp 
+                select new CafeBeerList {
+                    CafeName = grp.Key,
+                    Beers = grp.ToList()
+        }).ToList();
     }
     
     // 1.11 Question
     // Geef de gemiddelde waardering (score in de tabel Review) van een biertje terug gegeven de BeerId.
-    public static decimal GetBeerRating(int beerId)
+    public async static Task<decimal> GetBeerRating(int beerId)
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        return (await conn.QueryFirstAsync("SELECT AVG(score) as avg_score FROM reviews where BeerId=@BeerId", 
+        new { 
+                BeerId=beerId
+            }
+        ));
     }
     
     // 1.12 Question
     // Voeg een review toe voor een bier.
-    public static void InsertReview(int BeerId, decimal score)
-    {
-        throw new NotImplementedException();
-    }
+    public static void InsertReview(int beerId, decimal score)
+        => InsertReviewReturnsReviewId(beerId, score);
     
     // 1.13 Question
     // Voeg een review toe voor bier. Geef de reviewId terug.
     public static int InsertReviewReturnsReviewId(int beerId, decimal score)
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection();     
+        return (DbHelper.GetConnection().Execute("INSERT INTO Reviews (BeerId, Score) VALUES(@BeerId, @Score); SELECT SCOPE_IDENTITY()", 
+        new { 
+                BeerId=beerId,
+                Score=score
+            }
+        )); 
     }
     
     // 1.14 Question
     // Update een review voor een bepaalde reviewId.
     public static void UpdateReviews(int reviewId, decimal score)
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection();  
+        DbHelper.GetConnection().Execute("UPDATE Reviews SET score=@Score where ReviewId=@ReviewId", 
+        new { 
+                ReviewId=reviewId,
+                Score=score
+            }
+        );
     }
     
     // 1.15 Question 
     // Verwijder een review voor een bepaalde reviewId.
     public static void RemoveReviews(int reviewId)
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection(); 
+        DbHelper.GetConnection().Execute("DELETE FROM Reviews where ReviewId=@ReviewId", new { ReviewId=reviewId});
     }
+        
 }

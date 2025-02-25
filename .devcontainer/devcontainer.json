@@ -24,11 +24,18 @@
 				"ms-dotnettools.csdevkit",
 				"ms-azuretools.vscode-docker",
 				"jebbs.plantuml",
-                "ms-mssql.mssql",
-                "ms-dotnettools.dotnet-interactive-vscode",
-                "ms-vscode.PowerShell",
-                "ms-azuretools.vscode-bicep",
-                "formulahendry.vscode-mysql"
+				"ms-mssql.mssql",
+				"ms-dotnettools.dotnet-interactive-vscode",
+				"ms-vscode.PowerShell",
+				"ms-azuretools.vscode-bicep",
+				"formulahendry.vscode-mysql",
+				"ritwickdey.LiveServer",
+				"AnbuselvanRocky.bootstrap5-vscode",
+				"dzhavat.css-flexbox-cheatsheet",
+				"Rax.vscode-flexbox-picker",
+				"Zignd.html-css-class-completion",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"VisualStudioExptTeam.intellicode-api-usage-examples"
 			]
         }
     }

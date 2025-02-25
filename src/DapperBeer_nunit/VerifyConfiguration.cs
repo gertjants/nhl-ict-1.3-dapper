@@ -1,5 +1,4 @@
 using System.Runtime.CompilerServices;
-using VerifyTUnit;
 
 namespace DapperBeer;
 

@@ -19,7 +19,7 @@ public static class DbHelper
         return new MySqlConnection($"server={appDatabaseServer};database={appDatabaseName};user={appDatabaseUser};password={appDatabasePass};AllowUserVariables=True");
     }
 
-    public static void CreateTablesAndInsertData()
+    public async static Task CreateTablesAndInsertData()
     {
         using var connection = DbHelper.GetConnection();
 
@@ -34,7 +34,7 @@ public static class DbHelper
                  LIMIT 1; 
              """));
     
-        if(allExists && CorrectRecordCountInTables())
+        if(allExists && await CorrectRecordCountInTables())
             return;
         
         var createTables = File.ReadAllText("SQL/CreateTables.sql");
@@ -46,9 +46,9 @@ public static class DbHelper
             connection.Execute(insertBrewer);
         }
 
-        bool CorrectRecordCountInTables()
+        async Task<bool> CorrectRecordCountInTables()
         {
-            var tableCount = connection.QuerySingleOrDefault<TableCount>(
+            var tableCount = await connection.QuerySingleOrDefaultAsync<TableCount>(
                 """
                     SELECT 
                         (SELECT COUNT(1) FROM Beer) as BeerCount,
@@ -76,7 +76,7 @@ public static class DbHelper
         public int BrewmasterCount { get; set; }
     }
 
-    public static void DropAndCreateTableReviews()
+    public async static Task DropAndCreateTableReviews()
     {
         string dropCreateReviewTable = 
             """
@@ -89,6 +89,6 @@ public static class DbHelper
             """;
         
         using IDbConnection connection = DbHelper.GetConnection();
-        connection.Execute(dropCreateReviewTable);
+        await connection.ExecuteAsync(dropCreateReviewTable);
     }
 }

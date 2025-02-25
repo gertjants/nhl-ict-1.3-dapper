@@ -3,7 +3,6 @@ using BenchmarkDotNet.Attributes;
 using Dapper;
 using DapperBeer.DTO;
 using DapperBeer.Model;
-using DapperBeer.Tests;
 using FluentAssertions;
 
 namespace DapperBeer;
