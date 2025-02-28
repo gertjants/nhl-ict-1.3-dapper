@@ -14,7 +14,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBrewersTest()
     {
-        List<Brewer> brewers = Assignments1.GetAllBrewers();
+        var brewers = await Assignments1.GetAllBrewers();
         
         brewers.Should().HaveCount(677);
 
@@ -25,7 +25,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersOrderByAlcoholTest()
     {
-        List<Beer> beers = await Assignments1.GetAllBeersOrderByAlcohol();
+        var beers = await Assignments1.GetAllBeersOrderByAlcohol();
 
         beers.Should().HaveCount(1617);
 
@@ -36,7 +36,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersSortedByNameForCountryTest()
     {
-        List<Beer> beers = await Assignments1.GetAllBeersSortedByNameForCountry("BEL");
+        var beers = await Assignments1.GetAllBeersSortedByNameForCountry("BEL");
 
         beers.Should().HaveCount(296);
 
@@ -56,7 +56,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task NumberOfBrewersByCountryTest()
     {
-        List<NumberOfBrewersByCountry> numberOfBrewersByCountries = await Assignments1.NumberOfBrewersByCountry();
+        var numberOfBrewersByCountries = await Assignments1.NumberOfBrewersByCountry();
 
         numberOfBrewersByCountries.Should().HaveCount(46);
 
@@ -93,7 +93,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersByBreweryIdTest()
     {
-        List<Beer> beers = await Assignments1.GetAllBeersByBreweryId(689);
+        var beers = await Assignments1.GetAllBeersByBreweryId(689);
 
         beers.Should().HaveCount(2);
 
@@ -104,7 +104,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetCafeBeersTest()
     {
-        List<CafeBeer> cafeBeers = await Assignments1.GetCafeBeers();
+        var cafeBeers = await Assignments1.GetCafeBeers();
 
         cafeBeers.Should().HaveCount(754);
 
@@ -125,7 +125,7 @@ public class Assignments1Tests : TestHelper
     public async Task InsertReviewTest()
     {        
         // in SQL/InsertReview.sql wordt ook al een record toegevoegd.  
-        Assignments1.InsertReview(339, 5.0m);
+        await Assignments1.InsertReview(339, 5.0m);
         
         decimal rating = await Assignments1.GetBeerRating(339);
         rating.Should().Be(5.0m);
