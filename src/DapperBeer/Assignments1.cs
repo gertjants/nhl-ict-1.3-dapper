@@ -37,31 +37,21 @@ public class Assignments1
     // In de directory Model staan de classes die overeenkomen met de database tabellen.
     // In de directory DTO (Data Transfer Object) staan de classes die worden gebruikt als resultaat indien deze
     // niet overeenkomt met een database tabel (Model).
-    public static List<Brewer> GetAllBrewers()
-    {
-        using var conn = DbHelper.GetConnection();
-        //conn.OpenAsync();
-        //return new List<Brewer>();
-        return conn.Query<Brewer>(@"
+    public async static Task<IEnumerable<Brewer>> GetAllBrewers()
+        => await DbHelper.GetConnection().QueryAsync<Brewer>(@"
 SELECT 
     * 
-FROM `brewer`;
-").ToList();
-    }
+FROM `brewer`;");
 
     // 1.2 Question
     // Geef een overzicht van alle bieren gesorteerd op alcohol percentage (hoog naar laag).
     // Remark: De verified file is ASC en niet DESC?
-    public async static Task<List<Beer>> GetAllBeersOrderByAlcohol()
-    {
-        using var conn = DbHelper.GetConnection();
-        return (await conn.QueryAsync<Beer>(@"
+    public async static Task<IEnumerable<Beer>> GetAllBeersOrderByAlcohol()
+        => await DbHelper.GetConnection().QueryAsync<Beer>(@"
 SELECT 
     * 
 FROM `beer` 
-order by `Alcohol` desc, `Name`;
-")).ToList();
-    }
+order by `Alcohol` desc, `Name`;");
     
     // 1.3 Question
     // Geef een overzicht van ale bieren voor een bepaald land gesorteerd op naam (alfabetisch).
@@ -72,17 +62,13 @@ order by `Alcohol` desc, `Name`;
     // Dit voorkomt SQL-injectie (onderwerp van les 2).
     //      WHERE brewer.Country = @Country
     // @Country is een query parameter placeholder.
-    public async static Task<List<Beer>> GetAllBeersSortedByNameForCountry(string country)
-    {
-        using var conn = DbHelper.GetConnection(); 
-        return (await conn.QueryAsync<Beer>(@"
-    SELECT `Beer`.*
-    FROM `Beer` Beer 
-    INNER JOIN `Brewer` Brewer on (Brewer.BrewerId = Beer.BrewerId)
-    WHERE  brewer.Country = @Country
-    ORDER BY Beer.Name asc;
-", new { Country = country })).ToList();
-    }
+    public async static Task<IEnumerable<Beer>> GetAllBeersSortedByNameForCountry(string country)
+        => await DbHelper.GetConnection().QueryAsync<Beer>(@"
+SELECT `Beer`.*
+FROM `Beer` Beer 
+INNER JOIN `Brewer` Brewer on (Brewer.BrewerId = Beer.BrewerId)
+WHERE  brewer.Country = @Country
+ORDER BY Beer.Name asc;", new { Country = country });
     
     // 1.4 Question
     // Tel het aantal brouwerijen. Welke methode van Dapper gebruik je (niet Query<Brewer>)?
@@ -91,15 +77,11 @@ order by `Alcohol` desc, `Name`;
     // Voor deze vraag kijken specifiek naar deze pagina: https://www.learndapper.com/dapper-query
     // De received vraagt een specifieke volgorde, DESC.
     public async static Task<int> CountBrewers()
-    {
-        using var conn = DbHelper.GetConnection(); 
-        return (await conn.ExecuteScalarAsync<int>(@"
+        => await DbHelper.GetConnection().ExecuteScalarAsync<int>(@"
 SELECT 
     COUNT(*) 
 FROM Brewer 
-ORDER BY COUNT(*) DESC;
-"));
-    }
+ORDER BY COUNT(*) DESC;");
     
     // 1.5 Question
     // Geef een overzicht van het aantal brouwerijen per land gesorteerd op aantal brouwerijen.
@@ -109,32 +91,24 @@ ORDER BY COUNT(*) DESC;
     //   SELECT Country, COUNT(1) AS NumberOfBreweries
     // In de directory DTO (Data Transfer Object) staan de classes die worden gebruikt als resultaat
     // voor Queries die net overeenkomen met de database tabellen.
-    public async static Task<List<NumberOfBrewersByCountry>> NumberOfBrewersByCountry()
-    {
-        using var conn = DbHelper.GetConnection(); 
-        return (await conn.QueryAsync<NumberOfBrewersByCountry>(@"
+    public async static Task<IEnumerable<NumberOfBrewersByCountry>> NumberOfBrewersByCountry()
+        => await DbHelper.GetConnection().QueryAsync<NumberOfBrewersByCountry>(@"
 SELECT 
     Country,
     COUNT(*) AS NumberOfBreweries 
 FROM Brewer 
 GROUP BY Country
-ORDER BY NumberOfBreweries DESC;
-")).ToList();
-    }
+ORDER BY NumberOfBreweries DESC;");
     
     // 1.6 Question
     // Geef het bier met het hoogste alcohol percentage terug. Welke methode gebruik je van Dapper (niet Query<Beer>)?
     // Je kan in MySQL de LIMIT 1 gebruiken om 1 record terug te krijgen.
     public async static Task<Beer> GetBeerWithMostAlcohol()
-    {
-        using var conn = DbHelper.GetConnection(); 
-        return await conn.QuerySingleAsync<Beer>(@"
+        => await DbHelper.GetConnection().QuerySingleAsync<Beer>(@"
 SELECT
     *
 FROM Beer
-ORDER BY Alcohol DESC LIMIT 1;
-");
-    }
+ORDER BY Alcohol DESC LIMIT 1;");
     
     // 1.7 Question
     // Gegeven de brewerId geef de brouwer terug. Let op: Wat moet er gebeuren als de brouwcode niet bestaat?
@@ -142,47 +116,36 @@ ORDER BY Alcohol DESC LIMIT 1;
     // Brewer? is een nullable type. Dit betekent dat de waarde null kan zijn,
     // indien de brouwerij niet bestaat voor een bepaalde brewerId.
     public async static Task<Brewer?> GetBreweryByBrewerId(int brewerId)
-    {
-        using var conn = DbHelper.GetConnection(); 
-        return await conn.QuerySingleOrDefaultAsync<Brewer>(@"
+        => await DbHelper.GetConnection().QuerySingleOrDefaultAsync<Brewer>(@"
 SELECT 
     * 
 FROM Brewer 
-WHERE BrewerId = @BrewerId;
-", new { BrewerId = brewerId });
-    }
+WHERE BrewerId = @BrewerId;", new { BrewerId = brewerId });
 
     
     // 1.8 Question
     // Gegeven de BrewerId, geef een overzicht van alle bieren van de brouwerij gesorteerd bij alcohol percentage.
-    public async static Task<List<Beer>> GetAllBeersByBreweryId(int brewerId)
-    {
-        using var conn = DbHelper.GetConnection(); 
-        return (await conn.QueryAsync<Beer>(@"
+    public async static Task<IEnumerable<Beer>> GetAllBeersByBreweryId(int brewerId)
+        => await DbHelper.GetConnection().QueryAsync<Beer>(@"
 SELECT
     *
 FROM Beer 
 WHERE BrewerId = @BrewerId 
-ORDER BY alcohol;
-", new { BrewerId = brewerId})).ToList();
-    }
+ORDER BY alcohol;", new { BrewerId = brewerId});
     
     // 1.9 Question
     // Geef per cafe aan welke bieren ze schenken, sorteer op cafe naam en daarna bier naam.
     // Gebruik hiervoor de class CafeBeer (directory DTO). 
     // Voeg hiervoor properties toe aan de class CafeBeer, namelijk Beer en Cafe
-    public async static Task<List<CafeBeer>> GetCafeBeers()
-    {
-        using var conn = DbHelper.GetConnection(); 
-        return (await conn.QueryAsync<CafeBeer>(@"
+    public async static Task<IEnumerable<CafeBeer>> GetCafeBeers()
+     => await DbHelper.GetConnection().QueryAsync<CafeBeer>(@"
 SELECT 
     Beer.Name AS Beers, 
     Cafe.Name AS CafeName 
 FROM Beer 
 INNER JOIN Sells ON (Sells.BeerId = Beer.BeerId) 
 INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)
-ORDER BY CafeName, Beers")).ToList();
-    }
+ORDER BY CafeName, Beers");
     
     // 1.10 Question
     // Hetzelfde resultaat als de vorige vraag alleen op een andere manier.
@@ -215,33 +178,27 @@ INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)");
     // 1.11 Question
     // Geef de gemiddelde waardering (score in de tabel Review) van een biertje terug gegeven de BeerId.
     public async static Task<decimal> GetBeerRating(int beerId)
-    {
-        using var conn = DbHelper.GetConnection(); 
-        return (await conn.ExecuteScalarAsync<decimal>("SELECT AVG(score) as avg_score FROM review where BeerId=@BeerId", 
+        => await DbHelper.GetConnection().ExecuteScalarAsync<decimal>("SELECT AVG(score) as avg_score FROM review where BeerId=@BeerId", 
         new { 
                 BeerId=beerId
             }
-        ));
-    }
+        );
     
     // 1.12 Question
     // Voeg een review toe voor een bier.
     public async static Task InsertReview(int beerId, decimal score)
-        => InsertReviewReturnsReviewId(beerId, score);
+        => await InsertReviewReturnsReviewId(beerId, score);
     
     // 1.13 Question
     // Voeg een review toe voor bier. Geef de reviewId terug.
     public async static Task<int> InsertReviewReturnsReviewId(int beerId, decimal score)
-    {
-        using var conn = DbHelper.GetConnection();     
-        return (DbHelper.GetConnection().ExecuteScalar<int>("INSERT INTO Review (BeerId, Score) VALUES(@BeerId, @Score); SELECT LAST_INSERT_ID();", 
+        => await DbHelper.GetConnection().ExecuteScalarAsync<int>("INSERT INTO Review (BeerId, Score) VALUES(@BeerId, @Score); SELECT LAST_INSERT_ID();", 
         new {
              
                 BeerId=beerId,
                 Score=score
             }
-        )); 
-    }
+        ); 
     
     // 1.14 Question
     // Update een review voor een bepaalde reviewId.
