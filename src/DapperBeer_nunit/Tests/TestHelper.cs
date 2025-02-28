@@ -1,14 +1,13 @@
 namespace DapperBeer.Tests;
+using System.Diagnostics;
+using System.Threading.Tasks;
 
-[TestFixture]
+[SetUpFixture]
 public class TestHelper
 {
     [OneTimeSetUp]
-    public static void CreateAndPopulateDatabase()
+    public static async Task CreateAndPopulateDatabase()
     {
-        Console.WriteLine("Setting up environment.");
-        DbHelper.CreateTablesAndInsertData();
-        Console.WriteLine("Done ... Setting up environment.");
-        Thread.Sleep(300);
-    }   
+        await DbHelper.CreateTablesAndInsertData();
+    }
 }

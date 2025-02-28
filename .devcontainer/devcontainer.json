@@ -14,17 +14,41 @@
                     }
                 },
                 "terminal.integrated.defaultProfile.linux": "bash",
+				"dev.containers.dockerPath": "podman",
                 "plantuml.exportFormat": "png",
                 "plantuml.render": "PlantUMLServer",
                 "plantuml.server": "http://plantuml:8080",
                 "plantuml.diagramsRoot": "src/diagrams",
-                "plantuml.exportOutDir": "diagrams"
+                "plantuml.exportOutDir": "diagrams",
+				"dotnetAcquisitionExtension.existingDotnetPath": [
+					{
+						"extensionId": "ms-dotnettools.csdevkit",
+						"path": "/usr/share/dotnet/dotnet"
+					},
+					{
+						"extensionId": "ms-dotnettools.vscodeintellicode-csharp",
+						"path": "/usr/share/dotnet/dotnet"
+					},
+					{
+						"extensionId": "ms-dotnettools.csharp",
+						"path": "/usr/share/dotnet/dotnet"
+					},
+					{
+						"extensionId": "ms-dotnettools.vscode-dotnet-runtime",
+						"path": "/usr/share/dotnet/dotnet"    
+					},
+					{
+						"extensionId": "msazurermtools.azurerm-vscode-tools", 
+						"path": "/usr/share/dotnet/dotnet"
+					}
+				]
             },
             "extensions": [
 				"ms-dotnettools.csdevkit",
+				"dreamcatcher45.podmanager",
 				"ms-azuretools.vscode-docker",
 				"jebbs.plantuml",
-				"ms-mssql.mssql",
+				//"ms-mssql.mssql",
 				"ms-dotnettools.dotnet-interactive-vscode",
 				"ms-vscode.PowerShell",
 				"ms-azuretools.vscode-bicep",
@@ -35,7 +59,9 @@
 				"Rax.vscode-flexbox-picker",
 				"Zignd.html-css-class-completion",
 				"VisualStudioExptTeam.vscodeintellicode",
-				"VisualStudioExptTeam.intellicode-api-usage-examples"
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"ms-dotnettools.vscodeintellicode-csharp",
+				"ms-dotnettools.vscode-dotnet-runtime"
 			]
         }
     }

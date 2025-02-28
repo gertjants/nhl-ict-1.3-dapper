@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="TUnit" Version="0.10.28" />
+      <PackageReference Include="Verify.TUnit" Version="28.10.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\DapperBeer\DapperBeer.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Folder Include="Snapshots\" />
+    </ItemGroup>
+
+</Project>

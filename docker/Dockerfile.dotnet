@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:9.0
+FROM mcr.microsoft.com/dotnet
 
 USER root
 RUN apt-get update \
@@ -9,3 +9,4 @@ RUN apt-get update \
 
 RUN dotnet tool install --global dotnet-ef --version 9.*
 ENV PATH="$PATH:/root/.dotnet/tools"
+ENV DOTNET_EnableWriteXorExecute=1

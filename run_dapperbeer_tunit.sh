@@ -1,3 +1,3 @@
 #!/bin/bash
-dotnet build /workspace/src/DapperBeer_tunit
+clear
 dotnet test /workspace/src/DapperBeer_tunit

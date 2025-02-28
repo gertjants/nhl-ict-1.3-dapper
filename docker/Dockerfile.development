@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:9.0
+FROM ubuntu:latest
 ARG SCRIPTS_DIR='/scripts'
 
 # Swapping to root for installation
@@ -13,7 +13,16 @@ RUN apt-get update\
         git \
         iputils-ping \
         openssh-client \
+        libicu-dev \
+        podman \
     && rm -rf /var/lib/apt/lists/*
+
+COPY --chmod=755 docker/scripts/install_dotnet.sh ${SCRIPTS_DIR}/install_dotnet.sh
+RUN ${SCRIPTS_DIR}/install_dotnet.sh
+
+ENV PATH="$PATH:/root/.dotnet/tools"
+ENV DOTNET_EnableWriteXorExecute=0
+
 COPY --chmod=755 docker/scripts/install_mssql_tools.sh ${SCRIPTS_DIR}/install_mssql_tools.sh
 RUN ${SCRIPTS_DIR}/install_mssql_tools.sh
 
@@ -30,3 +39,21 @@ RUN dotnet tool install -g Microsoft.SqlPackage
 
 # install Microsoft.Build.Sql.Templates
 RUN dotnet new install Microsoft.Build.Sql.Templates
+
+# Creating user for vscode. 
+# Running as root is bad practice.
+# Create the user
+ARG USERNAME=vscode
+ARG USER_UID=1001
+ARG USER_GID=$USER_UID
+
+RUN groupadd --gid $USER_GID $USERNAME \
+    && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
+    #
+    # [Optional] Add sudo support. Omit if you don't need to install software after connecting.
+    && apt-get update \
+    && apt-get install -y sudo \
+    && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
+    && chmod 0440 /etc/sudoers.d/$USERNAME
+
+USER $USERNAME

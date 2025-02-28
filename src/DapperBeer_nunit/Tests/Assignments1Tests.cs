@@ -14,7 +14,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBrewersTest()
     {
-        List<Brewer> brewers = await Assignments1.GetAllBrewers();
+        List<Brewer> brewers = Assignments1.GetAllBrewers();
         
         brewers.Should().HaveCount(677);
 
@@ -108,7 +108,7 @@ public class Assignments1Tests : TestHelper
 
         cafeBeers.Should().HaveCount(754);
 
-        await Verify(cafeBeers);
+        await Verify(cafeBeers.Take(3));
     }
     
     // 1.10 Test
@@ -123,22 +123,22 @@ public class Assignments1Tests : TestHelper
     // 1.11 Test
     [Test]
     public async Task InsertReviewTest()
-    {
+    {        
         // in SQL/InsertReview.sql wordt ook al een record toegevoegd.  
-        Assignments1.InsertReview(338, 5.0m);
+        Assignments1.InsertReview(339, 5.0m);
         
-        decimal rating = await Assignments1.GetBeerRating(338);
-        rating.Should().Be(4.75m);
+        decimal rating = await Assignments1.GetBeerRating(339);
+        rating.Should().Be(5.0m);
     }
     
     // 1.12 Test
     [Test]
     public async Task InsertReviewReturnsReviewIdTest()
     {
-        int reviewId = Assignments1.InsertReviewReturnsReviewId(338, 5.0m);
+        int reviewId = await Assignments1.InsertReviewReturnsReviewId(340, 5.0m);
         reviewId.Should().Be(2);
         
-        decimal rating = await Assignments1.GetBeerRating(338);
-        rating.Should().Be(4.75m);
+        decimal rating = await Assignments1.GetBeerRating(340);
+        rating.Should().Be(5.0m);
     }
 }

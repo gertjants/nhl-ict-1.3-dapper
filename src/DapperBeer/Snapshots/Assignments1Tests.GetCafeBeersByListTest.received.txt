@@ -1,33 +1,35 @@
 ﻿[
   {
-    CafeName: AFFOURTIT,
+    CafeName: HERENGRACHT,
     Beers: [
-      ABBAYE DE ROCS NOEL,
-      BLONDINE,
-      OLD JOCK,
-      PECHERESSE
+      RAPUNZEL EXPORT,
+      HIRTER EXPORT PILS,
+      TYROLIAN BRAU,
+      OLD STOCK,
+      YOUNGER'S SCOTCH,
+      FIOR DI LUPPOLO,
+      BOONT AMBER,
+      SNOECK BRUIN,
+      GOUDEN CAROLUS AMBRIO,
+      HARVIESTOUN BELGIAN WHITE
     ]
   },
   {
-    CafeName: ALLEMAN,
+    CafeName: DEPENDANCE,
     Beers: [
-      EXMOOR ALE,
-      HARP,
-      LION STOUT,
-      MARSTON'S SINGLE MALT,
-      RED ERIC,
-      SIR HENRY'S STOUT,
-      VALLEY BEER MILD
+      ZIPPIL,
+      S. MIGUEL,
+      WHITE WIFE,
+      BROUGHTON SPECIAL
     ]
   },
   {
-    CafeName: ALT ARCE,
+    CafeName: DE ENGEL,
     Beers: [
-      AFFLIGEM TRIPLE,
-      BLUEBERRY,
-      BOON KRIEK,
-      LUCIFER,
-      SAINT OMER
+      ZIPPIL,
+      SUMMER LIGHTNING,
+      S. SMITH'S DARK MILD,
+      MAREDSOUS 6
     ]
   }
 ]

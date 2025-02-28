@@ -1,0 +1,42 @@
+!includedir /etc/mysql/conf.d/
+!includedir /etc/my.cnf.d/
+
+[mysqld] 
+max_connections=1000
+log_error=/var/log/mysql/mysql_error.log
+general_log_file=/var/log/mysql/mysql.log
+general_log=1
+tmpdir=/tmp/mysql
+
+# http://www.tocker.ca/2014/03/10/configuring-mysql-to-use-minimal-memory.html
+# https://staffordwilliams.com/blog/2015/11/11/optimising-wordpress-and-mysql-docker-images-for-amazon-ec2-micro-instances/?ref=marcopeg.com
+
+# Disabling performance_schema
+performance_schema=0
+
+#innodb_buffer_pool_size=5M
+#innodb_log_buffer_size=256K
+#key_buffer_size=8
+#thread_cache_size=0
+#host_cache_size=0
+#innodb_ft_cache_size=1600000
+#innodb_ft_total_cache_size=32000000
+
+# per thread or per operation settings
+#thread_stack=131072
+#sort_buffer_size=32K
+#read_buffer_size=8200
+#read_rnd_buffer_size=8200
+#max_heap_table_size=16K
+#tmp_table_size=1K
+#bulk_insert_buffer_size=0
+#join_buffer_size=128
+#net_buffer_length=1K
+#innodb_sort_buffer_size=64K
+
+#settings that relate to the binary log (if enabled)
+#binlog_cache_size=4K
+#binlog_stmt_cache_size=4K
+
+[mysqld_safe]
+log_error=/var/log/mysql/mysql_error.log

@@ -37,10 +37,16 @@ public class Assignments1
     // In de directory Model staan de classes die overeenkomen met de database tabellen.
     // In de directory DTO (Data Transfer Object) staan de classes die worden gebruikt als resultaat indien deze
     // niet overeenkomt met een database tabel (Model).
-    public async static Task<List<Brewer>> GetAllBrewers()
+    public static List<Brewer> GetAllBrewers()
     {
         using var conn = DbHelper.GetConnection();
-        return (await conn.QueryAsync<Brewer>("SELECT * FROM `brewer`;")).ToList();
+        //conn.OpenAsync();
+        //return new List<Brewer>();
+        return conn.Query<Brewer>(@"
+SELECT 
+    * 
+FROM `brewer`;
+").ToList();
     }
 
     // 1.2 Question
@@ -49,7 +55,12 @@ public class Assignments1
     public async static Task<List<Beer>> GetAllBeersOrderByAlcohol()
     {
         using var conn = DbHelper.GetConnection();
-        return (await conn.QueryAsync<Beer>("SELECT * FROM `beer` order by `Alcohol` asc, `Name`;")).ToList();
+        return (await conn.QueryAsync<Beer>(@"
+SELECT 
+    * 
+FROM `beer` 
+order by `Alcohol` desc, `Name`;
+")).ToList();
     }
     
     // 1.3 Question
@@ -69,7 +80,8 @@ public class Assignments1
     FROM `Beer` Beer 
     INNER JOIN `Brewer` Brewer on (Brewer.BrewerId = Beer.BrewerId)
     WHERE  brewer.Country = @Country
-    ORDER BY Beer.Name asc;", new { Country = country })).ToList();
+    ORDER BY Beer.Name asc;
+", new { Country = country })).ToList();
     }
     
     // 1.4 Question
@@ -81,7 +93,12 @@ public class Assignments1
     public async static Task<int> CountBrewers()
     {
         using var conn = DbHelper.GetConnection(); 
-        return (await conn.ExecuteScalarAsync<int>("SELECT COUNT(*) FROM Brewer ORDER BY COUNT(*) DESC;"));
+        return (await conn.ExecuteScalarAsync<int>(@"
+SELECT 
+    COUNT(*) 
+FROM Brewer 
+ORDER BY COUNT(*) DESC;
+"));
     }
     
     // 1.5 Question
@@ -95,7 +112,14 @@ public class Assignments1
     public async static Task<List<NumberOfBrewersByCountry>> NumberOfBrewersByCountry()
     {
         using var conn = DbHelper.GetConnection(); 
-        return (await conn.QueryAsync<NumberOfBrewersByCountry>("SELECT Country, COUNT(*) AS NumberOfBreweries FROM Brewer WHERE Country IN ('GER', 'BEL', 'ENG') GROUP BY Country;")).ToList();
+        return (await conn.QueryAsync<NumberOfBrewersByCountry>(@"
+SELECT 
+    Country,
+    COUNT(*) AS NumberOfBreweries 
+FROM Brewer 
+GROUP BY Country
+ORDER BY NumberOfBreweries DESC;
+")).ToList();
     }
     
     // 1.6 Question
@@ -104,7 +128,12 @@ public class Assignments1
     public async static Task<Beer> GetBeerWithMostAlcohol()
     {
         using var conn = DbHelper.GetConnection(); 
-        return await conn.QuerySingleAsync<Beer>("SELECT * FROM Beer ORDER BY Alcohol DESC LIMIT 1;");
+        return await conn.QuerySingleAsync<Beer>(@"
+SELECT
+    *
+FROM Beer
+ORDER BY Alcohol DESC LIMIT 1;
+");
     }
     
     // 1.7 Question
@@ -115,7 +144,12 @@ public class Assignments1
     public async static Task<Brewer?> GetBreweryByBrewerId(int brewerId)
     {
         using var conn = DbHelper.GetConnection(); 
-        return await conn.QuerySingleOrDefaultAsync<Brewer>("SELECT * FROM Brewer WHERE BrewerId = @BrewerId;", new { BrewerId = brewerId });
+        return await conn.QuerySingleOrDefaultAsync<Brewer>(@"
+SELECT 
+    * 
+FROM Brewer 
+WHERE BrewerId = @BrewerId;
+", new { BrewerId = brewerId });
     }
 
     
@@ -124,7 +158,13 @@ public class Assignments1
     public async static Task<List<Beer>> GetAllBeersByBreweryId(int brewerId)
     {
         using var conn = DbHelper.GetConnection(); 
-        return (await conn.QueryAsync<Beer>("SELECT * FROM Beer WHERE BrewerId = @BrewerId ORDER BY alcohol;", new { BrewerId = brewerId})).ToList();
+        return (await conn.QueryAsync<Beer>(@"
+SELECT
+    *
+FROM Beer 
+WHERE BrewerId = @BrewerId 
+ORDER BY alcohol;
+", new { BrewerId = brewerId})).ToList();
     }
     
     // 1.9 Question
@@ -136,11 +176,12 @@ public class Assignments1
         using var conn = DbHelper.GetConnection(); 
         return (await conn.QueryAsync<CafeBeer>(@"
 SELECT 
-    Beer.Name AS Beer, 
-    Cafe.Name AS Cafe 
+    Beer.Name AS Beers, 
+    Cafe.Name AS CafeName 
 FROM Beer 
 INNER JOIN Sells ON (Sells.BeerId = Beer.BeerId) 
-INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)")).ToList();
+INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)
+ORDER BY CafeName, Beers")).ToList();
     }
     
     // 1.10 Question
@@ -176,7 +217,7 @@ INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)");
     public async static Task<decimal> GetBeerRating(int beerId)
     {
         using var conn = DbHelper.GetConnection(); 
-        return (await conn.QueryFirstAsync("SELECT AVG(score) as avg_score FROM reviews where BeerId=@BeerId", 
+        return (await conn.ExecuteScalarAsync<decimal>("SELECT AVG(score) as avg_score FROM review where BeerId=@BeerId", 
         new { 
                 BeerId=beerId
             }
@@ -185,16 +226,17 @@ INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)");
     
     // 1.12 Question
     // Voeg een review toe voor een bier.
-    public static void InsertReview(int beerId, decimal score)
+    public async static Task InsertReview(int beerId, decimal score)
         => InsertReviewReturnsReviewId(beerId, score);
     
     // 1.13 Question
     // Voeg een review toe voor bier. Geef de reviewId terug.
-    public static int InsertReviewReturnsReviewId(int beerId, decimal score)
+    public async static Task<int> InsertReviewReturnsReviewId(int beerId, decimal score)
     {
         using var conn = DbHelper.GetConnection();     
-        return (DbHelper.GetConnection().Execute("INSERT INTO Reviews (BeerId, Score) VALUES(@BeerId, @Score); SELECT SCOPE_IDENTITY()", 
-        new { 
+        return (DbHelper.GetConnection().ExecuteScalar<int>("INSERT INTO Review (BeerId, Score) VALUES(@BeerId, @Score); SELECT LAST_INSERT_ID();", 
+        new {
+             
                 BeerId=beerId,
                 Score=score
             }
@@ -206,7 +248,7 @@ INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)");
     public static void UpdateReviews(int reviewId, decimal score)
     {
         using var conn = DbHelper.GetConnection();  
-        DbHelper.GetConnection().Execute("UPDATE Reviews SET score=@Score where ReviewId=@ReviewId", 
+        DbHelper.GetConnection().Execute("UPDATE Review SET score=@Score where ReviewId=@ReviewId", 
         new { 
                 ReviewId=reviewId,
                 Score=score
@@ -219,7 +261,7 @@ INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)");
     public static void RemoveReviews(int reviewId)
     {
         using var conn = DbHelper.GetConnection(); 
-        DbHelper.GetConnection().Execute("DELETE FROM Reviews where ReviewId=@ReviewId", new { ReviewId=reviewId});
+        DbHelper.GetConnection().Execute("DELETE FROM Review where ReviewId=@ReviewId", new { ReviewId=reviewId});
     }
         
 }

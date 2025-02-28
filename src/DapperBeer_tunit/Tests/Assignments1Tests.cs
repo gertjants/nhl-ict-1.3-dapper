@@ -10,9 +10,9 @@ public class Assignments1Tests : TestHelper
 {
     // 1.1 Test
     [Test]
-    public  async Task GetAllBrewersTest()
+    public async Task GetAllBrewersTest()
     {
-        List<Brewer> brewers = Assignments1.GetAllBrewers();
+        List<Brewer> brewers = await Assignments1.GetAllBrewers();
         
         brewers.Should().HaveCount(677);
 
@@ -23,7 +23,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersOrderByAlcoholTest()
     {
-        List<Beer> beers = Assignments1.GetAllBeersOrderByAlcohol();
+        List<Beer> beers = await Assignments1.GetAllBeersOrderByAlcohol();
 
         beers.Should().HaveCount(1617);
 
@@ -34,7 +34,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersSortedByNameForCountryTest()
     {
-        List<Beer> beers = Assignments1.GetAllBeersSortedByNameForCountry("BEL");
+        List<Beer> beers = await Assignments1.GetAllBeersSortedByNameForCountry("BEL");
 
         beers.Should().HaveCount(296);
 
@@ -43,9 +43,9 @@ public class Assignments1Tests : TestHelper
     
     // 1.4 Test
     [Test]
-    public void CountBrewersTest()
+    public async Task CountBrewersTest()
     {
-        int breweryCount = Assignments1.CountBrewers();
+        int breweryCount = await Assignments1.CountBrewers();
 
         breweryCount.Should().Be(677);
     }
@@ -54,7 +54,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task NumberOfBrewersByCountryTest()
     {
-        List<NumberOfBrewersByCountry> numberOfBrewersByCountries = Assignments1.NumberOfBrewersByCountry();
+        List<NumberOfBrewersByCountry> numberOfBrewersByCountries = await Assignments1.NumberOfBrewersByCountry();
 
         numberOfBrewersByCountries.Should().HaveCount(46);
 
@@ -65,7 +65,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetBeerWithMostAlcoholTest()
     {
-        Beer beer = Assignments1.GetBeerWithMostAlcohol();
+        Beer beer = await Assignments1.GetBeerWithMostAlcohol();
 
         beer.Name.Should().Be("XIAOYU");
 
@@ -76,12 +76,12 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetBreweryByBrewerIdTest()
     {
-        Brewer? brewer = Assignments1.GetBreweryByBrewerId(689);
+        Brewer? brewer = await Assignments1.GetBreweryByBrewerId(689);
 
         brewer.Should().NotBeNull();
         brewer!.Name.Should().Be("AFFLIGEM");
         
-        Brewer? brewerNull = Assignments1.GetBreweryByBrewerId(-1);
+        Brewer? brewerNull = await Assignments1.GetBreweryByBrewerId(-1);
         brewerNull.Should().BeNull();
         
         await Verify(brewer);
@@ -91,7 +91,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersByBreweryIdTest()
     {
-        List<Beer> beers = Assignments1.GetAllBeersByBreweryId(689);
+        List<Beer> beers = await Assignments1.GetAllBeersByBreweryId(689);
 
         beers.Should().HaveCount(2);
 
@@ -102,7 +102,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetCafeBeersTest()
     {
-        List<CafeBeer> cafeBeers = Assignments1.GetCafeBeers();
+        List<CafeBeer> cafeBeers = await Assignments1.GetCafeBeers();
 
         cafeBeers.Should().HaveCount(754);
 
@@ -113,7 +113,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetCafeBeersByListTest()
     {
-        List<CafeBeerList> cafeBeerList = Assignments1.GetCafeBeersByList();
+        List<CafeBeerList> cafeBeerList = await Assignments1.GetCafeBeersByList();
 
         cafeBeerList.Should().HaveCount(145);
 
@@ -122,11 +122,11 @@ public class Assignments1Tests : TestHelper
     
     // 1.11 Test
     [Test]
-    public decimal GetBeerRatingTest()
+    public async Task<decimal> GetBeerRatingTest()
     {
         using IDbConnection connection = DbHelper.GetConnection();
         connection.Execute("INSERT INTO Review (BeerId, Score) VALUES (338, 4.5)");
-        decimal rating = Assignments1.GetBeerRating(338);
+        decimal rating = await Assignments1.GetBeerRating(338);
         rating.Should().Be(4.5m);
         return rating;
     }
@@ -134,20 +134,20 @@ public class Assignments1Tests : TestHelper
     // 1.12 Test
     [Test]
     [NotInParallel]
-    public void InsertReview()
+    public async Task InsertReview()
     {
         DbHelper.DropAndCreateTableReviews();
         Assignments1.InsertReview(338, 4.5m);
         Assignments1.InsertReview(338, 5.0m);
         
-        decimal rating = Assignments1.GetBeerRating(338);
+        decimal rating = await Assignments1.GetBeerRating(338);
         rating.Should().Be(4.75m);
     }
     
     // 1.13 Test
     [Test]
     [NotInParallel]
-    public void UpdateReviewTest()
+    public async Task UpdateReviewTest()
     {
         DbHelper.DropAndCreateTableReviews();
         Assignments1.InsertReview(338, 4.5m);
@@ -157,14 +157,14 @@ public class Assignments1Tests : TestHelper
         
         Assignments1.UpdateReviews(reviewId, 5.0m);
         
-        decimal rating = Assignments1.GetBeerRating(338);
+        decimal rating = await Assignments1.GetBeerRating(338);
         rating.Should().Be(4.75m);
     }
     
     // 1.14 Test
     [Test]
     [NotInParallel]
-    public void RemoveReviewTest()
+    public async Task RemoveReviewTest()
     {
         DbHelper.DropAndCreateTableReviews();
         Assignments1.InsertReview(338, 4.5m);
@@ -174,7 +174,7 @@ public class Assignments1Tests : TestHelper
         
         Assignments1.RemoveReviews(reviewId);
         
-        decimal rating = Assignments1.GetBeerRating(338);
+        decimal rating = await Assignments1.GetBeerRating(338);
         rating.Should().Be(4.5m);
     }
 }
