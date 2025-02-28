@@ -28,10 +28,13 @@ public class Assignments2
     // (DELETE, DROP, SELECT van andere tabellen, etc.)!
     // Met andere woorden gebruik altijd query parameters en nooit string concatenatie om SQL-queries te maken.
     // !!!DOE DIT NOOIT MEER SVP!!!!
-    public static List<string> GetBeersByCountryWithSqlInjection(string country)
-    {
-        throw new NotImplementedException();
-    }
+    public async static Task<IEnumerable<string>> GetBeersByCountryWithSqlInjection(string country)
+        => await DbHelper.GetConnection().QueryAsync<string>(@$"
+SELECT 
+    Beer.Name 
+FROM Beer
+JOIN Brewer brewer ON beer.BrewerId = brewer.BrewerId 
+WHERE Brewer.Country='{country}'");
     
     // 2.2 Question
     // Maak een methode die alle bieren teruggeeft, gegeven het land, echter het land kan ook leeg gelaten worden.
@@ -41,20 +44,28 @@ public class Assignments2
     //      WHERE @Country IS NULL OR Country = @Country 
     // Het vraagteken bij 'GetAllBeersByCountry(string? country)' geeft aan dat het argument optioneel is (string? country).
     // Dit betekent dus dat country null kan zijn.
-    public static List<string> GetAllBeersByCountry(string? country)
-    {
-        throw new NotImplementedException();
-    }
+    public async static Task<IEnumerable<string>> GetAllBeersByCountry(string? country)
+        => await GetAllBeersByCountryAndMinAlcohol(country);
     
     // 2.3 Question
     // Nu doen we hetzelfde als in de vorige opdracht GetAllBeersByCountry, echter voegen we een extra parameter toe,
     // het minimal alcoholpercentage.
     // Ook het minAlcohol kan leeg gelaten worden (decimal? minAlcohol).
     // Gebruikt >= (groter of gelijk aan) voor de vergelijking van het minAlcohol.
-    public static List<string> GetAllBeersByCountryAndMinAlcohol(string? country = null, decimal? minAlcohol = null)
-    {
-        throw new NotImplementedException(); 
-    }
+    public async static Task<IEnumerable<string>> GetAllBeersByCountryAndMinAlcohol(string? country = null, decimal? minAlcohol = null)
+        => await DbHelper.GetConnection().QueryAsync<string>(@$"
+SELECT 
+    Beer.Name 
+FROM Beer
+JOIN Brewer brewer ON beer.BrewerId = brewer.BrewerId 
+WHERE 
+    (@Country IS NULL OR brewer.Country=@Country)
+    AND (@MinAlcohol IS NULL OR beer.Alcohol >= @MinAlcohol)
+ORDER BY Beer.Name
+    ", new { 
+        Country = country,
+        MinAlcohol = minAlcohol
+    });
     
     // 2.4 Question
     // Helaas kan je in SQL bijv. geen parameter gebruiken voor de ORDER BY.
@@ -87,21 +98,27 @@ public class Assignments2
     // Dit worden default parameters genoemd i.c.m. optionele parameters en named arguments. 
     // Om Dapper (en andere bibliotheken) te gebruiken, worden vaak bovenstaande technieken gebruikt voor het aanroepen van methoden.
     // Zo zie je maar dat er ook wat van je C#-skills verwacht wordt :-).
-    public static List<string> GetAllBeersByCountryAndMinAlcoholOrderByWithSqlBuilder(
+    public async static Task<IEnumerable<string>> GetAllBeersByCountryAndMinAlcoholOrderByWithSqlBuilder(
         string? country = null, decimal? minAlcohol = null, string orderBy = "beer.Name")
     {
-        using IDbConnection connection = DbHelper.GetConnection();
-        string sql = $"""
-                      SELECT beer.Name
-                      FROM Beer beer 
-                           JOIN Brewer brewer ON beer.BrewerId = brewer.BrewerId 
-                      /**where**/
-                      /**orderby**/
-                      """;
-        
-        SqlBuilder builder = new SqlBuilder();
-        
-        throw new NotImplementedException();
+        var builder = new SqlBuilder();
+        var selectTemplate = builder.AddTemplate(@$"
+SELECT beer.Name
+FROM Beer beer 
+    JOIN Brewer brewer ON beer.BrewerId = brewer.BrewerId 
+/**where**/
+/**orderby**/");
+
+        if(!string.IsNullOrWhiteSpace(country))
+            builder.Where($"brewer.Country = @{nameof(country)}", new { country });
+
+        if(minAlcohol is not null)
+            builder.Where($"beer.Alcohol >= @{nameof(minAlcohol)}", new { minAlcohol });
+
+        if(!string.IsNullOrWhiteSpace(orderBy))
+            builder.OrderBy(orderBy);
+            
+        return await DbHelper.GetConnection().QueryAsync<string>(selectTemplate.RawSql, selectTemplate.Parameters);
     }
 
     // 2.5 Question
@@ -111,9 +128,29 @@ public class Assignments2
     //
     // Gebruik de volgende where-clause: WHERE BrewmasterName IS NOT NULL (in de query niet in de view)
     // Gebruik de klasse BrewerBeerBrewmaster om de resultaten in op te slaan. (directory DTO).
-    public static List<BrewerBeerBrewmaster> GetAllBeerNamesWithBreweryAndBrewmaster()
+    public async static Task<IEnumerable<BrewerBeerBrewmaster>> GetAllBeerNamesWithBreweryAndBrewmaster()
     {
-        throw new NotImplementedException();
+        await DbHelper.GetConnection().ExecuteAsync(@"
+CREATE OR REPLACE VIEW vw_BrewerBeerBrewmaster AS (
+    SELECT 
+        Beer.Name AS BeerName,
+        Brewer.Name AS BrewerName,
+        Brewmaster.Name AS BrewmasterName
+    FROM
+        Beer Beer
+    JOIN Brewer Brewer ON Brewer.BrewerId = Beer.BrewerId
+    LEFT JOIN Brewmaster Brewmaster ON Brewmaster.BrewerId = Brewer.BrewerId
+);");
+    
+        return await DbHelper.GetConnection().QueryAsync<BrewerBeerBrewmaster>(@"
+SELECT 
+    *
+FROM 
+    vw_BrewerBeerBrewmaster
+WHERE 
+    BrewmasterName IS NOT NULL
+ORDER BY 
+    BeerName");
     }
     
     // 2.6 Question
@@ -137,20 +174,27 @@ public class Assignments2
         
         public string OrderBy { get; set; } = "beer.Name";
     }
-    public static List<Beer> GetBeersByCountryAndType(BeerFilter filter)
-    {
-        using IDbConnection connection = DbHelper.GetConnection();
-        string sql = $"""
-                      SELECT beer.BeerId, beer.Name, beer.Type, beer.Style, beer.Alcohol, beer.BrewerId
-                      FROM Beer beer 
-                           JOIN Brewer brewer ON beer.BrewerId = brewer.BrewerId
-                      /**where**/
-                      /**orderby**/
-                      LIMIT @PageSize OFFSET @Offset
-                      """;
-        
+    public async static Task<IEnumerable<Beer>> GetBeersByCountryAndType(BeerFilter filter)
+    {        
         SqlBuilder builder = new SqlBuilder();
 
-        throw new NotImplementedException();
+        var selectTemplate = builder.AddTemplate(@$"
+SELECT beer.BeerId, beer.Name, beer.Type, beer.Style, beer.Alcohol, beer.BrewerId
+FROM Beer beer 
+    JOIN Brewer brewer ON beer.BrewerId = brewer.BrewerId
+/**where**/
+/**orderby**/
+LIMIT @PageSize OFFSET @Offset");
+
+        if(!string.IsNullOrWhiteSpace(filter.Country))
+            builder.Where($"brewer.Country = @Country");
+
+        if(!string.IsNullOrWhiteSpace(filter.Type))
+            builder.Where($"beer.Type = @Type");
+
+        if(!string.IsNullOrWhiteSpace(filter.OrderBy))
+            builder.OrderBy(filter.OrderBy);
+
+        return await DbHelper.GetConnection().QueryAsync<Beer>(selectTemplate.RawSql, filter);
     }
 }
