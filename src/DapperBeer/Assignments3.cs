@@ -23,19 +23,41 @@ public class Assignments3
     // Je kan dit doen door een JOIN te gebruiken.
     // Je zult de map functie in Query<Brewmaster, Address, Brewmaster>(sql, map: ...) moeten gebruiken om de Address property van Brewmaster te vullen.
     // Kijk in voorbeelden hoe je dit kan doen. Deze staan in de directory ExampleFromSheets/Relationships.cs.
-    public static List<Brewmaster> GetAllBrouwmeestersIncludesAddress()
-    {
-        throw new NotImplementedException();
-    }
+    public static async Task<IEnumerable<Brewmaster>> GetAllBrouwmeestersIncludesAddress()
+        => await DbHelper.GetConnection().QueryAsync<Brewmaster, Address, Brewmaster>(@"
+SELECT 
+    Brewmaster.*,
+    Address.*
+FROM
+    Brewmaster Brewmaster
+JOIN Address Address ON Address.AddressId = Brewmaster.AddressId
+ORDER BY Brewmaster.Name
+        ",
+        map: (result, obj) => {
+            result.Address = obj;
+            return result;
+        },
+        splitOn: "AddressId");
 
     // 3.2 Question
     // 1 op 1 relatie (one-to-one relationship)
     // Haal alle brouwmeesters op en zorg ervoor dat de brouwer (Brewer) gevuld is.
     // Sorteer op naam.
-    public static List<Brewmaster> GetAllBrewmastersWithBrewery()
-    {
-        throw new NotImplementedException();
-    }
+    public static async Task<IEnumerable<Brewmaster>> GetAllBrewmastersWithBrewery()
+        => await DbHelper.GetConnection().QueryAsync<Brewmaster, Brewer, Brewmaster>(@"
+SELECT 
+    Brewmaster.*,
+    Brewer.*
+FROM
+    Brewmaster Brewmaster
+JOIN Brewer Brewer ON Brewer.BrewerId = Brewmaster.BrewerId
+ORDER BY Brewmaster.Name
+        ",
+        map: (result, obj) => {
+            result.Brewer = obj;
+            return result;
+        },
+        splitOn: "BrewerId");
 
     // 3.3 Question
     // 1 op 1 (0..1) (one-to-one relationship) 
@@ -49,10 +71,22 @@ public class Assignments3
     // Query<Brewer, Brewmaster?, Brewer>(sql, map: ...)
     // Wat je kan doen is in de map functie een controle toevoegen:
     // if (brewmaster is not null) { brewer.Brewmaster = brewmaster; }
-    public static List<Brewer> GetAllBrewersIncludeBrewmaster()
-    {
-        throw new NotImplementedException();
-    }
+    public static async Task<IEnumerable<Brewer>> GetAllBrewersIncludeBrewmaster()
+        => await DbHelper.GetConnection().QueryAsync<Brewer, Brewmaster?, Brewer>(@"
+SELECT 
+    Brewer.*,
+    Brewmaster.*
+FROM
+    Brewer Brewer
+LEFT JOIN  Brewmaster Brewmaster ON Brewer.BrewerId = Brewmaster.BrewerId
+ORDER BY Brewer.Name
+        ",
+        map: (result, obj) => {
+            if (obj is not null)
+                result.Brewmaster = obj;
+            return result;
+        },
+        splitOn: "BrewmasterId");
     
     // 3.4 Question
     // 1 op veel relatie (one-to-many relationship)
@@ -61,9 +95,25 @@ public class Assignments3
     // Zorg ervoor dat bieren van dezelfde brouwerij naar dezelfde instantie van Brouwer verwijzen.
     // Dit kan je doen door een Dictionary<int, Brouwer> te gebruiken.
     // Kijk in voorbeelden hoe je dit kan doen. Deze staan in de directory ExampleFromSheets/Relationships.cs.
-    public static List<Beer> GetAllBeersIncludeBrewery()
+    public async static Task<IEnumerable<Beer>> GetAllBeersIncludeBrewery()
     {
-        throw new NotImplementedException();
+        var dict = new Dictionary<int, Brewer>();
+        using var conn = DbHelper.GetConnection();
+
+        return await DbHelper.GetConnection().QueryAsync<Beer, Brewer, Beer>(@"
+SELECT
+    Beer.*,
+    Brewer.*
+FROM
+    Beer Beer
+LEFT JOIN Brewer Brewer ON Brewer.BrewerId = Beer.BrewerId
+ORDER BY Beer.Name
+        ",
+        map: (result, obj) => {
+            result.Brewer = dict.GetOrAdd(obj.BrewerId, obj);
+            return result;
+        },
+        splitOn: "BrewerId");
     }
     
     // 3.5 Question
