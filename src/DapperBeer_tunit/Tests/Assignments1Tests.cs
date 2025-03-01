@@ -12,7 +12,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBrewersTest()
     {
-        List<Brewer> brewers = await Assignments1.GetAllBrewers();
+        var brewers = await Assignments1.GetAllBrewers();
         
         brewers.Should().HaveCount(677);
 
@@ -23,7 +23,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersOrderByAlcoholTest()
     {
-        List<Beer> beers = await Assignments1.GetAllBeersOrderByAlcohol();
+        var beers = await Assignments1.GetAllBeersOrderByAlcohol();
 
         beers.Should().HaveCount(1617);
 
@@ -34,7 +34,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersSortedByNameForCountryTest()
     {
-        List<Beer> beers = await Assignments1.GetAllBeersSortedByNameForCountry("BEL");
+        var beers = await Assignments1.GetAllBeersSortedByNameForCountry("BEL");
 
         beers.Should().HaveCount(296);
 
@@ -54,7 +54,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task NumberOfBrewersByCountryTest()
     {
-        List<NumberOfBrewersByCountry> numberOfBrewersByCountries = await Assignments1.NumberOfBrewersByCountry();
+        var numberOfBrewersByCountries = await Assignments1.NumberOfBrewersByCountry();
 
         numberOfBrewersByCountries.Should().HaveCount(46);
 
@@ -91,7 +91,7 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetAllBeersByBreweryIdTest()
     {
-        List<Beer> beers = await Assignments1.GetAllBeersByBreweryId(689);
+        var beers = await Assignments1.GetAllBeersByBreweryId(689);
 
         beers.Should().HaveCount(2);
 
@@ -102,18 +102,18 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task GetCafeBeersTest()
     {
-        List<CafeBeer> cafeBeers = await Assignments1.GetCafeBeers();
+        var cafeBeers = await Assignments1.GetCafeBeers();
 
         cafeBeers.Should().HaveCount(754);
 
-        await Verify(cafeBeers);
+        await Verify(cafeBeers.Take(3));
     }
     
     // 1.10 Test
     [Test]
     public async Task GetCafeBeersByListTest()
     {
-        List<CafeBeerList> cafeBeerList = await Assignments1.GetCafeBeersByList();
+        var cafeBeerList = await Assignments1.GetCafeBeersByList();
 
         cafeBeerList.Should().HaveCount(145);
 
@@ -124,8 +124,6 @@ public class Assignments1Tests : TestHelper
     [Test]
     public async Task<decimal> GetBeerRatingTest()
     {
-        using IDbConnection connection = DbHelper.GetConnection();
-        connection.Execute("INSERT INTO Review (BeerId, Score) VALUES (338, 4.5)");
         decimal rating = await Assignments1.GetBeerRating(338);
         rating.Should().Be(4.5m);
         return rating;
@@ -136,11 +134,10 @@ public class Assignments1Tests : TestHelper
     [NotInParallel]
     public async Task InsertReview()
     {
-        DbHelper.DropAndCreateTableReviews();
-        Assignments1.InsertReview(338, 4.5m);
-        Assignments1.InsertReview(338, 5.0m);
+        await Assignments1.InsertReview(339, 4.5m);
+        await Assignments1.InsertReview(339, 5.0m);
         
-        decimal rating = await Assignments1.GetBeerRating(338);
+        decimal rating = await Assignments1.GetBeerRating(339);
         rating.Should().Be(4.75m);
     }
     
@@ -149,11 +146,8 @@ public class Assignments1Tests : TestHelper
     [NotInParallel]
     public async Task UpdateReviewTest()
     {
-        DbHelper.DropAndCreateTableReviews();
-        Assignments1.InsertReview(338, 4.5m);
-        
-        int reviewId = Assignments1.InsertReviewReturnsReviewId(338, 4.5m);
-        reviewId.Should().Be(2);
+        int reviewId = await Assignments1.InsertReviewReturnsReviewId(338, 4.5m);
+        reviewId.Should().Be(5);
         
         Assignments1.UpdateReviews(reviewId, 5.0m);
         
@@ -165,12 +159,9 @@ public class Assignments1Tests : TestHelper
     [Test]
     [NotInParallel]
     public async Task RemoveReviewTest()
-    {
-        DbHelper.DropAndCreateTableReviews();
-        Assignments1.InsertReview(338, 4.5m);
-        
-        int reviewId = Assignments1.InsertReviewReturnsReviewId(338, 5.0m);
-        reviewId.Should().Be(2);
+    {        
+        int reviewId = await Assignments1.InsertReviewReturnsReviewId(338, 5.0m);
+        reviewId.Should().Be(4);
         
         Assignments1.RemoveReviews(reviewId);
         

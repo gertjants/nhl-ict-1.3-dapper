@@ -155,19 +155,23 @@ ORDER BY CafeName, Beers");
     // Je zult wat extra code moeten schrijven in C#.
     // De truc is dat je klasse CafeBeer gebruikt voor je Query<CafeBeer> en dan 'converteren/kopiëren van de waardes' naar CafeBeerList. 
     public async static Task<IEnumerable<CafeBeerList>> GetCafeBeersByList()
-        => await DbHelper.GetConnection().QueryAsync<CafeBeerList, Cafe, CafeBeerList>(@"
+    {
+        var conn = DbHelper.GetConnection();
+        var cafeBeers = await DbHelper.GetConnection().QueryAsync<CafeBeer>(@"
 SELECT 
-    Beer.Name, 
-    Cafe.Name
+    Beer.Name AS Beers,
+    Cafe.Name AS CafeName
 FROM Beer 
 INNER JOIN Sells ON (Sells.BeerId = Beer.BeerId) 
-INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)",
-map: (cafebeerlist, cafe) => 
-{
-    cafebeerlist.CafeName = cafe.Name;
-    return cafebeerlist;
-}, 
-splitOn: "Cafe");
+INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)
+ORDER BY CafeName, Beers");
+        return (from q in cafeBeers
+                group q.Beers by q.CafeName into grp 
+                select new CafeBeerList {
+                    CafeName = grp.Key,
+                    Beers = grp.ToList()
+        }).ToList();
+    }
     
     // 1.11 Question
     // Geef de gemiddelde waardering (score in de tabel Review) van een biertje terug gegeven de BeerId.

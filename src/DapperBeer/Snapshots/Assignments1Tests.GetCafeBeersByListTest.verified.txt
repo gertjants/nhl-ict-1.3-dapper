@@ -1,7 +1,7 @@
 ﻿[
   {
-    Cafe: AFFOURTIT,
-    Beeren: [
+    CafeName: AFFOURTIT,
+    Beers: [
       ABBAYE DE ROCS NOEL,
       BLONDINE,
       OLD JOCK,
@@ -9,8 +9,8 @@
     ]
   },
   {
-    Cafe: ALLEMAN,
-    Beeren: [
+    CafeName: ALLEMAN,
+    Beers: [
       EXMOOR ALE,
       HARP,
       LION STOUT,
@@ -21,8 +21,8 @@
     ]
   },
   {
-    Cafe: ALT ARCE,
-    Beeren: [
+    CafeName: ALT ARCE,
+    Beers: [
       AFFLIGEM TRIPLE,
       BLUEBERRY,
       BOON KRIEK,
