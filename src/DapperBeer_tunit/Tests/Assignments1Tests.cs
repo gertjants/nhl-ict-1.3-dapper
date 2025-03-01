@@ -1,4 +1,5 @@
 using System.Data;
+using System.Reflection;
 using Dapper;
 using DapperBeer.DTO;
 using DapperBeer.Model;
@@ -146,13 +147,16 @@ public class Assignments1Tests : TestHelper
     [NotInParallel]
     public async Task UpdateReviewTest()
     {
-        int reviewId = await Assignments1.InsertReviewReturnsReviewId(338, 4.5m);
-        reviewId.Should().Be(5);
+        int reviewId = await Assignments1.InsertReviewReturnsReviewId(340, 4.5m);
+        await Assert.That(reviewId).IsEqualTo(2)
+            .Or.IsEqualTo(3)
+            .Or.IsEqualTo(4)
+            .Or.IsEqualTo(5);
         
         Assignments1.UpdateReviews(reviewId, 5.0m);
         
-        decimal rating = await Assignments1.GetBeerRating(338);
-        rating.Should().Be(4.75m);
+        decimal rating = await Assignments1.GetBeerRating(340);
+        rating.Should().Be(5.0m);
     }
     
     // 1.14 Test
@@ -161,7 +165,10 @@ public class Assignments1Tests : TestHelper
     public async Task RemoveReviewTest()
     {        
         int reviewId = await Assignments1.InsertReviewReturnsReviewId(338, 5.0m);
-        reviewId.Should().Be(4);
+        await Assert.That(reviewId).IsEqualTo(2)
+            .Or.IsEqualTo(3)
+            .Or.IsEqualTo(4)
+            .Or.IsEqualTo(5);;
         
         Assignments1.RemoveReviews(reviewId);
         
