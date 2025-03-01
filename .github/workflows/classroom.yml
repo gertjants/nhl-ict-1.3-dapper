@@ -76,10 +76,10 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Build
-        run: dotnet build /workspace/src/DapperBeer_tunit
+        run: dotnet build ./src/DapperBeer_tunit
 
       - name: Build
-        run: dotnet build /workspace/src/DapperBeer_tunit
+        run: dotnet build ./src/DapperBeer_tunit
         
 #      - name: List packages
 #        run: list package --include-transitive
