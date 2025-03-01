@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using DapperBeer.DTO;
 using DapperBeer.Model;
 using FluentAssertions;
-using System.Linq;
+using System.Data;
+using Dapper;
 
 namespace DapperBeer;
-
-using Dapper;
 
 public class Assignments1
 {
@@ -156,24 +154,20 @@ ORDER BY CafeName, Beers");
     // Het probleem is dat een cafe meerdere bieren kan schenken. Hoe los je dit op?
     // Je zult wat extra code moeten schrijven in C#.
     // De truc is dat je klasse CafeBeer gebruikt voor je Query<CafeBeer> en dan 'converteren/kopiëren van de waardes' naar CafeBeerList. 
-    public async static Task<List<CafeBeerList>> GetCafeBeersByList()
-    {
-        using var conn = DbHelper.GetConnection(); 
-        var cafeBeers = await conn.QueryAsync<CafeBeer>(@"
+    public async static Task<IEnumerable<CafeBeerList>> GetCafeBeersByList()
+        => await DbHelper.GetConnection().QueryAsync<CafeBeerList, Cafe, CafeBeerList>(@"
 SELECT 
-    Beer.Name AS Beers, 
-    Cafe.Name AS CafeName 
+    Beer.Name, 
+    Cafe.Name
 FROM Beer 
 INNER JOIN Sells ON (Sells.BeerId = Beer.BeerId) 
-INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)");
-        
-        return (from q in cafeBeers
-                group q.Beers by q.CafeName into grp 
-                select new CafeBeerList {
-                    CafeName = grp.Key,
-                    Beers = grp.ToList()
-        }).ToList();
-    }
+INNER JOIN Cafe ON (Cafe.CafeId = Sells.CafeId)",
+map: (cafebeerlist, cafe) => 
+{
+    cafebeerlist.CafeName = cafe.Name;
+    return cafebeerlist;
+}, 
+splitOn: "Cafe");
     
     // 1.11 Question
     // Geef de gemiddelde waardering (score in de tabel Review) van een biertje terug gegeven de BeerId.
