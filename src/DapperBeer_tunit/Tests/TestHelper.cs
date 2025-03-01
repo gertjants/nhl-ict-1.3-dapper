@@ -2,7 +2,7 @@ namespace DapperBeer.Tests;
 
 public class TestHelper
 {
-    [Before(Class)]
+    [Before(TestSession)]
     public static void CreateAndPopulateDatabase()
     {
         var task = DbHelper.CreateTablesAndInsertData();

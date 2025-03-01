@@ -1,0 +1,2 @@
+#!/bin/bash
+dotnet test /workspace/src/DapperBeer_tunit -v n --tl:off --nologo --diag:/workspace/logs/tunit/tunit_log.txt -- --output Detailed --detailed-stacktrace --diagnostic --diagnostic-output-directory /workspace/logs/tunit/ --maximum-parallel-tests 1 $@

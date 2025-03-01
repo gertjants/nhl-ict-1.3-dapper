@@ -147,8 +147,12 @@ public class Assignments1Tests : TestHelper
     [NotInParallel]
     public async Task UpdateReviewTest()
     {
+        await DbHelper.FlushFillTableReviews();
+
+
         int reviewId = await Assignments1.InsertReviewReturnsReviewId(340, 4.5m);
-        await Assert.That(reviewId).IsEqualTo(2)
+        await Assert.That(reviewId)
+            .IsEqualTo(2)
             .Or.IsEqualTo(3)
             .Or.IsEqualTo(4)
             .Or.IsEqualTo(5);
@@ -163,7 +167,8 @@ public class Assignments1Tests : TestHelper
     [Test]
     [NotInParallel]
     public async Task RemoveReviewTest()
-    {        
+    {
+        await DbHelper.FlushFillTableReviews();        
         int reviewId = await Assignments1.InsertReviewReturnsReviewId(338, 5.0m);
         await Assert.That(reviewId).IsEqualTo(2)
             .Or.IsEqualTo(3)

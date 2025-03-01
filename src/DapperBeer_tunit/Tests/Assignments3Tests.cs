@@ -6,12 +6,12 @@ namespace DapperBeer.Tests;
 public class Assignments3Tests : TestHelper
 {
     // 3.1 Test
-    // [Test]
-    // public async Task GetAllBrouwmeestersIncludesAddressTest()
-    // {
-    //     var allBrewmastersIncludeAddress = await Assignments3.GetAllBrouwmeestersIncludesAddress();
-    //     await Verify(allBrewmastersIncludeAddress.Take(3));
-    // }
+    [Test]
+    public async Task GetAllBrouwmeestersIncludesAddressTest()
+    {
+        var allBrewmastersIncludeAddress = await Assignments3.GetAllBrouwmeestersIncludesAddress();
+        await Verify(allBrewmastersIncludeAddress.Take(3));
+    }
     
     // 3.2 Test
     [Test]

@@ -4,7 +4,7 @@ namespace DapperBeer.Tests;
 
 public class GithubClassroomYmlHelper
 {
-    //[Test]
+    [Test]
     public void GenerateClassroomYml()
     {
         Type[] testClassesTypes = [typeof(Assignments1Tests), typeof(Assignments2Tests), typeof(Assignments3Tests)];
