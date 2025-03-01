@@ -1,5 +1,4 @@
 using System.Data;
-using BenchmarkDotNet.Attributes;
 using Dapper;
 using DapperBeer.DTO;
 using DapperBeer.Model;
@@ -100,7 +99,7 @@ ORDER BY Brewer.Name
         var dict = new Dictionary<int, Brewer>();
         using var conn = DbHelper.GetConnection();
 
-        return await DbHelper.GetConnection().QueryAsync<Beer, Brewer, Beer>(@"
+        return await conn.QueryAsync<Beer, Brewer, Beer>(@"
 SELECT
     Beer.*,
     Brewer.*
@@ -124,10 +123,8 @@ ORDER BY Beer.Name
     // die de bieren ophaalt voor die brouwerij. (Dit is N)
     // Dit is een N+1 probleem. Hoe los je dit op? Dat zien we in de volgende vragen.
     // Als N groot is (veel brouwerijen) dan kan dit een performance probleem zijn of worden. Probeer dit te voorkomen!
-    public static List<Brewer> GetAllBrewersIncludingBeersNPlus1()
-    {
-        throw new NotImplementedException();
-    }
+    public static async Task<IEnumerable<Brewer>> GetAllBrewersIncludingBeersNPlus1()
+        => await GetAllBrewersIncludeBeers();
     
     // 3.6 Question
     // 1 op n relatie (one-to-many relationship)
@@ -142,9 +139,28 @@ ORDER BY Beer.Name
     // Vergeet de Distinct() methode te gebruiken om dubbel brouwerijen (Brewer) te voorkomen.
     //  Query<...>(...).Distinct().ToList().
     
-    public static List<Brewer> GetAllBrewersIncludeBeers()
+    public static async Task<IEnumerable<Brewer>> GetAllBrewersIncludeBeers()
     {
-        throw new NotImplementedException();
+        var dict = new Dictionary<int, Brewer>();
+        using var conn = DbHelper.GetConnection();
+        
+        await conn.QueryAsync<Brewer, Beer, Brewer>(@"
+SELECT
+    Brewer.*,
+    Beer.*
+FROM
+    Brewer Brewer
+LEFT JOIN Beer Beer ON Brewer.BrewerId = Beer.BrewerId
+ORDER BY Brewer.Name, Beer.Name
+        ",
+        map: (result, obj) => {
+            result = dict.GetOrAdd(obj.BrewerId, result);
+            result.Beers.Add(obj);
+            return result;
+        },
+        splitOn: "BeerId");
+
+        return dict.Values;
     }
     
     // 3.7 Question
@@ -152,9 +168,27 @@ ORDER BY Beer.Name
     // Dezelfde vraag als hiervoor, echter kan je nu ook de Beers property van Brewer vullen met de bieren?
     // Hiervoor moet je wat extra logica in map methode schrijven.
     // Let op dat er geen dubbelingen komen in de Beers property van Beer!
-    public static List<Beer> GetAllBeersIncludeBreweryAndIncludeBeersInBrewery()
+    public static async Task<IEnumerable<Beer>> GetAllBeersIncludeBreweryAndIncludeBeersInBrewery()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection();
+
+        var brewers = new Dictionary<int, Brewer>();
+        return await DbHelper.GetConnection().QueryAsync<Beer, Brewer, Beer>(@"
+SELECT
+    Beer.*,
+    Brewer.*
+FROM
+    Beer Beer
+LEFT JOIN Brewer Brewer ON Brewer.BrewerId = Beer.BrewerId
+ORDER BY Beer.Name
+        ",
+        map: (result, obj) => {
+            var brewer = brewers.GetOrAdd(obj.BrewerId, obj);
+            brewer.Beers.Add(result);
+            result.Brewer = brewer;
+            return result;
+        },
+        splitOn: "BrewerId");
     }
     
     // 3.8 Question
@@ -171,9 +205,28 @@ ORDER BY Beer.Name
     // Kan je ook uitleggen wat het verschil is tussen de verschillende JOIN's en wat voor gevolg dit heeft voor het resultaat?
     // Het is belangrijk om te weten wat de verschillen zijn tussen de verschillende JOIN's!!!! Als je dit niet weet, zoek het op!
     // Als je dit namelijk verkeerd doet, kan dit grote gevolgen hebben voor je resultaat (je krijgt dan misschien een verkeerde aantal records).
-    public static List<Cafe> OverzichtBierenPerKroegLijstMultiMapper()
+    public async static Task<IEnumerable<Cafe>> GetAllBeersServedPerCafe()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection();
+        var cafes = new Dictionary<int, Cafe>();
+        _ = await DbHelper.GetConnection().QueryAsync<Cafe, Beer, Cafe>(@"
+SELECT
+	Cafe.*,
+    Beer.*
+FROM
+    Cafe Cafe
+LEFT JOIN Sells Sells ON Sells.CafeId = Cafe.CafeId
+LEFT JOIN Beer Beer ON Sells.BeerId = Beer.BeerId
+ORDER BY Cafe.Name, Beer.Name;
+        ",
+        map: (result, obj) => {
+            result = cafes.GetOrAdd(result.CafeId, result);
+            result.Beers.Add(obj);
+            return result;
+        },
+        splitOn: "BeerId");
+
+        return cafes.Values;
     }
 
     // 3.9 Question
@@ -183,19 +236,94 @@ ORDER BY Beer.Name
     // Gebruik (vul) de class Brewer, Beer en Cafe.
     // Gebruik de methode Query<Brewer, Beer, Cafe, Brewer>(...) met daarin de juiste JOIN's in de query en splitOn parameter.
     // Je zult twee dictionaries moeten gebruiken. Een voor de brouwerijen en een voor de bieren.
-    public static List<Brewer> GetAllBrewersIncludeBeersThenIncludeCafes()
+    public async static Task<IEnumerable<Brewer>> GetAllBrewersIncludeBeersThenIncludeCafes()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection();
+        var cafes = new Dictionary<int, Cafe>();
+        var brewers = new Dictionary<int, Brewer>();
+        var beers = new Dictionary<int, Beer>();
+
+        // This entire thing could be replaced by SQL Server returning a
+        // JSON statement with ever bit of data and then deserializing...
+        // This is the kind of thing that should be done in the database...
+        _ = await DbHelper.GetConnection().QueryAsync<Brewer, Beer, Cafe, Brewer>(@"
+SELECT
+    Brewer.*,
+    Beer.*,
+	Cafe.*
+FROM
+    Brewer Brewer
+LEFT JOIN Beer Beer ON Beer.BrewerId = Brewer.BrewerId
+LEFT JOIN Sells Sells ON Sells.BeerId = Beer.BeerId
+LEFT JOIN Cafe Cafe ON Sells.CafeId = Cafe.CafeId
+ORDER BY Brewer.Name, Beer.Name, Cafe.Name;
+        ",
+        map: (brewer, beer, cafe) =>
+        {
+            brewer = brewers.GetOrAdd(brewer.BrewerId, brewer);
+            beer = beers.GetOrAdd(beer.BeerId, beer);
+
+            if(cafe is not null)
+                beer.Cafes.Add(cafes.GetOrAdd(cafe.CafeId, cafe));
+
+            brewer.Beers.Add(beer);
+
+            return brewer;
+        },
+        splitOn: "BeerId, CafeId");
+
+        return brewers.Values;
     }
     
-    // 3.10 Question - Er is geen test voor deze vraag
+    // 3.10 Question - Er is WEL een test voor deze vraag
     // Optioneel: Geef een overzicht van alle bieren en hun de bijbehorende brouwerij.
     // Sorteer op brouwerijnaam, biernaam.
     // Gebruik hiervoor een View BeerAndBrewer (maak deze zelf). Deze view bevat alle informatie die je nodig hebt gebruikt join om de tabellen Beer, Brewer.
     // Let op de kolomnamen in de view moeten uniek zijn. Dit moet je dan herstellen in de query waarin je view gebruik zodat Dapper het snap
     // (SELECT BeerId, BeerName as Name, Type, ...). Zie BeerName als voorbeeld hiervan.
-    public static List<Beer> GetBeerAndBrewersByView()
+    public async static Task<IEnumerable<Beer>> GetBeerAndBrewersByView()
     {
-        throw new NotImplementedException();
+        using var conn = DbHelper.GetConnection();
+        var brewers = new Dictionary<int, Brewer>();
+
+        _ = await conn.ExecuteAsync(@"
+CREATE OR REPLACE VIEW vw_BeerBrewer AS (
+    SELECT
+        Beer.BeerId,
+        Beer.Name AS BeerName,
+        Beer.Type,
+        Beer.Style,
+        Beer.Alcohol,
+        Brewer.Name AS BrewerName,
+        Brewer.BrewerId,
+        Brewer.Country
+    FROM
+        Beer Beer
+    LEFT JOIN Brewer Brewer ON Brewer.BrewerId = Beer.BrewerId
+);");
+
+        return await conn.QueryAsync<vw_BeerBrewer, Brewer, Beer>(@"
+SELECT * FROM vw_BeerBrewer ORDER BY BrewerName, BeerName
+        ",
+        map: (result, obj) => {
+            obj.Name = result.BrewerName;
+
+            return new Beer {
+                BrewerId = obj.BrewerId,
+                BeerId = result.BeerId,
+                Name = result.BeerName,
+                Style = result.Style,
+                Type = result.Type,
+                Alcohol = result.Alcohol,
+                Brewer = brewers.GetOrAdd(obj.BrewerId, obj),
+            };
+        },
+        splitOn: "BrewerId");
+    }
+
+    private class vw_BeerBrewer : Model.Beer
+    {
+        public required string BeerName { get; set; }
+        public required string BrewerName { get; set; }
     }
 }

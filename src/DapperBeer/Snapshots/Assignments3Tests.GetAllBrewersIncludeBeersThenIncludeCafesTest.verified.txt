@@ -11,9 +11,7 @@
         Style: IRISH RED,
         Alcohol: 5.0,
         BrewerId: 692,
-        Cafes: [
-          {}
-        ]
+        Cafes: []
       },
       {
         BeerId: 726,
@@ -27,19 +25,22 @@
             CafeId: 127,
             Name: BURGEMEESTER,
             Address: MARKT 40,
-            City: ETTEN LEUR
+            City: ETTEN LEUR,
+            Beers: []
           },
           {
             CafeId: 53,
             Name: DE ROOSBERG,
             Address: BAVELSE HEI 9,
-            City: BAVEL
+            City: BAVEL,
+            Beers: []
           },
           {
             CafeId: 96,
             Name: PASSE PARTOUT,
             Address: BRINK 7 -8,
-            City: DEVENTER
+            City: DEVENTER,
+            Beers: []
           }
         ]
       },
@@ -55,19 +56,22 @@
             CafeId: 127,
             Name: BURGEMEESTER,
             Address: MARKT 40,
-            City: ETTEN LEUR
+            City: ETTEN LEUR,
+            Beers: []
           },
           {
             CafeId: 53,
             Name: DE ROOSBERG,
             Address: BAVELSE HEI 9,
-            City: BAVEL
+            City: BAVEL,
+            Beers: []
           },
           {
             CafeId: 96,
             Name: PASSE PARTOUT,
             Address: BRINK 7 -8,
-            City: DEVENTER
+            City: DEVENTER,
+            Beers: []
           }
         ]
       },
@@ -83,19 +87,22 @@
             CafeId: 127,
             Name: BURGEMEESTER,
             Address: MARKT 40,
-            City: ETTEN LEUR
+            City: ETTEN LEUR,
+            Beers: []
           },
           {
             CafeId: 53,
             Name: DE ROOSBERG,
             Address: BAVELSE HEI 9,
-            City: BAVEL
+            City: BAVEL,
+            Beers: []
           },
           {
             CafeId: 96,
             Name: PASSE PARTOUT,
             Address: BRINK 7 -8,
-            City: DEVENTER
+            City: DEVENTER,
+            Beers: []
           }
         ]
       },
@@ -106,9 +113,7 @@
         Style: DRY,
         Alcohol: 5.0,
         BrewerId: 692,
-        Cafes: [
-          {}
-        ]
+        Cafes: []
       },
       {
         BeerId: 359,
@@ -117,9 +122,7 @@
         Style: BOCK,
         Alcohol: 5.0,
         BrewerId: 692,
-        Cafes: [
-          {}
-        ]
+        Cafes: []
       },
       {
         BeerId: 708,
@@ -133,7 +136,8 @@
             CafeId: 58,
             Name: LIAN BAR,
             Address: HOF 29,
-            City: BERGEYK
+            City: BERGEYK,
+            Beers: []
           }
         ]
       },
@@ -144,9 +148,7 @@
         Style: FRAGOLE,
         Alcohol: 5.0,
         BrewerId: 692,
-        Cafes: [
-          {}
-        ]
+        Cafes: []
       }
     ]
   }

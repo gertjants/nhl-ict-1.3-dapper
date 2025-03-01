@@ -1,0 +1,547 @@
+﻿[
+  {
+    CafeId: 290,
+    Name: ABSOLUUT,
+    Address: MARKT 64,
+    City: VALKENSWAARD,
+    Beers: [
+      null
+    ]
+  },
+  {
+    CafeId: 7,
+    Name: AFFOURTIT,
+    Address: KONINGINNEWG 209,
+    City: AMSTERDAM,
+    Beers: [
+      {
+        BeerId: 952,
+        Name: ABBAYE DE ROCS NOEL,
+        Type: ALE, BELGIA,
+        Style: BELGIAN STRONG,
+        Alcohol: 9.0,
+        BrewerId: 682
+      },
+      {
+        BeerId: 1157,
+        Name: BLONDINE,
+        Type: ALE, BELGIA,
+        Alcohol: 9.0,
+        BrewerId: 842
+      },
+      {
+        BeerId: 901,
+        Name: OLD JOCK,
+        Type: ALE, ENGLIS,
+        Style: STRONG SCOTCH,
+        Alcohol: 6.7,
+        BrewerId: 787
+      },
+      {
+        BeerId: 1537,
+        Name: PECHERESSE,
+        Type: LAMBIC,
+        Style: PECHE,
+        Alcohol: 3.0,
+        BrewerId: 1056
+      }
+    ]
+  },
+  {
+    CafeId: 134,
+    Name: ALLEMAN,
+    Address: VIRMUNDTSTR 47,
+    City: GEMERT,
+    Beers: [
+      {
+        BeerId: 609,
+        Name: EXMOOR ALE,
+        Type: ALE, ENGLIS,
+        Style: BITTER/PALE,
+        Alcohol: 3.8,
+        BrewerId: 900
+      },
+      {
+        BeerId: 206,
+        Name: HARP,
+        Type: LAGER,PALE,
+        Alcohol: 5.0,
+        BrewerId: 946
+      },
+      {
+        BeerId: 1340,
+        Name: LION STOUT,
+        Type: STOUT & POR,
+        Style: IMPERIAL,
+        Alcohol: 8.0,
+        BrewerId: 818
+      },
+      {
+        BeerId: 636,
+        Name: MARSTON'S SINGLE MALT,
+        Type: ALE, ENGLIS,
+        Style: BITTER/PALE,
+        Alcohol: 4.7,
+        BrewerId: 1074
+      },
+      {
+        BeerId: 124,
+        Name: RED ERIC,
+        Type: LAGER,PALE,
+        Alcohol: 5.0,
+        BrewerId: 813
+      },
+      {
+        BeerId: 1278,
+        Name: SIR HENRY'S STOUT,
+        Type: STOUT & POR,
+        Style: DRY,
+        Alcohol: 5.2,
+        BrewerId: 779
+      },
+      {
+        BeerId: 788,
+        Name: VALLEY BEER MILD,
+        Type: ALE, ENGLIS,
+        Style: MILD,
+        Alcohol: 5.8,
+        BrewerId: 1310
+      }
+    ]
+  },
+  {
+    CafeId: 45,
+    Name: ALT ARCE,
+    Address: RAADHUISPLN 16,
+    City: ARCEN,
+    Beers: [
+      {
+        BeerId: 1113,
+        Name: AFFLIGEM TRIPLE,
+        Type: ALE, BELGIA,
+        Style: TRIPLE,
+        Alcohol: 8.5,
+        BrewerId: 853
+      },
+      {
+        BeerId: 1547,
+        Name: BLUEBERRY,
+        Type: SPECIAL,
+        Style: BLUEBERRY,
+        Alcohol: 5.0,
+        BrewerId: 936
+      },
+      {
+        BeerId: 1523,
+        Name: BOON KRIEK,
+        Type: LAMBIC,
+        Style: KRIEK,
+        Alcohol: 5.0,
+        BrewerId: 762
+      },
+      {
+        BeerId: 1084,
+        Name: LUCIFER,
+        Type: ALE, BELGIA,
+        Style: GOLDEN,
+        Alcohol: 9.0,
+        BrewerId: 1168
+      },
+      {
+        BeerId: 146,
+        Name: SAINT OMER,
+        Type: LAGER,PALE,
+        Alcohol: 5.0,
+        BrewerId: 1190
+      }
+    ]
+  },
+  {
+    CafeId: 112,
+    Name: ALTSTADT,
+    Address: STRATUMSEIND 71,
+    City: EINDHOVEN,
+    Beers: [
+      {
+        BeerId: 875,
+        Name: ALESMITH'S ESB,
+        Type: ALE, ENGLIS,
+        Style: STRONG BITTER/PALE,
+        Alcohol: 5.5,
+        BrewerId: 693
+      },
+      {
+        BeerId: 1534,
+        Name: GRAND CRU BRUOCSELLA 1996,
+        Type: LAMBIC,
+        Style: LAMBIC,
+        Alcohol: 5.0,
+        BrewerId: 802
+      },
+      {
+        BeerId: 40,
+        Name: KADEWE,
+        Type: LAGER,PALE,
+        Style: PILSEN,
+        Alcohol: 5.0,
+        BrewerId: 1009
+      },
+      {
+        BeerId: 1123,
+        Name: LA MONTAGNARDE,
+        Type: ALE, BELGIA,
+        Style: TRIPLE,
+        Alcohol: 9.0,
+        BrewerId: 682
+      },
+      {
+        BeerId: 108,
+        Name: LOBURG,
+        Type: LAGER,PALE,
+        Alcohol: 5.0,
+        BrewerId: 707
+      },
+      {
+        BeerId: 1128,
+        Name: MONT SAINT-AUBERT,
+        Type: ALE, BELGIA,
+        Style: TRIPLE,
+        Alcohol: 8.0,
+        BrewerId: 788
+      },
+      {
+        BeerId: 1571,
+        Name: RASPBERRY TART,
+        Type: SPECIAL,
+        Style: FRAMBOISE,
+        Alcohol: 4.0,
+        BrewerId: 1104
+      },
+      {
+        BeerId: 464,
+        Name: SAPPORO BLACK BEER,
+        Type: LAGER, DARK,
+        Style: BLACK,
+        Alcohol: 5.0,
+        BrewerId: 1194
+      },
+      {
+        BeerId: 1099,
+        Name: WESTVLETEREN 12,
+        Type: ALE, BELGIA,
+        Style: QUADRUPEL,
+        Alcohol: 10.6,
+        BrewerId: 1281
+      }
+    ]
+  },
+  {
+    CafeId: 86,
+    Name: APARTHOTEL REKREATIECENTR DELDEN,
+    Address: SPORTLN 7,
+    City: DELDEN,
+    Beers: [
+      {
+        BeerId: 535,
+        Name: BISHOP'S ALE,
+        Type: ALE, ENGLIS,
+        Style: BARLEY WINE,
+        Alcohol: 5.0,
+        BrewerId: 1162
+      },
+      {
+        BeerId: 1269,
+        Name: GARDE KOLSCH,
+        Type: ALE/LAGER H,
+        Style: KOLSCH,
+        Alcohol: 5.0,
+        BrewerId: 929
+      },
+      {
+        BeerId: 328,
+        Name: HELEN PIVO,
+        Type: LAGER,PALE,
+        Alcohol: 5.0,
+        BrewerId: 1145
+      },
+      {
+        BeerId: 1556,
+        Name: PIETRA NOEL,
+        Type: SPECIAL,
+        Style: CHESTNUT (CASTAGNA),
+        Alcohol: 6.0,
+        BrewerId: 1141
+      },
+      {
+        BeerId: 650,
+        Name: PRIDE OF ROMSEY,
+        Type: ALE, ENGLIS,
+        Style: BITTER/PALE,
+        Alcohol: 5.0,
+        BrewerId: 956
+      },
+      {
+        BeerId: 1130,
+        Name: RIVA ABBEY TRIPLE,
+        Type: ALE, BELGIA,
+        Style: TRIPLE,
+        Alcohol: 7.5,
+        BrewerId: 1168
+      },
+      {
+        BeerId: 59,
+        Name: VELDENSTEINER PILSENER,
+        Type: LAGER,PALE,
+        Style: PILSEN,
+        Alcohol: 5.0,
+        BrewerId: 1010
+      }
+    ]
+  },
+  {
+    CafeId: 100,
+    Name: BACCHUS,
+    Address: BLAUWPOORTSPLEIN 13-14,
+    City: DORDRECHT,
+    Beers: [
+      {
+        BeerId: 1560,
+        Name: NERKENBERRY,
+        Type: SPECIAL,
+        Style: CHOCO/BERRY,
+        Alcohol: 3.0,
+        BrewerId: 912
+      },
+      {
+        BeerId: 236,
+        Name: PRINZ BRAU PREMIUM,
+        Type: LAGER,PALE,
+        Alcohol: 5.0,
+        BrewerId: 1152
+      },
+      {
+        BeerId: 520,
+        Name: SIXTUS,
+        Type: LAGER, DARK,
+        Alcohol: 5.0,
+        BrewerId: 916
+      },
+      {
+        BeerId: 982,
+        Name: VAL-DIEU BRUNE,
+        Type: ALE, BELGIA,
+        Style: BELGIAN STRONG,
+        Alcohol: 8.0,
+        BrewerId: 1308
+      }
+    ]
+  },
+  {
+    CafeId: 65,
+    Name: BAR BECOLOTH,
+    Address: ROZEMARYNSTR 2-2A,
+    City: BOXTEL,
+    Beers: [
+      {
+        BeerId: 1432,
+        Name: EDELWEISS HEFETRUB,
+        Type: WHEAT (GRAN,
+        Style: WEIZE,
+        Alcohol: 5.5,
+        BrewerId: 1013
+      },
+      {
+        BeerId: 418,
+        Name: OKTOBERFESTBIER,
+        Type: LAGER, AMBE,
+        Style: MARZEN-OCTOBER,
+        Alcohol: 5.9,
+        BrewerId: 1229
+      },
+      {
+        BeerId: 930,
+        Name: THERESIANER STRONG ALE,
+        Type: ALE, ENGLIS,
+        Alcohol: 6.5,
+        BrewerId: 1265
+      },
+      {
+        BeerId: 1531,
+        Name: TIMMERMANS PECHE,
+        Type: LAMBIC,
+        Style: KRIEK,
+        Alcohol: 4.5,
+        BrewerId: 1268
+      }
+    ]
+  },
+  {
+    CafeId: 43,
+    Name: BAR MENEER JANSEN,
+    Address: WIJKSTRAAT 47,
+    City: APPINGEDAM,
+    Beers: [
+      {
+        BeerId: 1121,
+        Name: GRIMBERGER TRIPLE,
+        Type: ALE, BELGIA,
+        Style: TRIPLE,
+        Alcohol: 7.0,
+        BrewerId: 1298
+      },
+      {
+        BeerId: 1460,
+        Name: TRIFTERN WEIZE,
+        Type: WHEAT (GRAN,
+        Style: WEIZE,
+        Alcohol: 5.5,
+        BrewerId: 1285
+      },
+      {
+        BeerId: 1339,
+        Name: ZYWIEC PORTER,
+        Type: STOUT & POR,
+        Style: IMPERIAL,
+        Alcohol: 9.3,
+        BrewerId: 1354
+      }
+    ]
+  },
+  {
+    CafeId: 94,
+    Name: BEEKMAN EN BEEKMAN,
+    Address: MARKT 8,
+    City: DEURNE,
+    Beers: [
+      {
+        BeerId: 296,
+        Name: BARBARA,
+        Type: LAGER,PALE,
+        Alcohol: 5.9,
+        BrewerId: 887
+      },
+      {
+        BeerId: 498,
+        Name: EISBOCK,
+        Type: LAGER, DARK,
+        Style: EISBOCK,
+        Alcohol: 8.0,
+        BrewerId: 1105
+      },
+      {
+        BeerId: 613,
+        Name: FESTIVE ALE,
+        Type: ALE, ENGLIS,
+        Style: BITTER/PALE,
+        Alcohol: 5.3,
+        BrewerId: 1018
+      },
+      {
+        BeerId: 1328,
+        Name: LIMFJORD PORTER,
+        Type: STOUT & POR,
+        Style: IMPERIAL,
+        Alcohol: 5.0,
+        BrewerId: 1304
+      },
+      {
+        BeerId: 978,
+        Name: SILENRIEUX NOEL,
+        Type: ALE, BELGIA,
+        Style: BELGIAN STRONG,
+        Alcohol: 7.5,
+        BrewerId: 1216
+      },
+      {
+        BeerId: 687,
+        Name: YOUNG'S BITTER,
+        Type: ALE, ENGLIS,
+        Style: BITTER/PALE,
+        Alcohol: 3.7,
+        BrewerId: 1349
+      }
+    ]
+  },
+  {
+    CafeId: 341,
+    Name: BELGISCHE KEIZER,
+    Address: MELKMARKT 58,
+    City: ZWOLLE,
+    Beers: [
+      null
+    ]
+  },
+  {
+    CafeId: 239,
+    Name: BERGER,
+    Address: PLEIN 18,
+    City: S GRAVENHAGE,
+    Beers: [
+      null
+    ]
+  },
+  {
+    CafeId: 113,
+    Name: BERLAGE,
+    Address: KL BERG 16,
+    City: EINDHOVEN,
+    Beers: [
+      {
+        BeerId: 1553,
+        Name: 'T SCHOENLAPPERTJE,
+        Type: SPECIAL,
+        Style: CHERRY(CILIEGE),
+        Alcohol: 6.5,
+        BrewerId: 1201
+      },
+      {
+        BeerId: 1238,
+        Name: ARCEN BOCK,
+        Type: ALE, BELGIA,
+        Alcohol: 6.5,
+        BrewerId: 703
+      },
+      {
+        BeerId: 1422,
+        Name: CELIS WHITE,
+        Type: WHEAT (GRAN,
+        Style: BLANCHE-WIT,
+        Alcohol: 5.0,
+        BrewerId: 810
+      },
+      {
+        BeerId: 206,
+        Name: HARP,
+        Type: LAGER,PALE,
+        Alcohol: 5.0,
+        BrewerId: 946
+      },
+      {
+        BeerId: 1328,
+        Name: LIMFJORD PORTER,
+        Type: STOUT & POR,
+        Style: IMPERIAL,
+        Alcohol: 5.0,
+        BrewerId: 1304
+      }
+    ]
+  },
+  {
+    CafeId: 256,
+    Name: BESTEK,
+    Address: OPWG 2,
+    City: SCHOONHOVEN,
+    Beers: [
+      null
+    ]
+  },
+  {
+    CafeId: 342,
+    Name: BIG BULL,
+    Address: LUTTEKESTR 33,
+    City: ZWOLLE,
+    Beers: [
+      null
+    ]
+  }
+]
