@@ -130,7 +130,9 @@ FROM Beer beer
     // Gebruik de klasse BrewerBeerBrewmaster om de resultaten in op te slaan. (directory DTO).
     public async static Task<IEnumerable<BrewerBeerBrewmaster>> GetAllBeerNamesWithBreweryAndBrewmaster()
     {
-        await DbHelper.GetConnection().ExecuteAsync(@"
+        using var conn = DbHelper.GetConnection();
+
+        await conn.ExecuteAsync(@"
 CREATE OR REPLACE VIEW vw_BrewerBeerBrewmaster AS (
     SELECT 
         Beer.Name AS BeerName,
@@ -142,7 +144,7 @@ CREATE OR REPLACE VIEW vw_BrewerBeerBrewmaster AS (
     LEFT JOIN Brewmaster Brewmaster ON Brewmaster.BrewerId = Brewer.BrewerId
 );");
     
-        return await DbHelper.GetConnection().QueryAsync<BrewerBeerBrewmaster>(@"
+        return await conn.QueryAsync<BrewerBeerBrewmaster>(@"
 SELECT 
     *
 FROM 
