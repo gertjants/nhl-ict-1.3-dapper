@@ -57,10 +57,6 @@ jobs:
       - name: Install MySQL client
         run: sudo apt-get install -y mysql-client
 
-      - name: Connect to MySQL and run a query
-        run: |
-          mysql -h 127.0.0.1 -u test_user -ptest_pass test_db -e "SELECT NOW();"
-
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v4.3.0
         with:
