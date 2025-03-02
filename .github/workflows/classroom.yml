@@ -92,6 +92,11 @@ jobs:
           command: dotnet run --project ./src/DapperBeer_tunit --treenode-filter "/*/*/Assignments1Tests/GetAllBrewersTest"
           timeout: 10
           max-score: 1
+        env:
+          APP_DB_SERVER: localhost
+          APP_DB_NAME: DapperBeer
+          APP_DB_USER: DapperBeer
+          APP_DB_PASS: Test@1234!
 
       - name: Autograding Reporter Dapper Beer
         uses: education/autograding-grading-reporter@v1
