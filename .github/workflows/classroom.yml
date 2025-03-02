@@ -89,7 +89,12 @@ jobs:
         uses: classroom-resources/autograding-command-grader@v1
         with:
           test-name: 1-1-GetAllBrewersTest
-          command: dotnet run --project ./src/DapperBeer_tunit --treenode-filter "/*/*/Assignments1Tests/GetAllBrewersTest"
+          command: |
+            export APP_DB_SERVER="localhost";
+            export APP_DB_NAME="DapperBeer";
+            export APP_DB_USER="DapperBeer";
+            export APP_DB_PASS="Test@1234!"
+            dotnet run --project ./src/DapperBeer_tunit --treenode-filter "/*/*/Assignments1Tests/GetAllBrewersTest"
           timeout: 10
           max-score: 1
 
