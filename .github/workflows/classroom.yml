@@ -94,7 +94,7 @@ jobs:
             export APP_DB_NAME="DapperBeer";
             export APP_DB_USER="DapperBeer";
             export APP_DB_PASS="Test@1234!"
-            dotnet run --project ./src/DapperBeer_tunit --treenode-filter "/*/*/Assignments1Tests/GetAllBrewersTest"
+            dotnet run --project ./src/DapperBeer_nunit --treenode-filter "/*/*/Assignments1Tests/GetAllBrewersTest"
           timeout: 10
           max-score: 1
 
