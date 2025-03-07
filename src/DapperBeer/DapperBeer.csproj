@@ -15,51 +15,16 @@
       <PackageReference Include="MySqlConnector" Version="2.4.0" />
       <PackageReference Include="SqlKata" Version="2.4.0" />
     </ItemGroup>
+
+    <ItemGroup>
+      <None Include="Snapshots\**" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
     
     <ItemGroup>
-      <None Update="SQL\tables\00_Address.SQL">
+      <None Update="SQL\tables\**">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="SQL\tables\00_Brewer.SQL">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\tables\00_Cafe.SQL">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\tables\01_Beer.SQL">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\tables\01_Brewmaster.SQL">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\tables\02_Review.SQL">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\tables\02_Sells.SQL">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\data\InsertSells.sql">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\data\InsertCafe.sql">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\data\InsertBrewer.sql">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\data\InsertBeer.sql">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\data\InsertAddress.sql">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\data\InsertBrewmasters.sql">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\data\InsertBrewmaster.sql">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="SQL\data\InsertReview.sql">
+      <None Update="SQL\data\**">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>

@@ -2,8 +2,9 @@ using System.Threading.Tasks;
 using DapperBeer.DTO;
 using DapperBeer.Model;
 using FluentAssertions;
+using DapperBeer;
 
-namespace DapperBeer.Tests;
+namespace DapperBeerNunit.Tests;
 
 [TestFixture]
 public class Assignments2Tests : TestHelper

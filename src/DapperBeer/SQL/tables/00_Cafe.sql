@@ -1,4 +1,6 @@
-create table `Cafe`
+drop table if exists `DapperBeer`.`Cafe`;
+
+create table `DapperBeer`.`Cafe`
 (
     CafeId int  not null
         primary key,

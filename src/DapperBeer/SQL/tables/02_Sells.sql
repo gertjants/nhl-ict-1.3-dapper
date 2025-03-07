@@ -1,4 +1,6 @@
-create table Sells
+drop table if exists `DapperBeer`.`Sells`;
+
+create table `DapperBeer`.`Sells`
 (
     CafeId int not null,
     BeerId  int not null,

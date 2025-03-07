@@ -1,4 +1,6 @@
-create table IF NOT EXISTS Review
+drop table if exists `DapperBeer`.`Review`;
+
+create table IF NOT EXISTS `DapperBeer`.Review
 (
     ReviewId int auto_increment primary key,
     BeerId   int           null,

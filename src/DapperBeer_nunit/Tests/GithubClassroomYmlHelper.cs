@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace DapperBeer.Tests;
+namespace DapperBeerNunit.Tests;
 
 public class GithubClassroomYmlHelper
 {

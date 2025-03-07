@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace DapperBeer.Tests;
+namespace DapperBeerTunit.Tests;
 
 public class GithubClassroomYmlHelper
 {
@@ -37,16 +37,21 @@ public class GithubClassroomYmlHelper
                 string id = $"E-{assignmentNumber}-{exerciseNumber}";
                 ids.Add(id);
                 string autograderTest = 
-                $"""
+                $@"
                   - name: {assignmentNumber}.{exerciseNumber} {method.Name}
                     id: {id}
                     uses: classroom-resources/autograding-command-grader@v1
                     with:
                       test-name: {assignmentNumber}-{exerciseNumber}-{method.Name}
-                      command: dotnet run --project DapperBeer --treenode-filter "/*/*/Assignments{assignmentNumber}Tests/{method.Name}"
+                      command: |
+                        export APP_DB_SERVER=${{{{ env.APP_DB_SERVER }}}};
+                        export APP_DB_NAME=${{{{ env.APP_DB_NAME }}}};
+                        export APP_DB_USER=${{{{ env.APP_DB_USER }}}};
+                        export APP_DB_PASS=${{{{ env.APP_DB_PASS }}}};
+                        dotnet run --project ./src/DapperBeer_nunit --treenode-filter ""/*/*/Assignments{assignmentNumber}Tests/{method.Name}""
                       timeout: 10
                       max-score: 1
-                """;
+                ";
             
                 Console.WriteLine(autograderTest);
 

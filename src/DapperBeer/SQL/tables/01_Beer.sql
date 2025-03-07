@@ -1,4 +1,6 @@
-create table `Beer`
+drop table if exists `DapperBeer`.`Beer`;
+
+create table `DapperBeer`.`Beer`
 (
     BeerId  int    not null primary key,
     Name      text   null,

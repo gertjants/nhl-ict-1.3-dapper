@@ -39,7 +39,7 @@ public class Assignments1
         => await DbHelper.GetConnection().QueryAsync<Brewer>(@"
 SELECT 
     * 
-FROM `brewer`;");
+FROM `Brewer`;");
 
     // 1.2 Question
     // Geef een overzicht van alle bieren gesorteerd op alcohol percentage (hoog naar laag).
@@ -48,7 +48,7 @@ FROM `brewer`;");
         => await DbHelper.GetConnection().QueryAsync<Beer>(@"
 SELECT 
     * 
-FROM `beer` 
+FROM `Beer` 
 order by `Alcohol` desc, `Name`;");
     
     // 1.3 Question

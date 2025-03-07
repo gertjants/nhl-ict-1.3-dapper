@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace DapperBeer;
+namespace DapperBeerNunit;
 
 using VerifyTests;
 
@@ -11,6 +11,6 @@ public static class ModuleInitializer
     [ModuleInitializer]
     public static void Init()
     {
-        Verifier.UseProjectRelativeDirectory("Snapshots");
+        Verifier.UseProjectRelativeDirectory("../DapperBeer/Snapshots");
     }
 }

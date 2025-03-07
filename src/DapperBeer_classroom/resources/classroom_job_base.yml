@@ -1,0 +1,62 @@
+runs-on: ubuntu-latest
+
+services:
+  mysql:
+    image: mysql
+    env:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ${{ env.APP_DB_NAME }}
+      MYSQL_USER: ${{ env.APP_DB_USER }}
+      MYSQL_PASSWORD: ${{ env.APP_DB_PASS }}
+    ports:
+      - 3306:3306
+    options: >-
+      --health-cmd="mysqladmin ping --host=127.0.0.1 --user=root --password=root"
+      --health-interval=10s
+      --health-timeout=5s
+      --health-retries=5
+
+if: github.actor != 'github-classroom[bot]'
+steps:
+  - name: Setting up environment
+    run: >
+      export APP_DB_SERVER=${{ env.APP_DB_SERVER }};
+      export APP_DB_NAME=${{ env.APP_DB_NAME }};
+      export APP_DB_USER=${{ env.APP_DB_USER }};
+      export APP_DB_PASS=${{ env.APP_DB_PASS }};
+
+  - name: Checkout of repository
+    uses: actions/checkout@v4
+          
+  - name: Wait for MySQL to be ready
+    run: >
+      for i in {1..30}; do
+        if mysqladmin ping -h127.0.0.1 -uroot -proot --silent; then
+          echo "MySQL is ready!";
+          exit 0;
+        fi;
+        echo "Waiting for MySQL...";
+        sleep 2;
+      done;
+      echo "MySQL failed to start!";
+      exit 1;
+
+  - name: Install MySQL client
+    run: sudo apt-get install -y mysql-client
+  
+  - name: Creating tables
+    run: |
+      for sql_file in `ls $GITHUB_WORKSPACE/src/DapperBeer/SQL/tables/*.sql`; do mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME < $sql_file ; done
+
+  - name: Loading data
+    run: |
+      for sql_file in `ls $GITHUB_WORKSPACE/src/DapperBeer/SQL/data/*.sql`; do mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME < $sql_file ; done
+
+  - name: Sanity Check
+    run: mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME -e "SELECT COUNT(*) FROM DapperBeer.Beer UNION SELECT COUNT(*) FROM DapperBeer.Brewer"
+
+  - name: Setup .NET Core SDK
+    uses: actions/setup-dotnet@v4.3.0
+    with:
+      dotnet-version: 9.0.102
+

@@ -1,23 +1,20 @@
 name: Autograding Tests Dapper Beer
 on:
-  - push
-  - workflow_dispatch
-  - repository_dispatch
+- push
+- workflow_dispatch
+- repository_dispatch
 permissions:
   checks: write
   actions: read
   contents: read
-
 env:
   APP_DB_SERVER: localhost
   APP_DB_NAME: DapperBeer
   APP_DB_USER: DapperBeer
   APP_DB_PASS: Test@1234!
-
-jobs:  
-  run-autograding-tests:
+jobs:
+  tunit-job:
     runs-on: ubuntu-latest
-    
     services:
       mysql:
         image: mysql
@@ -27,80 +24,122 @@ jobs:
           MYSQL_USER: ${{ env.APP_DB_USER }}
           MYSQL_PASSWORD: ${{ env.APP_DB_PASS }}
         ports:
-          - 3306:3306
-        options: >-
-          --health-cmd="mysqladmin ping --host=127.0.0.1 --user=root --password=root"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=5
-          
+        - 3306:3306
+        options: --health-cmd="mysqladmin ping --host=127.0.0.1 --user=root --password=root" --health-interval=10s --health-timeout=5s --health-retries=5
     if: github.actor != 'github-classroom[bot]'
     steps:
-#      - name: debug pwd
-#        run: pwd
-#        
-#      - name: debug ls
-#        run: ls
-      - run: env
-        
-      - name: Wait for MySQL to be ready
-        run: |
-          for i in {1..30}; do
-            if mysqladmin ping -h127.0.0.1 -uroot -proot --silent; then
-              echo "MySQL is ready!"
-              exit 0
-            fi
-            echo "Waiting for MySQL..."
-            sleep 2
-          done
-          echo "MySQL failed to start!"
-          exit 1
-
-      - name: Install MySQL client
-        run: sudo apt-get install -y mysql-client
-
-      - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v4.3.0
-        with:
-          dotnet-version: 9.0.102
-
-#      - name: check .NET info
-#        run: |
-#          dotnet --info
-#
-#      - name: check ip
-#        run: |
-#          ifconfig
-
-      - name: Checkout Another Public Repository
-        uses: actions/checkout@v4
-      
-      - name: Build
-        run: dotnet build ./src/DapperBeer_tunit
-
-      - name: Build
-        run: dotnet build ./src/DapperBeer_tunit
-        
-#      - name: List packages
-#        run: list package --include-transitive
-
-      - name: 1.1 GetAllBrewersTest
-        id: E-1-1
-        uses: classroom-resources/autograding-command-grader@v1
-        with:
-          test-name: 1-1-GetAllBrewersTest
-          command: |
-            export APP_DB_SERVER="localhost";
-            export APP_DB_NAME="DapperBeer";
-            export APP_DB_USER="DapperBeer";
-            export APP_DB_PASS="Test@1234!"
-            dotnet run --project ./src/DapperBeer_nunit --treenode-filter "/*/*/Assignments1Tests/GetAllBrewersTest"
-          timeout: 10
-          max-score: 1
-
-      - name: Autograding Reporter Dapper Beer
-        uses: education/autograding-grading-reporter@v1
+    - name: Setting up environment
+      run: >
+        export APP_DB_SERVER=${{ env.APP_DB_SERVER }}; export APP_DB_NAME=${{ env.APP_DB_NAME }}; export APP_DB_USER=${{ env.APP_DB_USER }}; export APP_DB_PASS=${{ env.APP_DB_PASS }};
+    - name: Checkout of repository
+      uses: actions/checkout@v4
+    - name: Wait for MySQL to be ready
+      run: >
+        for i in {1..30}; do
+          if mysqladmin ping -h127.0.0.1 -uroot -proot --silent; then
+            echo "MySQL is ready!";
+            exit 0;
+          fi;
+          echo "Waiting for MySQL...";
+          sleep 2;
+        done; echo "MySQL failed to start!"; exit 1;
+    - name: Install MySQL client
+      run: sudo apt-get install -y mysql-client
+    - name: Creating tables
+      run: >
+        for sql_file in `ls $GITHUB_WORKSPACE/src/DapperBeer/SQL/tables/*.sql`; do mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME < $sql_file ; done
+    - name: Loading data
+      run: >
+        for sql_file in `ls $GITHUB_WORKSPACE/src/DapperBeer/SQL/data/*.sql`; do mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME < $sql_file ; done
+    - name: Sanity Check
+      run: mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME -e "SELECT COUNT(*) FROM DapperBeer.Beer UNION SELECT COUNT(*) FROM DapperBeer.Brewer"
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v4.3.0
+      with:
+        dotnet-version: 9.0.102
+    - name: Build
+      run: dotnet build ./src/DapperBeer_tunit
+    - name: 1.1 GetAllBrewersTest
+      id: E-1-1
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: 1-1-GetAllBrewersTest
+        command: >-
+          export APP_DB_SERVER=${{ env.APP_DB_SERVER }};
+          export APP_DB_NAME=${{ env.APP_DB_NAME }};
+          export APP_DB_USER=${{ env.APP_DB_USER }};
+          export APP_DB_PASS=${{ env.APP_DB_PASS }};
+          dotnet run --project ./src/DapperBeer_tunit --treenode-filter "/*/*/Assignments1Tests/GetAllBrewersTest"
+        timeout: 10
+        max-score: 1
+    - name: Autograding Reporter Dapper Beer
+      uses: education/autograding-grading-reporter@v1
+      env:
+        E-1-1_RESULTS: ${{steps.E-1-1.outputs.result}}
+      with:
+        runners: E-1-1
+  nunit-job:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql
         env:
-          E-1-1_RESULTS: "${{steps.E-1-1.outputs.result}}"
-        with:
-          runners: E-1-1
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: ${{ env.APP_DB_NAME }}
+          MYSQL_USER: ${{ env.APP_DB_USER }}
+          MYSQL_PASSWORD: ${{ env.APP_DB_PASS }}
+        ports:
+        - 3306:3306
+        options: --health-cmd="mysqladmin ping --host=127.0.0.1 --user=root --password=root" --health-interval=10s --health-timeout=5s --health-retries=5
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Setting up environment
+      run: >
+        export APP_DB_SERVER=${{ env.APP_DB_SERVER }}; export APP_DB_NAME=${{ env.APP_DB_NAME }}; export APP_DB_USER=${{ env.APP_DB_USER }}; export APP_DB_PASS=${{ env.APP_DB_PASS }};
+    - name: Checkout of repository
+      uses: actions/checkout@v4
+    - name: Wait for MySQL to be ready
+      run: >
+        for i in {1..30}; do
+          if mysqladmin ping -h127.0.0.1 -uroot -proot --silent; then
+            echo "MySQL is ready!";
+            exit 0;
+          fi;
+          echo "Waiting for MySQL...";
+          sleep 2;
+        done; echo "MySQL failed to start!"; exit 1;
+    - name: Install MySQL client
+      run: sudo apt-get install -y mysql-client
+    - name: Creating tables
+      run: >
+        for sql_file in `ls $GITHUB_WORKSPACE/src/DapperBeer/SQL/tables/*.sql`; do mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME < $sql_file ; done
+    - name: Loading data
+      run: >
+        for sql_file in `ls $GITHUB_WORKSPACE/src/DapperBeer/SQL/data/*.sql`; do mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME < $sql_file ; done
+    - name: Sanity Check
+      run: mysql -h 127.0.0.1 -u$APP_DB_USER -p$APP_DB_PASS $APP_DB_NAME -e "SELECT COUNT(*) FROM DapperBeer.Beer UNION SELECT COUNT(*) FROM DapperBeer.Brewer"
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v4.3.0
+      with:
+        dotnet-version: 9.0.102
+    - name: Build
+      run: dotnet build ./src/DapperBeer_nunit
+    - name: 1.1 GetAllBrewersTest
+      id: E-1-1
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: 1-1-GetAllBrewersTest
+        command: >-
+          export APP_DB_SERVER=${{ env.APP_DB_SERVER }};
+          export APP_DB_NAME=${{ env.APP_DB_NAME }};
+          export APP_DB_USER=${{ env.APP_DB_USER }};
+          export APP_DB_PASS=${{ env.APP_DB_PASS }};
+          dotnet test ./src/DapperBeer_nunit --filter FullyQualifiedName=DapperBeerNunit.Tests.Assignments1Tests.GetAllBrewersTest
+        timeout: 10
+        max-score: 1
+    - name: Autograding Reporter Dapper Beer
+      uses: education/autograding-grading-reporter@v1
+      env:
+        E-1-1_RESULTS: ${{steps.E-1-1.outputs.result}}
+      with:
+        runners: E-1-1

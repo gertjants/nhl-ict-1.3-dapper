@@ -1,7 +1,8 @@
 using DapperBeer.Model;
 using FluentAssertions;
+using DapperBeer;
 
-namespace DapperBeer.Tests;
+namespace DapperBeerNunit.Tests;
 
 [TestFixture]
 public class Assignments3Tests : TestHelper

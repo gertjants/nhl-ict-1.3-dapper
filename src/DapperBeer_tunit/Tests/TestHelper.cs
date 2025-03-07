@@ -1,4 +1,5 @@
-namespace DapperBeer.Tests;
+namespace DapperBeerTunit.Tests;
+using DapperBeer;
 
 public class TestHelper
 {

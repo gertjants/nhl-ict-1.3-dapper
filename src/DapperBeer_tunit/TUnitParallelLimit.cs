@@ -1,4 +1,4 @@
-namespace DapperBeer;
+namespace DapperBeerTunit;
 
 public record TUnitParallelLimit : TUnit.Core.Interfaces.IParallelLimit
 {

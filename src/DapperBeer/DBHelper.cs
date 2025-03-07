@@ -28,16 +28,26 @@ public static class DbHelper
         // So the original check has issues due to incorrect amount of record counts.
         // This way everything is only depending on the available data files.
         // Much easier to maintain and much less error prone.
-        var expectedTables = Directory.GetFiles("SQL/data").Select(q =>
+        var actualTables = new List<DatabaseTableInfo>();
+        var expectedTables = Directory.GetFiles("./SQL/data").Select(q =>
             new DatabaseTableInfo()
             {
-                Table_Name = q[15..^4],
+                Table_Name = q[14..^4],
                 Table_Rows = File.ReadLines(q).Count(line => !string.IsNullOrWhiteSpace(line))
             });
 
         var sql = string.Join("\nUNION\n", expectedTables.Select(q =>
             $"SELECT '{q.Table_Name}' as Table_Name, COUNT(1) as Table_Rows FROM `{database}`.`{q.Table_Name}`"));
-        var actualTables = await connection.QueryAsync<DatabaseTableInfo>(sql);
+        
+        try
+        {
+            actualTables = (await connection.QueryAsync<DatabaseTableInfo>(sql)).ToList();
+        }
+        #pragma warning disable CS0168
+        catch(Exception ex)
+        {
+            // Simple catch. We don't care if this fails.
+        }
 
         var missingTables = expectedTables.Where(q => !actualTables.Any(e => e.Table_Name == q.Table_Name))
                                         .Select(q => q.Table_Name);
@@ -73,9 +83,9 @@ public static class DbHelper
         foreach(var table in Directory.GetFiles("SQL/tables"))
         {
             if(tables.Any(q => table.Contains(q))){
-                sql += $"DROP TABLE IF EXISTS `{table[3..]}`;";
+                sql += $"DROP TABLE IF EXISTS `{table[9..^4]}`;";
                 sql += File.ReadAllText(table);
-                sql += File.ReadAllText($"SQL/data/Insert{table[3..]}.sql");
+                sql += File.ReadAllText($"SQL/data/{table[10..^4]}.sql");
             }
                 
         }
@@ -93,11 +103,13 @@ public static class DbHelper
         sql += "SET FOREIGN_KEY_CHECKS=0;";
         sql += "SET autocommit=0;"; // If not disabled, a flush to disk PER insert. Waste of performance.
 
-        foreach(var table in tables)
+        foreach(var table in Directory.GetFiles("SQL/data"))
         {
-            sql += $"TRUNCATE TABLE `{database}`.`{table}`;";
-            sql += File.ReadAllText($"SQL/data/Insert{table}.sql");
-            sql += "COMMIT;"; // Flush to disk per table. See MySQL documentation.
+            if(tables.Any(q => table.Contains(q))){
+                sql += $"TRUNCATE TABLE `{database}`.`{table[12..^4]}`;";
+                sql += File.ReadAllText($"SQL/data/{table[9..^4]}.sql");
+                sql += "COMMIT;"; // Flush to disk per table. See MySQL documentation.
+            }
         }
 
         // Re-enabling checks.

@@ -1,11 +1,12 @@
 using System.Data;
 using System.Reflection;
 using Dapper;
+using DapperBeer;
 using DapperBeer.DTO;
 using DapperBeer.Model;
 using FluentAssertions;
 
-namespace DapperBeer.Tests;
+namespace DapperBeerTunit.Tests;
 
 public class Assignments1Tests : TestHelper
 {

@@ -1,3 +1,3 @@
-using DapperBeer;
+using DapperBeerTunit;
 
 [assembly:ParallelLimiter<TUnitParallelLimit>] // Tunit

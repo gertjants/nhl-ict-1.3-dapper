@@ -1,0 +1,17 @@
+name: Autograding Tests Dapper Beer
+on:
+  - push
+  - workflow_dispatch
+  - repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+env:
+  APP_DB_SERVER: localhost
+  APP_DB_NAME: DapperBeer
+  APP_DB_USER: DapperBeer
+  APP_DB_PASS: Test@1234!
+
+jobs:

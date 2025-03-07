@@ -14,9 +14,5 @@
     <ItemGroup>
       <ProjectReference Include="..\DapperBeer\DapperBeer.csproj" />
     </ItemGroup>
-    
-    <ItemGroup>
-      <Folder Include="Snapshots\" />
-    </ItemGroup>
 
 </Project>

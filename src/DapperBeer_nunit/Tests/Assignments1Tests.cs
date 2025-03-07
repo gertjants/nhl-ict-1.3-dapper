@@ -3,8 +3,9 @@ using Dapper;
 using DapperBeer.DTO;
 using DapperBeer.Model;
 using FluentAssertions;
+using DapperBeer;
 
-namespace DapperBeer.Tests;
+namespace DapperBeerNunit.Tests;
 
 [TestFixture]
 [NonParallelizable]
