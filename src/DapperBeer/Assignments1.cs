@@ -65,7 +65,7 @@ order by `Alcohol` desc, `Name`;");
 SELECT `Beer`.*
 FROM `Beer` Beer 
 INNER JOIN `Brewer` Brewer on (Brewer.BrewerId = Beer.BrewerId)
-WHERE  brewer.Country = @Country
+WHERE  Brewer.Country = @Country
 ORDER BY Beer.Name asc;", new { Country = country });
     
     // 1.4 Question
@@ -129,7 +129,7 @@ SELECT
     *
 FROM Beer 
 WHERE BrewerId = @BrewerId 
-ORDER BY alcohol;", new { BrewerId = brewerId});
+ORDER BY Alcohol;", new { BrewerId = brewerId});
     
     // 1.9 Question
     // Geef per cafe aan welke bieren ze schenken, sorteer op cafe naam en daarna bier naam.
@@ -176,7 +176,7 @@ ORDER BY CafeName, Beers");
     // 1.11 Question
     // Geef de gemiddelde waardering (score in de tabel Review) van een biertje terug gegeven de BeerId.
     public async static Task<decimal> GetBeerRating(int beerId)
-        => await DbHelper.GetConnection().ExecuteScalarAsync<decimal>("SELECT AVG(score) as avg_score FROM review where BeerId=@BeerId", 
+        => await DbHelper.GetConnection().ExecuteScalarAsync<decimal>("SELECT AVG(score) as avg_score FROM Review where BeerId=@BeerId", 
         new { 
                 BeerId=beerId
             }

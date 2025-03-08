@@ -31,10 +31,10 @@ public class Assignments2
     public async static Task<IEnumerable<string>> GetBeersByCountryWithSqlInjection(string country)
         => await DbHelper.GetConnection().QueryAsync<string>(@$"
 SELECT 
-    Beer.Name 
-FROM Beer
+    beer.Name 
+FROM Beer beer
 JOIN Brewer brewer ON beer.BrewerId = brewer.BrewerId 
-WHERE Brewer.Country='{country}'");
+WHERE brewer.Country='{country}'");
     
     // 2.2 Question
     // Maak een methode die alle bieren teruggeeft, gegeven het land, echter het land kan ook leeg gelaten worden.
@@ -55,13 +55,13 @@ WHERE Brewer.Country='{country}'");
     public async static Task<IEnumerable<string>> GetAllBeersByCountryAndMinAlcohol(string? country = null, decimal? minAlcohol = null)
         => await DbHelper.GetConnection().QueryAsync<string>(@$"
 SELECT 
-    Beer.Name 
-FROM Beer
+    beer.Name 
+FROM Beer beer
 JOIN Brewer brewer ON beer.BrewerId = brewer.BrewerId 
 WHERE 
     (@Country IS NULL OR brewer.Country=@Country)
     AND (@MinAlcohol IS NULL OR beer.Alcohol >= @MinAlcohol)
-ORDER BY Beer.Name
+ORDER BY beer.Name
     ", new { 
         Country = country,
         MinAlcohol = minAlcohol
