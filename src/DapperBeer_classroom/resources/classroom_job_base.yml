@@ -20,10 +20,12 @@ if: github.actor != 'github-classroom[bot]'
 steps:
   - name: Setting up environment
     run: >
-      export APP_DB_SERVER=${{ env.APP_DB_SERVER }};
-      export APP_DB_NAME=${{ env.APP_DB_NAME }};
-      export APP_DB_USER=${{ env.APP_DB_USER }};
-      export APP_DB_PASS=${{ env.APP_DB_PASS }};
+      echo "APP_DB_SERVER=${{ env.APP_DB_SERVER }}" >> /tmp/.env;
+      echo "APP_DB_NAME=${{ env.APP_DB_NAME }}" >> /tmp/.env;
+      echo "APP_DB_USER=${{ env.APP_DB_USER }}" >> /tmp/.env;
+      echo "APP_DB_PASS=${{ env.APP_DB_PASS }}" >> /tmp/.env;
+
+      source /tmp/.env
 
   - name: Checkout of repository
     uses: actions/checkout@v4

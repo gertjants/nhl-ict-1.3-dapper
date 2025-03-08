@@ -16,10 +16,21 @@ public static class DbHelper
         public required string Table_Name { get; set;}
         public required int Table_Rows { get; set;}
     }
-    public static string database = Environment.GetEnvironmentVariable("APP_DB_NAME") ?? "DapperBeer";
-    public static string connString = $"server={Environment.GetEnvironmentVariable("APP_DB_SERVER")};database={database};user={Environment.GetEnvironmentVariable("APP_DB_USER")};password={Environment.GetEnvironmentVariable("APP_DB_PASS")};AllowUserVariables=True;";
+
+    public static string database = "DapperBeer";
+
     public static IDbConnection GetConnection()
-        => new MySqlConnection(connString);
+    {
+        // Since "env:" doesn't seem to be working in Github actions without explicit, ugly, exports:
+        // We'll have the job write a .env file which will be loaded if the env variable is empty.
+        if(string.IsNullOrWhiteSpace(Environment.GetEnvironmentVariable("APP_DB_USER")))
+            EnvReader.Load("/tmp/.env");
+
+        DbHelper.database = Environment.GetEnvironmentVariable("APP_DB_NAME") ?? "DapperBeer";
+        string connString = $"server={Environment.GetEnvironmentVariable("APP_DB_SERVER")};database={database};user={Environment.GetEnvironmentVariable("APP_DB_USER")};password={Environment.GetEnvironmentVariable("APP_DB_PASS")};AllowUserVariables=True;";
+
+        return new MySqlConnection(connString);
+    }
 
     public static async Task CreateTablesAndInsertData()
     {
